@@ -37,3 +37,11 @@ Recursion Tree Method for solving reccurrences
 - We consider the recursion tree and compute total work done.
 - We write non recursive part as root of the tree and write the recursive part as children
 - We keep expanding until we see a pattern
+
+-------
+
+Space complexity 
+- Order of growth of memory ( or RAM) space in terms of input size
+
+Auxiliary Space
+- Order of growth of extra space or temporary space in terms of input size.
