@@ -27,3 +27,6 @@ Asymptotic Notation
 Big O : Exact or Upper
 Theta : Exact
 Omega : Exact or lower
+
+------
+When we know exact order of growth use Theta notation not Big O
