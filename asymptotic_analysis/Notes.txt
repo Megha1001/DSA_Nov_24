@@ -1,0 +1,5 @@
+Asymptotic Ananlysis
+----------------------
+-> The idea is to measure order of growth. (We meaure order of growth of time taken by a functional program, in terms of input size.)
+-> Doesn't depend upon machine, programming language etc.
+-> No need to implement, we can analyze algorithm.
