@@ -44,4 +44,4 @@ Space complexity
 - Order of growth of memory ( or RAM) space in terms of input size
 
 Auxiliary Space
-- Order of growth of extra space or temporary space in terms of input size.
+- Order of growth of extra space or temporary space in terms of input size. (space created other than input and output)
