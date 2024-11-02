@@ -3,3 +3,7 @@ Asymptotic Ananlysis
 -> The idea is to measure order of growth. (We meaure order of growth of time taken by a functional program, in terms of input size.)
 -> Doesn't depend upon machine, programming language etc.
 -> No need to implement, we can analyze algorithm.
+
+Assumptions
+------------
+-> Mathematical operations like addition, substraction, division, multiplication etc taken same time (whether you add 1+1 or 10000000+100000000, its consider to take same time)
