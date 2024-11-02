@@ -30,3 +30,10 @@ Omega : Exact or lower
 
 ------
 When we know exact order of growth use Theta notation not Big O
+
+------
+
+Recursion Tree Method for solving reccurrences
+- We consider the recursion tree and compute total work done.
+- We write non recursive part as root of the tree and write the recursive part as children
+- We keep expanding until we see a pattern
