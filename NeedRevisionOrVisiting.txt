@@ -1,0 +1,6 @@
+Check Prime Number
+mathematics/primeNumbers/CheckPrimeNumberMostEfficientApproach.java
+
+
+- Sieve of Eratosthenes
+https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Mathematics/video/MTg1MA%3D%3D

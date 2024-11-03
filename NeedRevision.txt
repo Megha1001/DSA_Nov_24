@@ -1,2 +1,0 @@
-Check Prime Number
-mathematics/primeNumbers/CheckPrimeNumberMostEfficientApproach.java
