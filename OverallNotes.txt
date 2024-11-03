@@ -1,0 +1,102 @@
+Asymptotic Ananlysis
+----------------------
+-> The idea is to measure order of growth. (We meaure order of growth of time taken by a functional program, in terms of input size.)
+-> Doesn't depend upon machine, programming language etc.
+-> No need to implement, we can analyze algorithm.
+
+Assumptions
+------------
+-> Mathematical operations like addition, substraction, division, multiplication etc taken same time (whether you add 1+1 or 10000000+100000000, its consider to take same time)
+
+
+Direct way to find and compare growths
+------------------------------------------
+- Ignore lower order terms
+- Ignore leading term constant
+
+How to compare terms ?
+-----------------------
+c < logLogN < logN < N^1/3 < N^1/2 < N < N^2 < N^3 < N^4 < 2^N < N^N
+
+------------
+The algorithm whose Order of growth is higher is bad algorithm
+------------
+
+Asymptotic Notation
+--------------------
+Big O : Exact or Upper
+Theta : Exact
+Omega : Exact or lower
+
+------
+When we know exact order of growth use Theta notation not Big O
+
+------
+
+Recursion Tree Method for solving reccurrences
+- We consider the recursion tree and compute total work done.
+- We write non recursive part as root of the tree and write the recursive part as children
+- We keep expanding until we see a pattern
+
+-------
+
+Space complexity 
+- Order of growth of memory ( or RAM) space in terms of input size
+
+Auxiliary Space
+- Order of growth of extra space or temporary space in terms of input size. (space created other than input and output)
+    - Stack call consideration
+- Its basically equals to the height of the tree ( maximum length from root to leaf path )
+
+
+
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+Euclidean Algorithm
+---------------------
+1. Let 'b' be smaller than 'a'
+     gcd(a, b) = gcd(a-b, b)
+
+why ? 
+    Let 'g' e GCD of 'a' and 'b'
+    a = gx , b = gy and GCD(x, y) = 1
+    (a-b) = g(x-y) ==> GCD of 1-b has be to 'g' otherwise it must have some common factor b/w x, y that contradicts GCD(x, y)=1
+    Hence 
+    gcd(a, b) = gcd(a-b, b) => g
+
+Optimized euclidean algorith --> Time Complexity : O(log(min(a,b)))
+Given number -> a,b
+    if(b==0) return a;
+
+    return gcd(b, a%b)
+
+
+--------
+LCM Algo
+LCM is the smallest number that divides both the numbers.
+a*b = LCM(a, b) * gcd(a, b)
+---------
+
+Prime number : Number that are only divisible by 1 and itself
+Note : 1 is not the prime number ( nor composite number(non prime are termed as composite))
+2 is the only even prime number
+
+
+Idea : Divisors always appears in pair
+
+30 -> (1,30) , (2, 15), (3,10), (5, 6)
+
+=> if (x,y) is a pair
+    x*y = n 
+    and if x<=y
+    x*x <=n
+    => x <= Sqrt(n)
+
+- Sieve of Eratosthenes
+
+-----------------
+Computing power
+
+power(x,n) = power(x,n/2)*power(x,n/2), if n is even
+power(x, n) = power(x,n/2)*power(x,n/2) * x, if n is odd
+
