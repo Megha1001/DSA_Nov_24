@@ -26,3 +26,14 @@ a*b = LCM(a, b) * gcd(a, b)
 Prime number : Number that are only divisible by 1 and itself
 Note : 1 is not the prime number ( nor composite number(non prime are termed as composite))
 2 is the only even prime number
+
+
+Idea : Divisors always appears in pair
+
+30 -> (1,30) , (2, 15), (3,10), (5, 6)
+
+=> if (x,y) is a pair
+    x*y = n 
+    and if x<=y
+    x*x <=n
+    => x <= Sqrt(n)
