@@ -13,12 +13,12 @@ public class FindGCDUsingEuclideanAlgoOptimizedApproach {
     }
 
 
-    public static int findGCD(int a, int b){
+    public static int findGcd(int a, int b){
         if(b==0){
             return a;
         }
 
-        return findGCD(b, a%b);
+        return findGcd(b, a%b);
     }
     
 }
