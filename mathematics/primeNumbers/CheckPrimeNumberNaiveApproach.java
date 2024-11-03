@@ -30,7 +30,7 @@ public class CheckPrimeNumberNaiveApproach {
             return false;
         }
 
-        for(int i=5; i<n; i++){
+        for(int i=5; i<n; i++){ // not <=n since in that case it always gives false ;)
             if(n%i==0){
                 return false;
             }
