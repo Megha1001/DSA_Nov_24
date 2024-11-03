@@ -1,0 +1,11 @@
+Euclidean Algorithm
+---------------------
+1. Let 'b' be smaller than 'a'
+     gcd(a, b) = gcd(a-b, b)
+
+why ? 
+    Let 'g' e GCD of 'a' and 'b'
+    a = gx , b = gy and GCD(x, y) = 1
+    (a-b) = g(x-y) ==> GCD of 1-b has be to 'g' otherwise it must have some common factor b/w x, y that contradicts GCD(x, y)=1
+    Hence 
+    gcd(a, b) = gcd(a-b, b) => g
