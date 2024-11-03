@@ -1,6 +1,6 @@
 BitWise Operators
 --------------------
-1. Negation
+1. Negation/ Bitwise not(~)
 Positive numbers -> represent in decimal -> binary
 Negative numbers -> represet in 2's complement
 
