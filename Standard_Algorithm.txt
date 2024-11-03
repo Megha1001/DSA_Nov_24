@@ -20,5 +20,9 @@ Given number -> a,b
 --------
 LCM Algo
 LCM is the smallest number that divides both the numbers.
----------
 a*b = LCM(a, b) * gcd(a, b)
+---------
+
+Prime number : Number that are only divisible by 1 and itself
+Note : 1 is not the prime number ( nor composite number(non prime are termed as composite))
+2 is the only even prime number
