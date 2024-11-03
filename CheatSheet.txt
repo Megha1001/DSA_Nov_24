@@ -43,3 +43,5 @@ Idea : Divisors always appears in pair
 -----------------
 Computing power
 
+power(x,n) = power(x,n/2)*power(x,n/2), if n is even
+power(x, n) = power(x,n/2)*power(x,n/2) * x, if n is odd
