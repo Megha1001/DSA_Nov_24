@@ -1,5 +1,10 @@
 package mathematics.GCD;
 
+/*
+ * TIME COMPLEXITY : O(min(a,b))
+ * AUXILIARY SPACE : Theta(1)
+ */
+
 public class FindGCDUsingEuclideanAlgo {
     public static void main(String args[]){
         int a = 9, b = 10;
