@@ -37,3 +37,9 @@ Idea : Divisors always appears in pair
     and if x<=y
     x*x <=n
     => x <= Sqrt(n)
+
+- Sieve of Eratosthenes
+
+-----------------
+Computing power
+
