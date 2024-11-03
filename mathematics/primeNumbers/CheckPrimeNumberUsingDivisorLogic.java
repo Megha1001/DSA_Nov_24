@@ -8,6 +8,9 @@ package mathematics.primeNumbers;
  *  and if x<=y then
  *  x*x <=n => x <=Sqrt(n), Basically if the given number is not prime we can definately get the smaller divisor from i=5 to sqrt(n) , No need to traverse till n-1.
  * 
+ * TIME COMPLEXITY : O(sqrt(N))
+ * AUXILIARY SPACE : Theta(1)
+ * 
  */
 
 public class CheckPrimeNumberUsingDivisorLogic {
