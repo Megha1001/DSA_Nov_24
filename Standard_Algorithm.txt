@@ -15,3 +15,10 @@ Given number -> a,b
     if(b==0) return a;
 
     return gcd(b, a%b)
+
+
+--------
+LCM Algo
+LCM is the smallest number that divides both the numbers.
+---------
+a*b = LCM(a, b) * gcd(a, b)
