@@ -9,3 +9,35 @@ Negative numbers -> represet in 2's complement
 
 
 all 1s = 2^32-1
+
+
+left shift operator(<<)
+------------------
+Signed and unsigned -> doesn't matter
+Operation: The left shift operator simply shifts bits to the left by a specified number of positions.
+Effect: Each left shift effectively multiplies the number by 2, regardless of whether the number is signed or unsigned.
+No Sign Consideration: Since left shifting always adds zeros to the right, it does not affect the sign bit. As a result, the outcome is the same for both signed and unsigned integers when using the left shift operator.
+
+
+Right Shift Operator (>>)
+--------------------------
+Syntax: value >> n
+Function: Shifts the bits of value to the right by n positions. Each shift to the right effectively divides the number by 2.
+
+Signed vs. Unsigned:
+
+Signed Right Shift: Preserves the sign of the number. For a negative number, it fills the leftmost bits with 1.
+Example: For a signed integer, -4 >> 1 (binary 11111100 for -4 in 8-bit) becomes -2 (binary 11111110).
+
+Unsigned Right Shift: Does not preserve the sign. It always fills the leftmost bits with 0, regardless of the original sign.
+Example: For an unsigned integer, -4 >> 1 (interpreting -4 as 252 in 8-bit) becomes 126 (binary 01111110).
+
+Unsigned Right Shift Operator (>>>)
+Syntax: value >>> n
+Function: Performs a right shift but always fills the leftmost bits with 0, treating the number as an unsigned integer.
+Example: In Java, if -1 >>> 1 results in 2147483647 (binary 01111111111111111111111111111111).
+
+Summary
+Left Shift (<<): Multiplies by powers of two.
+Right Shift (>>): Preserves sign for signed integers; divides by powers of two.
+Unsigned Right Shift (>>>): Ignores sign, always fills with 0.
