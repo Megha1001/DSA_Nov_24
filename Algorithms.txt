@@ -65,3 +65,22 @@ int countSetBits(int n){
 ------------
 Lookup table solution
 -> To count number of set bits in given number in O(1)time. This involves preprocessing.
+
+Steps
+Assumption  : We have 32 bit number
+-> Precompute count for 8 bit number(0to 255)
+ tbl[0] = 0
+ for i=1 to 255
+    tbl[i] = tbl[i&(i-1)] +1;
+
+
+Explanation : 
+- tbl[i] hols the number of set bit in i then
+    - tbl[i&(i-1)], given the count of set bits in the number formed after removing the least significant 1. (basically finding number of set bits in number after removing least set bit from current number)
+    - So by adding 1 to this count , we get the total number of set bits in i:
+        tbl[i] = tbl[i&(i-1)]+1
+
+
+-> Now to count set bits in given number n , make batches of 8 and count
+
+How do you dount set bits in the 4 segments invidully using tbl
