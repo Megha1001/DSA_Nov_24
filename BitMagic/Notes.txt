@@ -68,7 +68,8 @@ with other available representation(signed bit, 1's complement -> we have two re
 -> Signed Number -> Range 0 to 2^n -1 -> Support by C++, Python, C
 -> Unsigned Number -> -2^(n-1) to 2^(n-1) -1 --> Support by JAVA
 
--> Intuition behind 2's complement
+REASON 1 :-> We have only one representation of zero
+REASON 2 :-> Intuition behind 2's complement
     -> THe arithmetic operators are easier to perform. Actually 2's complment form is derived from the idea of 0-x
 
--> The leading bit is always zero( here we are only talking about -ve numbers, for +ve we are anyway using n-1 bit so leading bit is always 0)
+REASON 3 :-> The leading bit is always zero( here we are only talking about -ve numbers, for +ve we are anyway using n-1 bit so leading bit is always 0)
