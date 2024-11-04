@@ -169,7 +169,7 @@ Why 2's complement form
 with other available representation(signed bit, 1's complement -> we have two representation for zero, in 2's complement we have only one representation of zero)
 
 
--> Signed Number -> Range 0 to 2^n -1 -> Support by C++, Python, C
+-> Signed Number -> Range 0 to 2^n -1 -> Support by C++, Python, C,  (supports both signed and unsigned)
 -> Unsigned Number -> -2^(n-1) to 2^(n-1) -1 --> Support by JAVA
 
 REASON 1 :-> We have only one representation of zero
