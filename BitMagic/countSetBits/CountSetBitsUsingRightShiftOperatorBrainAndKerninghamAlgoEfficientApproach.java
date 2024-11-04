@@ -3,6 +3,9 @@ package BitMagic.countSetBits;
 /*
  * LOGIC : 
  * 1. count only the set bits using Brain and Kerningham algorithm
+ * 
+ * TIME COMPLEXITY : Theta(Num of Set bits)
+ * AUXILIARY SPACE : Theta(1)
  */
 
 public class CountSetBitsUsingRightShiftOperatorBrainAndKerninghamAlgoEfficientApproach {
