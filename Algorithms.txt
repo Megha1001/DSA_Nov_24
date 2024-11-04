@@ -45,3 +45,23 @@ Computing power
 
 power(x,n) = power(x,n/2)*power(x,n/2), if n is even
 power(x, n) = power(x,n/2)*power(x,n/2) * x, if n is odd
+
+
+-------
+Brain and Kerningham Algorithm
+- used for counting number of set bits in a number (For example : 40:101000, ans=2). This is the algorith that run only 2 times(Number of set bits times).
+
+Simple Method
+int countSetBits(int n){
+    int res=0;
+
+    while(n>0){
+        int n = n&(n-1); //This expression makes the last set bit as 0
+        res = res+1;
+    }
+    return res;
+}
+
+------------
+Lookup table solution
+-> To count number of set bits in given number in O(1)time. This involves preprocessing.
