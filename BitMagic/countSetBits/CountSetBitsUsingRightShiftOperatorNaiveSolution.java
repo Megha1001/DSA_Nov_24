@@ -7,7 +7,7 @@ package BitMagic.countSetBits;
  * TIME COMPLEXITY : Theta(length(n))
  */
 
-public class CountSetBitsUsingRightShiftOperator {
+public class CountSetBitsUsingRightShiftOperatorNaiveSolution {
 
     public static void main(String args[]){
         int n=13;
@@ -21,7 +21,7 @@ public class CountSetBitsUsingRightShiftOperator {
             if((n&1)!=0){
                 ++res;
             }
-            n = n>>1; //signed right shift
+            n = n>>1; //signed right shift OR n=n/2
         }
 
         return res;
