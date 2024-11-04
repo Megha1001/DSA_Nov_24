@@ -1,4 +1,4 @@
-package mathematics.computingPower;
+package mathematics.computingPower.recursive;
 
 /*
  * LOGIC : The problem can be approached recursively defined by :
