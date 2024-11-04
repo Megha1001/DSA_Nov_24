@@ -6,6 +6,8 @@ package BitMagic.checkifKthBitIsSet;
  * 
  * TIME COMPLEXITY : Theta(K)
  * AUXILIARY SPACE : Theta(1)
+ * 
+ * It's basically a left shift operator thing( when we do left shift we multiply the number by 2)
  */
 
 public class CheckIfKthBitIsSetUsingTwoPowerLogicNaiveApproach {
