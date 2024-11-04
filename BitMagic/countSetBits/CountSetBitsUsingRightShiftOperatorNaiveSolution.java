@@ -7,7 +7,7 @@ package BitMagic.countSetBits;
  * TIME COMPLEXITY : Theta(length(n))
  * AUXILIARY SPACE : Theta(1)
  * 
- * CONS : IT will run for number of bits from last to MSB. There exist an e
+ * CONS : IT will run for number of bits from last to MSB. There exist an algorithm that run number of set bit times
  */
 
 public class CountSetBitsUsingRightShiftOperatorNaiveSolution {
