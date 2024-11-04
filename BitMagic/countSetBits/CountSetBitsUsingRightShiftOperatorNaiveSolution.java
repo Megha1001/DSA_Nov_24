@@ -6,6 +6,8 @@ package BitMagic.countSetBits;
  * 
  * TIME COMPLEXITY : Theta(length(n))
  * AUXILIARY SPACE : Theta(1)
+ * 
+ * CONS : IT will run for number of bits from last to MSB. There exist an e
  */
 
 public class CountSetBitsUsingRightShiftOperatorNaiveSolution {
@@ -19,9 +21,11 @@ public class CountSetBitsUsingRightShiftOperatorNaiveSolution {
         int res = 0;
 
         while(n!=0){
-            if((n&1)!=0){ //if(n%2==1) //odd, last bit is set
-                ++res;
-            }
+            // if((n&1)!=0){ //if(n%2==1) //odd, last bit is set
+            //     ++res;
+            // }
+
+            res = res+ (n&1);
             n = n>>1; //signed right shift OR n=n/2
         }
 
