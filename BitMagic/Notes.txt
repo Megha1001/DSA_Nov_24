@@ -55,6 +55,12 @@ Binary representation of -ve numbers
     b. add 1
     Direct formula = 2^n - x
 
--> Easiest way ( Steps to Find 2's Complement by Traversing:)
+-> Easiest way Steps to Find 2's Complement by Traversing:)
 Start from the leftmost bit and traverse the binary number to find the first occurrence of 1.
 Copy all bits as they are until you encounter the first 1.
+
+
+Why 2's complement form
+-ve numbers are represented using 2's complement form . +ve numbers uses simple decimal to binary conversion
+
+with other available representation(signed bit, 1's complement -> we have two representation for zero, in 2's complement we have only one representation of zero)
