@@ -7,6 +7,9 @@ package BitMagic.oneOddOccurring;
  * 
  * So since in this question assumption is that we have only one number with odd occurrence, we can use
  *  above property since all other numbers will be even times and end up producing 0 and 0^x=0;
+ * 
+ * TIME COMPLEXITY : Theta(1)
+ * AUXILIARY NUMBER : O(1)
  */
 
 public class FindOneOddOccurringNumberEfficientSolution {
