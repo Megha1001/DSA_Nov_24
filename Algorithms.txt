@@ -84,3 +84,12 @@ Explanation :
 -> Now to count set bits in given number n , make batches of 8 and count
 
 How do you dount set bits in the 4 segments invidully using tbl
+
+-----------------
+Interesting properties of XOR(^)
+-> x ^ x = 0
+-> x ^ y = y ^ x (associative)
+-> x ^ (y ^ z) = (x ^ y) ^ z (commutative)
+
+x ^ x ^ x ....... ^x --> Even times = 0
+x ^ x ^ x ....... ^x --> Odd times = x
