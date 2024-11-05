@@ -10,3 +10,6 @@ https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Mathematics/video/MjEzNw%3
 
 
 - 2's complement and theory around it
+
+- Count set bits
+BitMagic/countSetBits/CountSetBitsUsingLookUpMostEfficientSolution.java
