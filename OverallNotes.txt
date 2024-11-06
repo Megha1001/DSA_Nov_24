@@ -212,4 +212,6 @@ void fun(int n){
     goto start
 }
 
-These are the changes they make internally --> they remove recursive completely. The changes that modern compiler makes is call TAIL CALL ELIMINATIOn
+These are the changes they make internally --> they remove recursive completely. The changes that modern compiler makes is call TAIL CALL ELIMINATION
+
+Note : Quick Sort is tail recursive and merge sort is not . That is one of the reason why Quick sort is preferred
