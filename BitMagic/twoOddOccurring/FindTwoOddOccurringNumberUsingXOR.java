@@ -12,6 +12,9 @@ package BitMagic.twoOddOccurring;
  * 
  * 3. Do xor of these two groups
  * 
+ * TIME COMPLEXITY : Theta(N)
+ * AUXILIARY SPACE : Theta(1)
+ * 
  */
 
 public class FindTwoOddOccurringNumberUsingXOR {
