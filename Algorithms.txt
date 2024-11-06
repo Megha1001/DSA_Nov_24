@@ -93,3 +93,10 @@ Interesting properties of XOR(^)
 
 x ^ x ^ x ....... ^x --> Even times = 0
 x ^ x ^ x ....... ^x --> Odd times = x
+
+------------
+To find the number where only the least set bit is set from the number
+OR
+Find a number which has only 1 bit set and the set bit corresponds to last set bit of x
+
+FORMULA : x & (~(x-1)) // used in two odd occurring finding question
