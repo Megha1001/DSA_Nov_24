@@ -177,3 +177,9 @@ REASON 2 :-> Intuition behind 2's complement
     -> THe arithmetic operators are easier to perform. Actually 2's complment form is derived from the idea of 0-x
 
 REASON 3 :-> The leading bit is always zero( here we are only talking about -ve numbers, for +ve we are anyway using n-1 bit so leading bit is always 0)
+
+
+-----
+RECURSION
+
+If we have solution to smaller problems we can use those solution to solve the bigger problem.
