@@ -38,7 +38,7 @@ public class FindTwoOddOccurringNumberUsingXOR {
         }
 
         //find SetBit in XORed number
-        int setBit = findSetBitInXoredNum(xor); // setbit finding is done on zero index basis
+        int setBit = findSetBitInXoredNum(xor); // It will always be have one set bit
 
         // //divide into two group
         // int firstGrp [] = new int[len];
