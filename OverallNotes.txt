@@ -212,4 +212,4 @@ void fun(int n){
     goto start
 }
 
-These are the changes they make internally --> they remove recursive completely.
+These are the changes they make internally --> they remove recursive completely. The changes that modern compiler makes is call TAIL CALL ELIMINATIOn
