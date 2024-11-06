@@ -186,4 +186,18 @@ If we have solution to smaller problems we can use those solution to solve the b
 
 
 
-TAIL RECURSION
+TAIL RECURSION : A function is called tail recursive when the parent function has nothin gmore to do when the child function finish its execution.
+In simple words, a  function is tail recursive when the last thing that happens in the function is recursive call and nothing happens after that.
+
+Ex :
+void fun(int n){
+    if(n==0){
+        return;
+    }
+    print(n)
+    fun(n-1);
+}
+
+Why is this function execution faster ?
+The point is, your caller doesn't have to save the state because in recursion.
+
