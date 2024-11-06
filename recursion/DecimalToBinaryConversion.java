@@ -2,6 +2,9 @@ package recursion;
 /*
  * LOGIC : to convert decimal to binary we divide the number by 2 and keep storing its module with 2 and we divide until we get 0. then we write stored
  * module in reverse order.
+ * 
+ * TIME COMPLEXITY : Theta(log(N))
+ * AUXILIARY SPACE : Theta(log(N))
  */
 
 public class DecimalToBinaryConversion {
