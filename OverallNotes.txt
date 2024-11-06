@@ -199,5 +199,17 @@ void fun(int n){
 }
 
 Why is this function execution faster ?
-The point is, your caller doesn't have to save the state because in recursion.
+The point is, your caller doesn't have to save the state because in recursion. So what modern compilers do if they see function is tail recursive they change the function 
 
+
+void fun(int n){
+    start:
+    if(n==0){
+        return;
+    }
+    print(n)
+    n = n-1;
+    goto start
+}
+
+These are the changes they make internally --> they remove recursive completely.
