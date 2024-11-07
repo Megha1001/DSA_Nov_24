@@ -222,3 +222,6 @@ Notes
     : InOrder traversal : tail recursive for right child
     : PostOrder traversal : not tail recursive
     If we have a choice to do question then we should always try to do that using either preorder or inorder traversal since these are tail recursive
+
+# Base Case
+Base cases in recursion are those cases/inputs for which we can't break the problem into smaller such problems
