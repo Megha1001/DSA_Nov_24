@@ -15,6 +15,12 @@ public class FindFactorialUsingRecursion {
     }
 
     public static int findFac(int n, int k){
+
+        if(n==0||n==1){
+            return k;
+        }
+
+        return findFac(n-1, k*n);
         
     }
     
