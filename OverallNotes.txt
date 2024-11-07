@@ -217,3 +217,8 @@ These are the changes they make internally --> they remove recursive completely.
 Notes
  : Quick Sort is tail recursive and merge sort is not . That is one of the reason why Quick sort is preferred
  : We can't convert every recursive to tail recursive
+ : Tree Traversal
+    : PreOrder traversal : tail recursive for right child
+    : InOrder traversal : tail recursive for right child
+    : PostOrder traversal : not tail recursive
+    If we have a choice to do question then we should always try to do that using either preorder or inorder traversal since these are tail recursive
