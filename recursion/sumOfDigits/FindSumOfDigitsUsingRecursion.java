@@ -5,8 +5,8 @@ package recursion.sumOfDigits;
  * 1. get the last digit by doing n%10
  * 2. update the number by n/10
  * 
- * TIME COMPLEXITY : Theta(d), where d is digits in given number.
- * AUXILIARY SPACE : Theta(d), where d is digits in given number.
+ * TIME COMPLEXITY : Theta(d), where d is digits in given number. More specifically : d+1
+ * AUXILIARY SPACE : Theta(d), where d is digits in given number. More specifically : d+1 
  */
 
 public class FindSumOfDigitsUsingRecursion {
