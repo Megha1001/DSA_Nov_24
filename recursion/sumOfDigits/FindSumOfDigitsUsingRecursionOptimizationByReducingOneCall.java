@@ -10,6 +10,19 @@ package recursion.sumOfDigits;
  * 
  * TIME COMPLEXITY : Theta(d), where d is digits in given number.
  * AUXILIARY SPACE : Theta(d), where d is digits in given number.
+ * 
+ * 
+ * Note : For this kind of problem we prefer iterative solution instead of recursive since it has a overhead of recursive call which is not there in iterative
+ * 
+ * 
+ * ITERATIVE SOLUTION : 
+ *      int sum = 0;
+ *      while(n>0){
+ *          sum += n%10;
+ *          n = n/10;
+ *      }
+ *      return sum;
+ * 
  */
 
 
