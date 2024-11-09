@@ -1,6 +1,7 @@
 package recursion.subsets;
 
 /*
+ * LOGIC : We can generate all subsets of length n using subset of length n-1
  * TIME COMPLEXITY : For the given string of length n there can be 2^n subsets. Theta(2^n)
  * AUXILIARY SPACE : Theta(N)
  */
