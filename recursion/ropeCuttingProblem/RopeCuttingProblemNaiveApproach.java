@@ -4,6 +4,8 @@ package recursion.ropeCuttingProblem;
 /*
  * Time COMPLEXITY : It depends on a,b,c but we can find out upper bound complexity : O(3^n)
  * AUXILIARY SPACE : O(N), due to recursive call stack
+ * 
+ * Note : We have better solution using dynamic programming where we store the results that can be used repetatively using memoization
  */
 
 public class RopeCuttingProblemNaiveApproach {
