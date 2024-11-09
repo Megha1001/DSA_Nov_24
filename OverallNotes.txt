@@ -225,3 +225,6 @@ Notes
 
 # Base Case
 Base cases in recursion are those cases/inputs for which we can't break the problem into smaller such problems
+
+------------------
+Subsets/subsequences : String obtained by removing 0 or more characters from the given string and keeping the order of remaning characs as it is.
