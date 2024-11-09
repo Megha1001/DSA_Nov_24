@@ -7,7 +7,8 @@ package recursion.towerOfHanoi;
  * 3. Only the top disc of a tower can be moved.
  * 
  * TIME COMPLEXITY : Theta(2^n) = Number of calls made = Number of moments needed
- *  Other way to understand : There are two possilities for every disc
+ *  Other way to understand : There are two possilities for every disc(basically every disc has two position to move to , for ex if we have A , 
+ * it can move to B or C)
  * AUXILIARY SPACE : O(N), Function call stack space
  */
 
