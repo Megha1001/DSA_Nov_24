@@ -17,3 +17,6 @@ BitMagic/countSetBits/CountSetBitsUsingLookUpMostEfficientSolution.java
 
 - Power set using bitwise
 https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-BitMagic/video/Nzc0OA%3D%3D
+
+
+- Generate subsets using bitwise logic
