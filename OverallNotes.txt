@@ -228,3 +228,5 @@ Base cases in recursion are those cases/inputs for which we can't break the prob
 
 ------------------
 Subsets/subsequences : String obtained by removing 0 or more characters from the given string and keeping the order of remaning characs as it is.
+
+For the length of string n there can be 2^n subsets
