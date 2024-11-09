@@ -1,5 +1,10 @@
 package recursion.subsets;
 
+/*
+ * TIME COMPLEXITY : For the given string of length n there can be 2^n subsets. Theta(2^n)
+ * AUXILIARY SPACE : Theta(N)
+ */
+
 public class FindSubsetsUsingRecursion {
 
 
