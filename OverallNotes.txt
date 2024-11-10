@@ -249,3 +249,5 @@ Types
 
 Note : The elements of an ArrayList are not stored in contiguous locations, 
 Memory allocation for both fixed and dynamic size array is heap allocated
+
+Its always recommened to use dynamic size array (You can initialize the initial size)
