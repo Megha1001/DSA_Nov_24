@@ -6,8 +6,10 @@ package recursion.subsetSumProblem;
  * 1. Find all the subsets
  * 2. check the subset whose sum is equal to given sum
  * 
- * TIME COMPLEXITY : Theta(2^n)
+ * TIME COMPLEXITY : Theta(2^n) //2^+(2^n-1) , 2^n for leaf nodes, 2^n-1 for internal nodes.
  * AUXILIARY SPACE : Theta(N)
+ * 
+ * Note : We have dynamic programming solution with TC of n*sum.
  */
 
 public class FindSubsetCountEqualToGivenSumNaiveApproach {
