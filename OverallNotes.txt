@@ -241,3 +241,9 @@ For the length of string n there can be 2^n subsets
 Advantages
 - Random access (Since elements are stored at contiguous location, we can get ith element in constant time, arr[i])
 - Cache Friendliness
+
+Types
+- Fixed sized array
+- Dynamic sized array
+
+Note : The elements of an ArrayList are not stored in contiguous locations, 
