@@ -253,6 +253,21 @@ Memory allocation for both fixed and dynamic size array is heap allocated
 Its always recommened to use dynamic size array (You can initialize the initial size)
 
 ------------------------------------------------------------------------------------------------------------------------
+ARRAY
+------------------------------------------------------------------------------------------------------------------------
+
+INSERT : O(N)
+SEARCH : O(N) -> FOR UNSORTED
+         O(logN) -> For sorted using binary search
+DELETE : O(N)
+
+Get ith element : O(1) -> random access
+Update ith elelment : O(1) -> random access
+
+Note : Insert at end and delete from end can be done in O(1) time
+
+
+------------------------------------------------------------------------------------------------------------------------
 ARRAYLIST
 ------------------------------------------------------------------------------------------------------------------------
 Advantages over normal/fixed sized arrays
@@ -261,3 +276,4 @@ Advantages over normal/fixed sized arrays
 
 - Insert at end in Dynamic sized array : (Amortized time complexity) : O(N)
 Amortized time complexity refere to the average time complexity per operation over a sequence of operations
+
