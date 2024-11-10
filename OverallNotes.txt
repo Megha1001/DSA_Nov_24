@@ -230,3 +230,14 @@ Base cases in recursion are those cases/inputs for which we can't break the prob
 Subsets/subsequences : String obtained by removing 0 or more characters from the given string and keeping the order of remaning characs as it is.
 
 For the length of string n there can be 2^n subsets
+
+------------------------------------------------------------
+########################ARRAY########################
+------------------------------------------------------------
+
+- Contiguous memory
+- accessed using index, that begin with 0.
+
+Advantages
+- Random access (Since elements are stored at contiguous location, we can get ith element in constant time, arr[i])
+- Cache Friendliness
