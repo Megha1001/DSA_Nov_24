@@ -5,6 +5,9 @@ package recursion.subsetSumProblem;
  * Logic : 
  * 1. Find all the subsets
  * 2. check the subset whose sum is equal to given sum
+ * 
+ * TIME COMPLEXITY : Theta(2^n)
+ * AUXILIARY SPACE : Theta(N)
  */
 
 public class FindSubsetCountEqualToGivenSumNaiveApproach {
@@ -22,6 +25,7 @@ public class FindSubsetCountEqualToGivenSumNaiveApproach {
         if(n==0){
             return (sum==0)?1:0;
         }
+
         return countSubsets(input, n-1, sum) //not considering
         +
         countSubsets(input, n-1, sum-input[n-1]); //considering
