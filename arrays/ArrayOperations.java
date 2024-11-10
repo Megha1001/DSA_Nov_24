@@ -32,6 +32,20 @@ public class ArrayOperations {
         for(int i=0; i<newCapacity;i++){
             System.out.print(arr1[i]+",");
        }
+
+       //deleteAnElement
+
+       int arr2[] = {1,3,4,5,7,8,0,9,0,0};
+       int deleteElement = 9;
+       int capacity = 8;
+
+       int capacityAfterDeletion = deleteElement(arr2, arr2.length, deleteElement, capacity);
+
+       System.out.println("Array after deleting "+deleteElement+" from array with capactity "+capacityAfterDeletion+" : ");
+       for(int i=0; i<arr2.length; i++){
+        System.out.print(arr2[i]+" ");
+       }
+
     }
 
     //search operation
@@ -64,6 +78,28 @@ public class ArrayOperations {
         }
 
         arr[pos-1] = toInsert;
+
+        return cap+1;
+
+    }
+
+    public static int deleteElement(int arr[], int len, int x, int cap){
+
+        int i;
+        //find element
+        for(i=0; i<len;i++){
+            if(arr[i]==x){
+                break;
+            }
+        }
+        //searched element not found
+        if(i==len){
+            return cap;
+        }
+
+        for(int j=i; j<len-1; j++){ //len-1 otherwise it will give IndexOutOfBound Exception
+            arr[j] = arr[j+1];
+        }
 
         return cap+1;
 
