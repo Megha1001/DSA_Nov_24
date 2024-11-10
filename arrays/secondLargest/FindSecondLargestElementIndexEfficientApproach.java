@@ -8,7 +8,10 @@ package arrays.secondLargest;
  * arr[i]< arr[largest]
  *      -> res==-1 => res =i
  *      -> arr[i]>arr[res] => res=i
- *      -> arr[i]<arr[res] => ignorexx
+ *      -> arr[i]<arr[res] => ignore
+ * 
+ * TIME COMPLEXITY : Theta(N)
+ * AUXILIARY SPACE : Theta(1)
  */
 
 public class FindSecondLargestElementIndexEfficientApproach {
