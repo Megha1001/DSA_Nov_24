@@ -244,6 +244,8 @@ Advantages
 
 Types
 - Fixed sized array
-- Dynamic sized array
+
+- Dynamic sized array : ArrayList
 
 Note : The elements of an ArrayList are not stored in contiguous locations, 
+Memory allocation for both fixed and dynamic size array is heap allocated
