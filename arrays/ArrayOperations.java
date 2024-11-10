@@ -46,6 +46,7 @@ public class ArrayOperations {
         return -1; //not found
     }
 
+    //TIME COMPLEXITY : O(N)
     public static int insert(int[] arr, int len, int toInsert, int pos, int cap){
 
         if(len==cap){
