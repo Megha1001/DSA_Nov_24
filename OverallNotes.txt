@@ -258,3 +258,5 @@ ARRAYLIST
 Advantages over normal/fixed sized arrays
 - Dynamic Size
 - Rich library function
+
+- Insert at end in Dynamic sized array : (Amotized time complexity) : O(N)
