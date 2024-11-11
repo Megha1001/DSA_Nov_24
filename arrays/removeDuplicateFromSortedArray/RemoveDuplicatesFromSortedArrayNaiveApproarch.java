@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * AUXILIARY SPACE : Theta(N);
  */
 
-public class RemoveDuplicatedFromSortedArrayNaiveApproarch {
+public class RemoveDuplicatesFromSortedArrayNaiveApproarch {
 
     public static void main(String args[]){
         int arr[] = {1,4,5,6,7,7,7,8,8,8,9,10};
