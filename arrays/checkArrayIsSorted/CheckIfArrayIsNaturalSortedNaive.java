@@ -1,5 +1,9 @@
 package arrays.checkArrayIsSorted;
 
+/*
+ * TIME COMPLEXITY : O(N^2)
+ * AUXILIARY SPACE : Theta(1)
+ */
 
 public class CheckIfArrayIsNaturalSortedNaive {
 
