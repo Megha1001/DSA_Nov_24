@@ -2,7 +2,10 @@ package arrays.removeDuplicateFromSortedArray;
 
 import java.util.ArrayList;
 
-/
+/*
+ * TIME COMPLEXITY : Theta(N)
+ * AUXILIARY SPACE : Theta(N);
+ */
 
 public class RemoveDuplicatedFromSortedArrayNaiveApproarch {
 
