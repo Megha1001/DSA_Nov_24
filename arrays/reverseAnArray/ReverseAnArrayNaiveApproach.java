@@ -1,5 +1,6 @@
 package arrays.reverseAnArray;
 
+
 public class ReverseAnArrayNaiveApproach {
     
     public static void main(String args[]){
@@ -16,6 +17,7 @@ public class ReverseAnArrayNaiveApproach {
         int end = n-1;
         int mid = (start+end)/2;
 
+        //TIME COMPLEXITY : Theta(N/2)
         for(int i=0; i<=mid; i++){
             int temp = arr[i];
             arr[i] = arr[n-1-i];
@@ -23,9 +25,10 @@ public class ReverseAnArrayNaiveApproach {
         }
 
         for(int i=0; i<n; i++){
-            System.out.print()
+            System.out.print(arr[i]+" ");
         }
 
+        System.out.println();
     }
 
 }
