@@ -1,5 +1,10 @@
 package arrays.checkArrayIsSorted;
 
+/*
+ * TIME COMPLEXITY : O(N)
+ * AUXILIARY SPACE : Theta(1)
+ */
+
 public class CheckIfArrayIsNaturalSortedEfficientApproach {
     public static void main(String args[]){
         int arr[] = {1,2,3,4,5,6};
