@@ -1,5 +1,9 @@
 package arrays.reverseAnArray;
 
+/*
+ * TIME COMPLEXITY : Theta(N)
+ * AUXILIARY SPACE : Theta(1)
+ */
 
 public class ReverseAnArrayNaiveApproach {
     
