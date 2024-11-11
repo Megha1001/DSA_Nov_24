@@ -1,5 +1,6 @@
 package arrays.checkArrayIsSorted;
 
+
 public class CheckIfArrayIsNaturalSortedNaive {
 
     public static void main(String args[]){
@@ -11,6 +12,19 @@ public class CheckIfArrayIsNaturalSortedNaive {
         System.out.println("arr1 : "+checkIfSorted(arr1, arr1.length));
         System.out.println("arr2 : "+checkIfSorted(arr2, arr2.length));
 
+    }
+
+    public static boolean checkIfSorted(int arr[], int n){
+
+        for(int i=1; i<n; i++){
+            for(int j=i-1; j>=0; j--){
+                if(arr[i]<arr[j]){
+                    return false;
+                }
+            }
+        }
+
+        return true;
     }
     
 }
