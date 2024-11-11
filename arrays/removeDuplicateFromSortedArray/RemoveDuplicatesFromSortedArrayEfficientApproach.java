@@ -1,5 +1,10 @@
 package arrays.removeDuplicateFromSortedArray;
 
+/*
+* TIME COMPLEXITY : Theta(N)
+* AUXILIARY SPACE : Theta(1)
+ */
+
 public class RemoveDuplicatesFromSortedArrayEfficientApproach {
 
     public static void main(String args[]){
