@@ -100,3 +100,11 @@ OR
 Find a number which has only 1 bit set and the set bit corresponds to last set bit of x
 
 FORMULA : x & (~(x-1)) // used in two odd occurring finding question
+
+
+------
+LEFT Rotate by n position
+logic
+    -> reverse(arr, 0,d-1);
+    -> reverse(arr, d,n-1);
+    -> reverse(arr, 0,n-1);
