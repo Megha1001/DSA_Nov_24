@@ -23,12 +23,14 @@ public class MoveZeroesToEndEffApproach {
         for(int i=n-1; i>=0; i--){
             if(arr[i]!=0){
                 lastNonZeroIdx = i;
+                break;
             }
         }
+        
+        System.out.println("lastNonZeroIdx "+lastNonZeroIdx);
 
-
-        for(int i=0; i<n; i++){
-            if(arr[i]==0 && lastNonZeroIdx>=0){
+        for(int i=0; i<n;i++ ){
+            if(arr[i]==0 && lastNonZeroIdx>=0 && arr[lastNonZeroIdx]!=0){
                 int temp = arr[i];
                 arr[i]= arr[lastNonZeroIdx];
                 arr[lastNonZeroIdx] = temp;
