@@ -4,7 +4,8 @@ package arrays.leftRotations.leftRotationsByD;
 /*
  * LOGIC : Call leftRotate by 1 d times
  * 
- * TIME 
+ * TIME COMPLEXITY : Theta(nd)
+ * AUXILIARY SPACE : Theta(1)
  */
 
 public class LeftRotateByDNaiveApproach {
