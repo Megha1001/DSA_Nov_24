@@ -1,5 +1,10 @@
 package arrays.frequencyInSortedArray;
 
+/*
+ * TIME COMPLEXITY : Theta(N)
+ * AUXILIARY SPACE : Theta(1)
+ */
+
 public class PrintFrequencyOfElementInSortedArrayNaive {
 
     public static void main(String args[]){
