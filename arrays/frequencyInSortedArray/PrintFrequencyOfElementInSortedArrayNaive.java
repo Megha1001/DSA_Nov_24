@@ -8,7 +8,7 @@ package arrays.frequencyInSortedArray;
 public class PrintFrequencyOfElementInSortedArrayNaive {
 
     public static void main(String args[]){
-        int arr[] = {10,10,10,20,20,20,20,30,40,40};
+        int arr[] = {10,10,10,20,20,20,20,30,40,50};
         System.out.println("Frequency of element in sorted array are : ");
         findAndPrintFreq(arr, arr.length);
     }
