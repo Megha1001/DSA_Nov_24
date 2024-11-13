@@ -2,6 +2,9 @@ package arrays.maximumDifference;
 
 /*
  * Logic : Traverse array from L to R and maintain a min value seen so far. For every element subtract min from it and keep min updated.
+ * 
+ * TIME COMPLEXITY : Theta(N)
+ * AUXILIARY SPACE : Theta(1)
  */
 
 public class FindMaximumDifferenceEfficient {
