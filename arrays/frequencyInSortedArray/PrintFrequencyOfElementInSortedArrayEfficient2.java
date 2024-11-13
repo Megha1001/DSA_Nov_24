@@ -1,7 +1,7 @@
 package arrays.frequencyInSortedArray;
 
 /*
- * TIME COMPLEXITY : Theta(N)
+ * TIME COMPLEXITY : Theta(N) --> This is Theta(N)
  * AUXILIARY SPACE : Theta(1)
  */
 
