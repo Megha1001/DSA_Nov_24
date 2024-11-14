@@ -28,9 +28,6 @@ public class PrintFrequencyOfElementInSortedArrayEfficient2 {
             freq=1;
             ++i; // this is necessary as we have already considered freq=1 for next element.
         }
-
-
-
     }
 
 }
