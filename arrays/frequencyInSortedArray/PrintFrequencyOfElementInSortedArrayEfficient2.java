@@ -12,7 +12,7 @@ public class PrintFrequencyOfElementInSortedArrayEfficient2 {
         System.out.println("Frequency of element in sorted array are : ");
         findAndPrintFreq(arr, arr.length);
     }
-    
+
 
     public static void findAndPrintFreq(int arr[], int n){
        
