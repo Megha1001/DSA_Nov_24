@@ -1,5 +1,10 @@
 package arrays.stocksBuyAndSell;
 
+/*
+ * TIME COMPLEXITY : O(N^2)
+ * AUXILIARY SPACE : O(1)
+ */
+
 public class StockBuyAndSellNaiveSolution {
 
     public static void main(String args[]){
