@@ -1,5 +1,17 @@
 package arrays.stocksBuyAndSell;
 
+/*
+ * LOGIC : 
+ * The idea is based on the fact, we know the prices in advance. 
+ * If the prices of the stock are going down, you will let thme go down. and once the price has reached bottom at that point,
+ * you will budy this sotck and then when they are going up you will let them go up once they reached a Peat at that point, you 
+ * will sell the stock
+ * 
+ * TIME COMPLEXITY : Theta(N)
+ * AUXILIARY SPACE : Theta(1)
+ */
+
+
 public class StockBuyAndSellThroughValleyPeakApproach {
 
     public static void main(String args[]){
