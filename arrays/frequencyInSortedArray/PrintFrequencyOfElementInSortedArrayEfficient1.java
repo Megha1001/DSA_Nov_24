@@ -5,7 +5,7 @@ package arrays.frequencyInSortedArray;
  * AUXILIARY SPACE : Theta(1)
  */
 
-public class PrintFrequencyOfElementInSortedArrayNaive {
+public class PrintFrequencyOfElementInSortedArrayEfficient1 {
 
     public static void main(String args[]){
         int arr[] = {10,10,10,20,20,20,20,30,40,50};
