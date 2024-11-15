@@ -16,20 +16,16 @@ public class StockBuyAndSellNaiveSolution {
         }
         //here we are going till with i=n-2 since we can't find succeding pair for end element (n-1)
         int profit=0;
-        for(int i=start; i<end;i++){
-
-            for(int j=i+1; j<=end; j++){
-
+        
+        for(int i = start; i < end; i++){
+            for(int j = i + 1; j <= end; j++){
                 if(arr[j] > arr[i]){
-                    int currProfit = arr[j]-arr[i]
-                                    + findMaxProfit(arr, start, i-1)
-                                    + findMaxProfit(arr, j+1, end);
-                    
+                    int currProfit = arr[j] - arr[i]
+                                    + findMaxProfit(arr, start, i - 1)
+                                    + findMaxProfit(arr, j + 1, end);
                     profit = Math.max(profit, currProfit);
                 }
-
             }
-
         }
 
         return profit;
