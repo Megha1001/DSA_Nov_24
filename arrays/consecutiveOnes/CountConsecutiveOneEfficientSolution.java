@@ -22,7 +22,7 @@ public class CountConsecutiveOneEfficientSolution {
                 max = Math.max(max, count);
                 count=0;
             }
-            max = Math.max(max, count);
+            max = Math.max(max, count); //when there is no zero once we encount the 1 or all 1's are there in the array
         }
 
         return max;
