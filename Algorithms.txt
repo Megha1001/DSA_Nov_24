@@ -115,3 +115,11 @@ The idea of Kadane's algo is to traverse the array from left to right and for ea
 subarrays ending at that element. The result will be maximum of all thsee values/
 
 Code
+
+int max_ending = arr[0];
+int res = arr[0];
+
+for(int i=1; i<n; i++){
+    max_ending = Math.max(max_ending+arr[i], arr[i]);
+    res = Math.max(res, max_ending)
+}
