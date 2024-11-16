@@ -1,5 +1,10 @@
 package arrays.trappingRainWaterProblem;
 
+/*
+ * TIME COMPLEXITY : Theta(N)
+ * AUXILIARY SPACE : Theta(N)
+ */
+
 public class TrappingRainWaterProblemEfficient {
     public static void main(String args[]){
         int arr[] = {3, 0, 1, 2, 5};
