@@ -30,7 +30,7 @@ public class TrappingRainWaterProblemEfficient {
         }
 
 
-        for(int i=0; i<n; i++){
+        for(int i=1; i<n-1; i++){ //Not compute for corner bars
             res+= Math.min(lMax[i], rMax[i]) - arr[i];
         }
 
