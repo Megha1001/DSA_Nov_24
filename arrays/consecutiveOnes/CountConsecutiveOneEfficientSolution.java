@@ -1,5 +1,10 @@
 package arrays.consecutiveOnes;
 
+/*
+ * TIME COMPLEXITY : Theta(N)
+ * AUXILIARY SPACE : Theta(1) 
+ */
+
 public class CountConsecutiveOneEfficientSolution {
 
     public static void main(String args[]){
