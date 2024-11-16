@@ -108,3 +108,10 @@ logic
     -> reverse(arr, 0,d-1);
     -> reverse(arr, d,n-1);
     -> reverse(arr, 0,n-1);
+
+------
+Kadane's algo – O(n) Time and O(1) Space
+The idea of Kadane's algo is to traverse the array from left to right and for each element, find the maximum sum among all 
+subarrays ending at that element. The result will be maximum of all thsee values/
+
+Code
