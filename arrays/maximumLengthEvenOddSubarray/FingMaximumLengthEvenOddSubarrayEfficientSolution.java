@@ -1,6 +1,11 @@
 package arrays.maximumLengthEvenOddSubarray;
 
-public class FingMaximumLengthEvenOddSubarrayNaiveSolution {
+/*
+ * LOGIC : Use Kadane's algo
+ * TIME COMPLEXITY : O(N)
+ */
+
+public class FingMaximumLengthEvenOddSubarrayEfficientSolution {
 
     public static void main(String args[]){
         // int arr[] = {10, 12, 14, 7, 8};
