@@ -22,7 +22,7 @@ public class FinaSubArrayWithMaximumSumUsingKadaneAlgo {
         int res = arr[0];
 
         for(int i = 1; i < n; i++){
-            max_ending = Math.max(max_ending+ arr[i], arr[i]);
+            max_ending = Math.max(max_ending+ arr[i], arr[i]); //choice : extending previous subarray OR start subarray with this element
             res = Math.max(res, max_ending);
         }
 
