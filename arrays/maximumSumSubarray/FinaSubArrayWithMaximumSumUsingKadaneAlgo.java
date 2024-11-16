@@ -5,7 +5,8 @@ package arrays.maximumSumSubarray;
  *  Find maximum sum of subarray that ends with this element.
  *  max_ending(i) = Math.max(max_ending(i-1)+arr[i], arr[i])
  * 
- * TIME COMPLEXITY : O(N)
+ * TIME COMPLEXITY : Theta(N)
+ * AUXILIARY SPACE : Theta(1)
  */
 
 public class FinaSubArrayWithMaximumSumUsingKadaneAlgo {
