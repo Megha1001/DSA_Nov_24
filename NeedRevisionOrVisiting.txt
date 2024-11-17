@@ -23,3 +23,7 @@ https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-BitMagic/video/Nzc0OA%3D%3
 
 -Print all permutaations of a string
 https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Recursion/video/MjMzNA%3D%3D
+
+
+Minimum Consecutive Flips
+https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTU4Ng%3D%3D
