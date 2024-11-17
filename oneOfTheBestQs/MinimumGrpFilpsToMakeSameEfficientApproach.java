@@ -1,4 +1,4 @@
-package arrays.minimumGrpFilesToMakeSame;
+package oneOfTheBestQs;
 
 
 /*
