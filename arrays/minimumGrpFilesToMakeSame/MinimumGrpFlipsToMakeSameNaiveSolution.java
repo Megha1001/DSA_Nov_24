@@ -10,7 +10,7 @@ package arrays.minimumGrpFilesToMakeSame;
  *      print for zeroGrp
  */
 
-public class MinimumGrpFilesToMakeSameNaiveSolution {
+public class MinimumGrpFlipsToMakeSameNaiveSolution {
 
     public static void main(String args[]){
         // int arr[] = {1, 1, 0, 0, 0, 0};
