@@ -1,6 +1,5 @@
 package oneOfTheBestQs;
 
-
 /*
  * LOGIC : 
  * 1. There can be atmost 1 difference b/w the groups
