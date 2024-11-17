@@ -2,7 +2,9 @@ package arrays.maximumLengthEvenOddSubarray;
 
 /*
  * LOGIC : Use Kadane's algo
- * TIME COMPLEXITY : O(N)
+ * TIME COMPLEXITY : Theta(N)
+ * AUXILIARY SPACE : Theta(1)
+ * 
  */
 
 public class FingMaximumLengthEvenOddSubarrayEfficientSolution {
