@@ -6,6 +6,9 @@ package arrays.maximumCircularSubarray;
  *  1. Maximum sum in normal subarray(Kadane's algo)
  *  2. Maximum sum in circular subarray(Modified Kadane's algo) 
  *      --> To find maximum in circular array = total sum -  find min array in normal 
+ * 
+ * TIME COMPLEXITY : Theta(N)
+ * AUXILIARY SPACE : Theta(1)
  */
 
 public class FindMaximumCircularSubArrayModifiedKadanesAlgoEfficient {
