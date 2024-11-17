@@ -7,6 +7,9 @@ package arrays.maximumCircularSubarray;
  *      1. Invert all the array elements
  *      2. found maximum Sub array --> By finding the maximum in the inverted array we are actually finding min in the array
  *      3. add to total sum of array
+ * 
+ * TIME COMPLEXITY : Theta(N)
+ * AUXILIARY SPACE : Theta(1)
  */
 
 public class FindMaximumCircularSubArrayUsingMofiedkadaneAlgoMostEfficient {
