@@ -26,8 +26,8 @@ public class FindMaximumCircularSubArrayModifiedKadanesAlgoEfficient {
         int sum = arr[0];
 
         for(int i = 1; i < n; i++){
-            max_ending = Math.max(max_ending + arr[i] , max_ending);
-            min_ending = Math.min(min_ending + arr[i], min_ending);
+            max_ending = Math.max(max_ending + arr[i] , arr[i]);
+            min_ending = Math.min(min_ending + arr[i], arr[i]);
 
             max_sum = Math.max(max_sum, max_ending);
             min_sum = Math.min(min_sum, min_ending);
