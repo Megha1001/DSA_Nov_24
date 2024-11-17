@@ -126,7 +126,7 @@ for(int i=1; i<n; i++){
 
 
 --------------------
-Moore Voting algorithm
+Moore Voting algorithm --> for finding majority element
 
 It works in two phases.
 - Find out a candidate and the first phase gurantees that if there is a majority element in the array, then this candidate is going to be the majority element in the array.
