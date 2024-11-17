@@ -10,8 +10,9 @@ package arrays.majorityElement;
 public class FindMajorityElementUsingMooreAlgoEfficient {
     
     public static void main(String args[]){
-        int arr[] = {8, 3, 4, 8, 8};
+        // int arr[] = {8, 3, 4, 8, 8};
         // int arr[] = {3, 7, 4, 7, 7, 5}; //no majority
+        int arr[] = {6, 7, 6, 7, 6, 7};
         System.out.println("Majority element in given array is "+findMajority(arr, arr.length));
     }
 
