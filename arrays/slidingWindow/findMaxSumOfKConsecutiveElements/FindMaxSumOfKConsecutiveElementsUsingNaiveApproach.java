@@ -16,9 +16,9 @@ public class FindMaxSumOfKConsecutiveElementsUsingNaiveApproach {
 
     public static int findMaxSum(int arr[], int n, int k){
         int sum = 0;
-        for(int i = 0 ; i <= (n-k+1) ; i ++){
+        for(int i = 0 ; i <= (n-k-1) ; i ++){
             int currSum = 0;
-            for (int j = i; j < k; j++){
+            for (int j = i; j < i+k; j++){
                 currSum += arr[j];
             }
             sum = Math.max(sum, currSum);
