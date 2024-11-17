@@ -27,6 +27,7 @@ public class FindMaximumCircularSubArrayUsingMofiedkadaneAlgoMostEfficient {
         int max_sum = findMaxSumUsingKadaneAlgo(arr, n);
 
         //in that case all the elements in the arrays are -ve, and normal kadane's algo should already provided us the min in those -ve and that would be our answer
+        // Identifies that there is no circular (If we remove the code will fail)
         if(max_sum < 0){
             return max_sum;
         }
