@@ -2,6 +2,9 @@ package arrays.majorityElement;
 
 /*
  * LOGIC : Use Moore's algorithm --> it can return any idex of majority element
+ * 
+ * TIME COMPLEXITY : Theta(N);
+ * AUXILIARY SPACE : Theta(1)
  */
 
 public class FindMajorityElementUsingMooreAlgoEfficient {
