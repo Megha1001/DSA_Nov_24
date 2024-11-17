@@ -123,3 +123,41 @@ for(int i=1; i<n; i++){
     max_ending = Math.max(max_ending+arr[i], arr[i]);
     res = Math.max(res, max_ending)
 }
+
+
+--------------------
+Moore Voting algorithm
+
+It works in two phases.
+- Find out a candidate and the first phase gurantees that if there is a majority element in the array, then this candidate is going to be the majority element in the array.
+
+int res = 0(index), count = 1
+for(int arr[], int n){
+    if(arr[res] == arr[i]){
+        ++count;
+    }{
+        --count;
+    }
+
+    if(count == 0){
+        res = i;
+        count = 1;
+    }
+}
+
+- Checks whether ethe candidate fuond out be the first place is actuallay a majority or not.
+
+int count = 0;
+for(int i = 0; i < n; i++){
+    if(arr[i] == arr[res]){
+        ++count;
+    }
+}
+
+if(count <= n/2){
+    return -1;
+}else {
+    return res;
+}
+
+The need of second phase is only there when you don't have a majority element in the array.
