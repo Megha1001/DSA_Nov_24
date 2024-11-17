@@ -9,13 +9,15 @@ package arrays.maximumCircularSubarray;
  * 
  * TIME COMPLEXITY : Theta(N)
  * AUXILIARY SPACE : Theta(1)
+ * 
+ * NOTE : IF ALL THE ELEMENTS ARE -VE THIS MIN_SUM IS GOING TO ALWAYS RETURN 0 WHICH IS INCORRECT. HENCE THERE IS A CONDITION AT RETURN STATEMENT : return (max_sum)<0 ? max_sum : Math.max(sum - min_sum, max_sum);
  */
 
 public class FindMaximumCircularSubArrayModifiedKadanesAlgoEfficient {
     
 
     public static void main(String args[]){
-        int arr[] = {3, -4, 5, 6, -8, 7};
+        int arr[] = {-3, -5};
         System.out.println("The maximum sum of circular subarray is : "+findMaximumSumInCircularSubarray(arr, arr.length));
     }
 
@@ -39,7 +41,7 @@ public class FindMaximumCircularSubArrayModifiedKadanesAlgoEfficient {
 
         }
 
-        return Math.max(sum - min_sum, max_sum);
+        return (max_sum)<0 ? max_sum : Math.max(sum - min_sum, max_sum);
 
     }
 
