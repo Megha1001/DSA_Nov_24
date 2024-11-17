@@ -3,6 +3,9 @@ package arrays.maximumCircularSubarray;
 /*
  * LOGIC : Consider all subarray and find the maximum sum
  * 1. Consider all the subarray starting with position i -> there can be N Subarray for every element in circular array case only (otherwise N-1)
+ * 
+ * TIME COMPLEXITY : Theta(N^2)
+ * AUXILIARY SPACE : Theta(1)
  */
 
 public class FindMaximumCircularSubArrayNaive {
