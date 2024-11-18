@@ -35,7 +35,6 @@ public class FindSubArrayWithGivenSumEfficientSlidingWindowAppraoch {
 
             if(curr == x){
                 return true;
-                
             }
         }
 
