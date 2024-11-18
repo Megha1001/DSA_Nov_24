@@ -12,6 +12,10 @@ package arrays.subarrayWithGivenSum;
  *  20-8 = 12 < 17 --> icreasing e
  *  12+5 = 17 --> found
  * 
+ * 
+ * TIME COMPLEXITY : O(N)
+ * AUXILIARY SPACE : O(1)
+ * 
  */
 
 public class FindSubArrayWithGivenSumEfficientSlidingWindowAppraoch {
