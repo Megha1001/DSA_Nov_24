@@ -1,5 +1,9 @@
 package arrays.slidingWindow.findMaxSumOfKConsecutiveElements;
 
+
+/*
+ * TIME COMPLEXITY : O(n*K)
+ */
 public class FindMaxSumOfKConsecutiveElementsUsingSlidingWindow {
     
     public static void main(String args[]){
