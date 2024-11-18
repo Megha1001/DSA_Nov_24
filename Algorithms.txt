@@ -161,3 +161,23 @@ if(count <= n/2){
 }
 
 The need of second phase is only there when you don't have a majority element in the array.
+
+
+------------------
+PREFIX SUM
+------------------
+GIVEN  a fixed array and multiple range sum queries, how to answer the queries efficiently
+
+For ex : arr = {2, 8, 3, 9, 6, 5, 4};
+
+1. Precompute prefix sum array
+    pSum = [2, 10, 13, 22, 28, 33, 37]
+
+    pSum[i] = Σ (from 0 to i) arr[i]
+
+2. getSum(l, r) =
+{
+    pSum[r] if l==0
+    pSum[r] - pSum[l-1] otherwise
+ 
+}
