@@ -30,7 +30,7 @@ public class FindSubArrayWithGivenSumEfficientSlidingWindowAppraoch {
             curr += arr[e]; 
             while(curr > x){
                 curr -= arr[s];
-                --s; // why its safe to remove s , since when we have added last e it would have increased the sum  but with this element the sum is less even with earlier considered subarray so its safe to remove that
+                ++s; // why its safe to remove s , since when we have added last e it would have increased the sum  but with this element the sum is less even with earlier considered subarray so its safe to remove that
             }
 
             if(curr == x){
