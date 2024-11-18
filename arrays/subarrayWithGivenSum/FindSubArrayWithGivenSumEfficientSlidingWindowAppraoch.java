@@ -17,7 +17,28 @@ package arrays.subarrayWithGivenSum;
 public class FindSubArrayWithGivenSumEfficientSlidingWindowAppraoch {
 
     public static void main(String args[]){
+        int arr[] = {4, 8, 12, 5};
+        int sum = 17;
 
+        System.out.println("Do we have subarray with given sum : "+checkSum(arr, arr.length, sum));
+
+    }
+
+    public static boolean checkSum(int arr[], int n, int x){
+        int s = 0; int curr = 0;
+        for(int e = 0; e < n; e++){
+            curr += arr[e]; 
+            while(curr > x){
+                curr -= arr[s];
+                --s; // why its safe to remove s , since when we have added last e it would have increased the sum  but with this element the sum is less even with earlier considered subarray so its safe to remove that
+            }
+
+            if(curr == x){
+                return true;
+            }
+        }
+
+        return false;
     }
     
 }
