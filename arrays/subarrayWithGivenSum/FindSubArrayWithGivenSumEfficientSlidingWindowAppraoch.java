@@ -13,7 +13,7 @@ package arrays.subarrayWithGivenSum;
  *  12+5 = 17 --> found
  * 
  * 
- * TIME COMPLEXITY : O(N)
+ * TIME COMPLEXITY : O(N), we are removing an item atmost once and adding an item atmost once . basically doing 2N operations 
  * AUXILIARY SPACE : O(1)
  * 
  */
