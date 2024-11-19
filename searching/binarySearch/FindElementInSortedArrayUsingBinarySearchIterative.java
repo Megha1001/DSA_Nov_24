@@ -2,6 +2,9 @@ package searching.binarySearch;
 
 /*
  * TIME COMPLEXITY : O(logN)
+ * AUXILIARY SPACE : Theta(1)
+ * 
+ * Iterative solution
  */
 
 public class FindElementInSortedArrayUsingBinarySearchIterative {
