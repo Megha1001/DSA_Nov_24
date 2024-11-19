@@ -20,7 +20,20 @@ public class FindElementInSortedArrayUsingBinarySearchRecursive {
 
     public static int ifPresentGetIndex(int arr[], int s, int e, int x){
 
+        if(s > e){
+            return -1;
+        }
 
+        int mid = s + (e-s)/2;
+
+        if(arr[mid]==x){
+            return mid;
+        }
+        else if(arr[mid] > x){
+            //go to left
+            return ifPresentGetIndex(arr, s, mid-1, x);
+        }
+        return ifPresentGetIndex(arr, mid+1, e, x);
     }
 
            
