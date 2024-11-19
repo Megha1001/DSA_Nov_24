@@ -1,5 +1,9 @@
 package searching.binarySearch;
 
+/*
+ * TIME COMPLEXITY : O(logN)
+ */
+
 public class FindElementInSortedArrayUsingBinarySearchIterative {
 
     public static void main(String args[]){
