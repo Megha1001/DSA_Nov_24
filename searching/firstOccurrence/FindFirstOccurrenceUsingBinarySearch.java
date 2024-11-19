@@ -23,6 +23,10 @@ public class FindFirstOccurrenceUsingBinarySearch {
 
         if(arr[mid] == x){
 
+            if((mid-1)>=0 && arr[mid-1]==x){
+                //this is not the first occurrence
+            }
+
         }
 
        
