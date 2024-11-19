@@ -15,10 +15,10 @@ public class FindElementInSortedArrayUsingBinarySearchIterative {
         int arr[] = {5, 15, 25};
         int x = 25;
 
-        System.out.println("is the element present at what index in  the given array ? :"+isPresent(arr, arr.length, x));
+        System.out.println("is the element present at what index in  the given array ? :"+ifPresentGetIndex(arr, arr.length, x));
     }
 
-    public static int isPresent(int arr[], int n, int x){
+    public static int ifPresentGetIndex(int arr[], int n, int x){
         
         int s = 0;
         int e = n-1;
