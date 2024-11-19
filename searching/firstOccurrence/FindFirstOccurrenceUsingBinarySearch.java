@@ -25,9 +25,15 @@ public class FindFirstOccurrenceUsingBinarySearch {
 
             if((mid-1)>=0 && arr[mid-1]==x){
                 //this is not the first occurrence
+                return findFirstOccurrence(arr, s, mid-1, x);
             }
 
         }
+        else if (arr[mid] > x){
+            return findFirstOccurrence(arr, s, mid-1, x);
+        }
+
+        return findFirstOccurrence(arr, mid+1, e, x);
 
        
     }
