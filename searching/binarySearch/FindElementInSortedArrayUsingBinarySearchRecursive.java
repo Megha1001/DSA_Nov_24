@@ -15,29 +15,14 @@ public class FindElementInSortedArrayUsingBinarySearchRecursive {
         int arr[] = {5, 15, 25};
         int x = 25;
 
-        System.out.println("is the element present at what index in  the given array ? :"+isPresent(arr, arr.length, x));
+        System.out.println("is the element present at what index in  the given array ? :"+ifPresentGetIndex(arr, 0, arr.length, x));
     }
 
-    public static int isPresent(int arr[], int n, int x){
-        
-        int s = 0;
-        int e = n-1;
+    public static int ifPresentGetIndex(int arr[], int s, int e, int x){
 
-        while(s <= e){
-            int mid = s+ (e-s)/2; //to secure from overflow
 
-            if(arr[mid] == x){
-                return mid;
-            }
-            else if(arr[mid] > x){
-                // x would be locating at left
-                e = mid-1;
-            }else{
-                s = mid+1;
-            }
-        
-        }
-        return -1;
     }
+
+           
     
 }
