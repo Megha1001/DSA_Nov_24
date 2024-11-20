@@ -21,19 +21,18 @@ public class FindFirstOccurrenceUsingBinarySearch {
 
         int mid = s + (e-s)/2;
 
-        if(arr[mid] == x){
-
-            if((mid-1)>=0 && arr[mid-1]==x){
-                //this is not the first occurrence
+        if(arr[mid] > x){
+            //go to left
+            return findFirstOccurrence(arr, s, mid-1, x);
+        }else if(arr[mid] < x){
+            return findFirstOccurrence(arr, mid+1, e, x);
+        }else{
+            if(mid == 0 || arr[mid-1] != arr[mid]){
+                return mid;
+            }else{
                 return findFirstOccurrence(arr, s, mid-1, x);
             }
-
         }
-        else if (arr[mid] > x){
-            return findFirstOccurrence(arr, s, mid-1, x);
-        }
-
-        return findFirstOccurrence(arr, mid+1, e, x);
 
        
     }
