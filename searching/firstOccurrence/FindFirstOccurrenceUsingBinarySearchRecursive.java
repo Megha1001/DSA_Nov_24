@@ -2,9 +2,12 @@ package searching.firstOccurrence;
 
 /* 
  * LOGIC : Apply binary search just change the logic when the element match
+ * 
+ * TIME COMPLEXITY : O(logN)
+ * AUXILIARY SPACE : O(logN)
  */
 
-public class FindFirstOccurrenceUsingBinarySearch {
+public class FindFirstOccurrenceUsingBinarySearchRecursive {
 
     public static void main(String args[]){
         int arr[] = {5, 10, 10, 15, 20, 20, 20};
