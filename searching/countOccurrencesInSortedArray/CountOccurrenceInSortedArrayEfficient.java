@@ -2,6 +2,9 @@ package searching.countOccurrencesInSortedArray;
 
 /*
  * LOGIC  : last occurence - firstOccurrence + 1;
+ * 
+ * TIME COMPLEXITY : O(logN)
+ * AUXILIARY SPACE : Theta(1)
  */
 
 public class CountOccurrenceInSortedArrayEfficient {
