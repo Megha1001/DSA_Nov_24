@@ -16,16 +16,16 @@ public class FindLastOccurrenctUsingBinarySearchIterativeApproach {
 
             if(arr[mid] > x){
                 //left
-                return lastOccurrence(arr, low, mid-1, x);
+                low = mid+1;
             }
             else if(arr[mid] < x){
                 //right
-                return lastOccurrence(arr, mid+1, high, x);
+                high = mid -1;
             }
             else if(mid == arr.length-1 || arr[mid]!=arr[mid+1]){
                 return mid;
             }else{
-                return lastOccurrence(arr, mid+1, high, x);
+                low = mid+1;
             }
 
         }
