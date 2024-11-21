@@ -1,5 +1,10 @@
 package searching.countOccurrencesInSortedArray;
 
+
+/*
+ * TIME COMPLEXITY : O(logN)
+ * Auxiliary Space: O(logN)
+ */
 public class CountOccurrenceInSortedArrayRecursive {
     
     public static void main(String args[]){
