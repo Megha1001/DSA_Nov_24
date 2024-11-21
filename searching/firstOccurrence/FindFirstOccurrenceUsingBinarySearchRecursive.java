@@ -12,7 +12,7 @@ public class FindFirstOccurrenceUsingBinarySearchRecursive {
     public static void main(String args[]){
         int arr[] = {5, 10, 10, 15, 20, 20, 20};
         int x = 10;
-        System.out.println("The first occurrence of "+x+" in given array is "+findFirstOccurrence(arr, 0, arr.length, x));
+        System.out.println("The first occurrence of "+x+" in given array is "+findFirstOccurrence(arr, 0, arr.length-1, x));
     }
 
     public static int findFirstOccurrence(int arr[], int s, int e, int x){
