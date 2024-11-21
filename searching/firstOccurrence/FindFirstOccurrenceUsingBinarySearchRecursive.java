@@ -36,7 +36,6 @@ public class FindFirstOccurrenceUsingBinarySearchRecursive {
                 return findFirstOccurrence(arr, s, mid-1, x);
             }
         }
-
        
     }
     
