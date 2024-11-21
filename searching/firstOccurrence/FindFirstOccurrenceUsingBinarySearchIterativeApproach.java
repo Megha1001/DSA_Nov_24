@@ -1,5 +1,11 @@
 package searching.firstOccurrence;
 
+
+/*
+ * TIME COMPLEXITY : O(logN)
+ * SPACE COMPLEXITY : Theta(1)
+ */
+
 public class FindFirstOccurrenceUsingBinarySearchIterativeApproach {
 
     public static void main(String args[]){
