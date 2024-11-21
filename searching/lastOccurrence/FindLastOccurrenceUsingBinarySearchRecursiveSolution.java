@@ -18,11 +18,11 @@ public class FindLastOccurrenceUsingBinarySearchRecursiveSolution {
 
         if(arr[mid] > x){
             //go left
-            lastOccurrence(arr, low , mid-1, x);
+            return lastOccurrence(arr, low , mid-1, x);
         }
 
         else if (arr[mid] < x){
-            lastOccurrence(arr, mid+1, high, x);
+            return lastOccurrence(arr, mid+1, high, x);
         }
 
         else if(mid==arr.length-1 || arr[mid]!= arr[mid+1]){
@@ -31,7 +31,6 @@ public class FindLastOccurrenceUsingBinarySearchRecursiveSolution {
             return lastOccurrence(arr, mid+1, high, x);
         }
 
-        return -1;
 
     }
 
