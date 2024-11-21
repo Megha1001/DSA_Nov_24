@@ -2,7 +2,7 @@ package searching.countOccurrencesInSortedArray;
 
 
 /*
- * TIME COMPLEXITY : O(logN)
+ * TIME COMPLEXITY : O(logN + k), where k is occurrence
  * Auxiliary Space: O(logN)
  */
 public class CountOccurrenceInSortedArrayRecursive {
