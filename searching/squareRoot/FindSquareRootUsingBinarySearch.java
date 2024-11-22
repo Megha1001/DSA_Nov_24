@@ -20,6 +20,24 @@ public class FindSquareRootUsingBinarySearch {
 
     public static int findSqr(int num, int low, int high){
 
+        int result = -1;
+
+        while(low <= high){
+            int mid = low + (high-low)/2;
+
+            int sqr = mid*mid;
+            if(sqr == num){
+                return sqr;
+            }else if(sqr > num){
+                high = mid-1;
+            }else{
+                result = mid;
+                low = mid+1;
+            }
+        }
+        
+        return result;
+
     }
 
 }
