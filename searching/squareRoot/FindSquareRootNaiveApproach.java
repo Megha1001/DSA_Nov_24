@@ -8,12 +8,12 @@ public class FindSquareRootNaiveApproach {
     }
 
     public static int findSqr(int num){
-        //corner-case
-    
         int i = 1;
-        while()
+        while(i*i <= num){
+            ++i;
+        }
 
-        return i;
+        return i-1;
     }
     
 }
