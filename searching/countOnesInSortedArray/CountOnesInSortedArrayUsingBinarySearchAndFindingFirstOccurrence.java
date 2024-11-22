@@ -16,6 +16,25 @@ public class CountOnesInSortedArrayUsingBinarySearchAndFindingFirstOccurrence {
     }
 
     public static int countOnes(int arr[], int low, int high, int x){
+
+        while(low <= high){
+            int mid = low + (high-low)/2;
+
+            if(arr[mid]==0){
+                low = mid+1;
+            }
+            else {
+                if(mid==0 || arr[mid]!= arr[mid-1]){
+                    //first occurence
+                    return arr.length-mid;
+                }else{
+                    high = mid-1;
+                }
+            }
+
+        }
+
+        return -1;
         
     }
 
