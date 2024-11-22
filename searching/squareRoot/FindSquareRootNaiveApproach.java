@@ -3,7 +3,7 @@ package searching.squareRoot;
 public class FindSquareRootNaiveApproach {
     
     public static void main(String args[]){
-        int num = 19;
+        int num = 25;
         System.out.println("Square root of given number is : "+findSqr(num));
     }
 
