@@ -1,5 +1,9 @@
 package searching.countOnesInSortedArray;
 
+/*
+ * TIME COMPLEXITY : O(logN)
+ */
+
 public class CountOnesInSortedArrayUsingBinarySearch {
 
     public static void main(String args[]){
