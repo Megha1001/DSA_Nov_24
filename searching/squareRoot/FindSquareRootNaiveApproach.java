@@ -1,7 +1,7 @@
 package searching.squareRoot;
 
 /*
- * TIME COMPLEXITY : (Sqrt(N))
+ * TIME COMPLEXITY : Theta(Sqrt(N))
  */
 
 public class FindSquareRootNaiveApproach {
