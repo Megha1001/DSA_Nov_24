@@ -1,9 +1,14 @@
 package searching.squareRoot;
 
+/*
+ * TIME COMPLEXITY : (Sqrt(N))
+ */
+
 public class FindSquareRootNaiveApproach {
     
     public static void main(String args[]){
-        int num = 25;
+        // int num = 25;
+        int num = 0;
         System.out.println("Square root of given number is : "+findSqr(num));
     }
 
