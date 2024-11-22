@@ -7,6 +7,9 @@ package searching.squareRoot;
  *      if x/2*x/2 == num ==> return x
  *      else x/2*x/2 < num ==> that can be the answer and also do low = mid+1;
  *      else high = mid-1
+ * 
+ * TIME COMPLEXITY : O(logN)
+ * AUXILIARY SPACE : Theta(1)
  */
 public class FindSquareRootUsingBinarySearch {
     public static void main(String args[]){
