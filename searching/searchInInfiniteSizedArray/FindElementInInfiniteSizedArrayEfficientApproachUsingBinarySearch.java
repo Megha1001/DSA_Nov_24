@@ -1,7 +1,7 @@
 package searching.searchInInfiniteSizedArray;
 
 /*
- * TIME COMPLEXITY : O(log(positition))
+ * TIME COMPLEXITY : O(log(positition))  ; we can go until 2 pos --> since we are doing i=i*2. For ex : if element present at 5 we go till 8
  * AUXILIARY SPACE : Theta(1)
  */
 
