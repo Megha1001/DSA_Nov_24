@@ -12,8 +12,10 @@ package searching.searchInSortedRotatedArray;
 public class FindElementInSortedRotatedArrayUsingBinarySearch {
 
     public static void main(String args[]){
-        int [] arr = {100, 500, 10, 20, 30, 40};
-        int x = 500;
+        // int [] arr = {100, 500, 10, 20, 30, 40};
+        // int x = 500;
+        int [] arr = {100, 80, 70, 60, 50, 40};
+        int x = 100;
         System.out.println("Element is present in given array at location : "+searchInSortedRotatedArray(arr, arr.length, x));
     }
 
