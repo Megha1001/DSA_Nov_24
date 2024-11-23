@@ -1,5 +1,14 @@
 package searching.searchInSortedRotatedArray;
 
+/*
+ *  LOGIC : When the array is sorted and rotated there are some properties with it :
+ *      1. One side of the array is always sorted ( corner case : both the sides of the array is sorted)
+ *      2. TO decide which half is sorted compare middle element with low or high  to decide whether left or right half is sorted respectively.     
+ * 
+ *  TIME COMPLEXITY : O(logN)
+ * AUXILIARY SPACE : Theta(1)
+ */
+
 public class FindElementInSortedRotatedArrayUsingBinarySearch {
 
     public static void main(String args[]){
