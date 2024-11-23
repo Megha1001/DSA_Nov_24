@@ -10,11 +10,18 @@ public class FindElementInInfiniteSizedArrayEfficientApproachUsingBinarySearch {
     public static void main(String args[]){
         int arr[] = {1,3,5,6,7,9,10,50,64,90};
         int x = 64;
+        // int x = 1;
         System.out.println("The element is present at : "+findElement(arr,x));
     }
     
 
     public static int findElement(int arr[], int x){
+
+        //corner case
+        if(arr[0]==x){
+            return 0; //since we will be considering i=1 (starting not zero)
+        }
+
         int i = 1;
         while(arr[i] < x){
             i = i*2;
