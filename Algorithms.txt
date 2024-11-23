@@ -181,3 +181,7 @@ For ex : arr = {2, 8, 3, 9, 6, 5, 4};
     pSum[r] - pSum[l-1] otherwise
  
 }
+
+-------
+unbounded binary search
+searching/searchInInfiniteSizedArray/FindElementInInfiniteSizedArrayEfficientApproachUsingBinarySearch.java
