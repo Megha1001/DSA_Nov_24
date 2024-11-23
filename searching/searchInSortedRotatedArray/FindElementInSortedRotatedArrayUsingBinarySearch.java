@@ -29,17 +29,17 @@ public class FindElementInSortedRotatedArrayUsingBinarySearch {
             //if left half is sorted and element is present there
             if(arr[low] <= arr[mid]){
                 if(x >= arr[low] && x < arr[mid]){
-                    high = mid - 1;
+                    high = mid - 1; // go to left half
                 }else{
-                    low = mid + 1;
+                    low = mid + 1; //go to right half
                 }
             }
             //if righ half is sorted and element is there
             else {
                 if(x > arr[mid] && x <= arr[high]){
-                    low = mid + 1;
+                    low = mid + 1; //go to right half
                 }else{
-                    high = mid - 1;
+                    high = mid - 1; //go to left half
                 }
             }
 
