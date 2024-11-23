@@ -27,3 +27,7 @@ https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Recursion/video/MjMzNA%3D%
 
 Minimum Consecutive Flips
 https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTU4Ng%3D%3D
+
+
+FindElementInSortedRotatedArrayUsingBinarySearch
+searching/searchInSortedRotatedArray/FindElementInSortedRotatedArrayUsingBinarySearch.java
