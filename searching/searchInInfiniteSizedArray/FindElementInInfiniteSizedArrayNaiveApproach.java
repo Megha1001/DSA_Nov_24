@@ -1,5 +1,9 @@
 package searching.searchInInfiniteSizedArray;
 
+/*
+ * TIME COMPLEXITY : O(position)
+ * AUXILIARY SPACE : Theta(1)
+ */
 
 public class FindElementInInfiniteSizedArrayNaiveApproach {
 
@@ -9,4 +13,17 @@ public class FindElementInInfiniteSizedArrayNaiveApproach {
         System.out.println("The element is present at : "+findElement(arr,x));
     }
     
+
+    public static int findElement(int arr[], int x){
+        int i = 0;
+        while(true){
+            if(arr[i]==x){
+                return i;
+            }else if(arr[i]>x){
+                return -1;
+            }
+            ++i;
+        }
+    }
+
 }
