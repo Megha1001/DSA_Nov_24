@@ -21,9 +21,9 @@ public class FindPeakElementEfficientSolutionUsingBinarySearch {
             int mid = low + (high - low)/2;
 
             //mid is peak
-            if((mid == n-1 || arr[mid] >= arr[mid+1])
+            if((mid == n-1 || arr[mid] >= arr[mid+1]) // if there is nothing on the left side || if there is something on the left side then mid should be >=
                             &&
-            (mid == 0 || arr[mid] >= arr[mid-1])){
+            (mid == 0 || arr[mid] >= arr[mid-1])){ // if there is nothing on the righ side || if there is something on the right side then mid should be >=
                 return mid;
             }
 
