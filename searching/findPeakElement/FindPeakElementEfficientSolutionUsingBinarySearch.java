@@ -2,7 +2,8 @@ package searching.findPeakElement;
 
 /*
  * Peak Element : It has some properties
- *  1. Peak should be present where we have greater element in case of mid is not peak
+ *  1. Peak should be present where we have greater element in case of mid is not peak. That doesn't mean the other side can't contain peak it makes sure that where greater
+ * element is present that contains the peak
  * 
  * TIME COMPLEXITY : O(logN)
  * AUXILIARY SPACE : Theta(1)
