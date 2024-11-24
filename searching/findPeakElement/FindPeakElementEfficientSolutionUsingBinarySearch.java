@@ -1,7 +1,11 @@
 package searching.findPeakElement;
 
 /*
- * Peak Element : Its 
+ * Peak Element : It has some properties
+ *  1. Peak should be present where we have greater element in case of mid is not peak
+ * 
+ * TIME COMPLEXITY : O(logN)
+ * AUXILIARY SPACE : Theta(1)
  */
 
 public class FindPeakElementEfficientSolutionUsingBinarySearch {
