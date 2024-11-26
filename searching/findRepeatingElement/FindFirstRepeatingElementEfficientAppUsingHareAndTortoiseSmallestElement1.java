@@ -3,7 +3,7 @@ package searching.findRepeatingElement;
 /*
  * Logic : Use Hare and tortoise algo --> This is for elements where smallest elemlent is 1 not zero
  */
-public class FindFirstRepeatingElementEfficientAppUsingHareAndTortoise {
+public class FindFirstRepeatingElementEfficientAppUsingHareAndTortoiseSmallestElement1 {
 
     public static void main(String args[]){
         int arr[] = {1, 3, 2, 4, 6, 5, 7, 3};
