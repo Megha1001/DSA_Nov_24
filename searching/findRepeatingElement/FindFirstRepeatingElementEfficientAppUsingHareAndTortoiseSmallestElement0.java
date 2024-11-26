@@ -1,7 +1,7 @@
 package searching.findRepeatingElement;
 
 /*
- * Logic : Use Hare and tortoise algo --> This is for elements where smallest elemlent is 1 not zero
+ * Logic : Use Hare and tortoise algo --> This is for elements where smallest elemlent is 0 
  */
 public class FindFirstRepeatingElementEfficientAppUsingHareAndTortoiseSmallestElement0 {
 
