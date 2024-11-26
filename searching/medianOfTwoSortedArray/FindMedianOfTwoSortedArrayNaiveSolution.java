@@ -1,5 +1,12 @@
 package searching.medianOfTwoSortedArray;
 
+/*
+ * LOGIC : Use merge sort logic
+ * 
+ * TIME COMPLEXITY : O(N1+ N2)
+ * AUXILIARY SPACE : Theta(N1+N2)
+ */
+
 public class FindMedianOfTwoSortedArrayNaiveSolution {
     
     public static void main(String args[]){
