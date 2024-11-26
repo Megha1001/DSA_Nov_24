@@ -27,7 +27,11 @@ package searching.medianOfTwoSortedArray;
  *              - if max2 > min1 , move hte partition right (begin1 = i1 + 1).
  * 
  * 
+ * TIME COMPLEXITY : O(log(min(n1, n2)))
  * 
+ * Edge cases : 
+ *   - Handles cases where one array is empty by treating its boundaries as Integer.MIN_VALUE and Integer.MAX_VALUE
+ *   - Works for different size of array
  */
 
 public class FindMedianOfTwoSortedArrayUsingBinarySearch {
