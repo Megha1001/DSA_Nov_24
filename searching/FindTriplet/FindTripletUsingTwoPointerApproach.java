@@ -21,6 +21,23 @@ public class FindTripletUsingTwoPointerApproach {
 
     public static boolean isExists(int arr[], int n, int x){
 
+        for(int i = 0; i < n-2; i++){
+            int j = i+1, k = n-1;
+
+            while(j < k){
+                int sum = arr[j] + arr[k];
+                if(sum == x - arr[i]){
+                    return true;
+                }else if (sum > x - arr[i]){
+                    --k;
+                }else{
+                    ++j;
+                }
+            }
+
+        }
+        return false;
+
     }
 
 }
