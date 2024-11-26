@@ -3,6 +3,7 @@ package searching.twoPointerApproach;
 /*
  * TIME COMPLEXITY : O(N)
  * AUXILIARY SPACE : O(1)
+ * Note : here the given array is sorted, even if we have unsorted array, we can sort the array first(Complexity : O(NLogN)) then apply this method
  */
 
 public class FindIfPairWithSumXExists {
