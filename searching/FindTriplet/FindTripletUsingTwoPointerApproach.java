@@ -9,7 +9,7 @@ package searching.FindTriplet;
  * TIME COMPLEXITY: O(N^2)
  * AUXILIARY SPACE : O(1)
  * 
- * Note : here the given array is sorted, even if we have unsorted array, we can sort the array first then apply this method
+ * Note : here the given array is sorted, even if we have unsorted array, we can sort the array first(Complexity : O(NLogN)) then apply this method
  */
 
 public class FindTripletUsingTwoPointerApproach {
