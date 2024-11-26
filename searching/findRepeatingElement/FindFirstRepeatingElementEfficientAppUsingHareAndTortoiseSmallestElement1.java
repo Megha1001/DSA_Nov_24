@@ -2,6 +2,7 @@ package searching.findRepeatingElement;
 
 /*
  * Logic : Use Hare and tortoise algo --> This is for elements where smallest elemlent is 1 not zero
+ * If we had 0 then cycle will not go anywhere 0->0->0---> self loop
  */
 public class FindFirstRepeatingElementEfficientAppUsingHareAndTortoiseSmallestElement1 {
 
