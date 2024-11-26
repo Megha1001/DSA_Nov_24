@@ -1,5 +1,10 @@
 package searching.twoPointerApproach;
 
+/*
+ * TIME COMPLEXITY : O(N)
+ * AUXILIARY SPACE : Theta(1)
+ */
+
 public class FindIfPairWithSumXExists {
 
     public static void main(String args[]){
