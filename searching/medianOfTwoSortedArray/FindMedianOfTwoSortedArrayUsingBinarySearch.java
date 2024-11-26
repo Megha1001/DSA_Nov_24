@@ -52,6 +52,9 @@ public class FindMedianOfTwoSortedArrayUsingBinarySearch {
 
             int i1 = (begin1 + end1) / 2;
             int i2 = (n1 + n2 + 1)/2 - i1;
+            /*
+             * Why Add 1?: When the total number of elements is odd, the left partition should have one more element than the right partition.
+             */
 
             int min1 = (i1 == 0) ? Integer.MAX_VALUE : arr1[i1 - 1];
             int max1 = (i1 == n1) ? Integer.MIN_VALUE : arr1[i1];
