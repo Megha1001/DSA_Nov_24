@@ -1,6 +1,34 @@
 package searching.medianOfTwoSortedArray;
 
-//https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Searching/video/MTQyMA%3D%3D
+/*
+ * This method finds the median of two sorted arrays without mergin them. The algorithm uses binary search on smaller array for efficiency
+ * 
+ * Algorithm Overview : 
+ *  1. use binary search to partition the smaller array(arr1) into two halves.
+ *  2. The Partition in the second array (arr2) is derived dynamically to ensure the total number of elements in the left and right halves of the combines array is balanced.
+ * 
+ *  Partition Validity :
+ *  - A partition is valid if : 
+ *      max1 <= min2 && max2 <= min1
+ *    where : 
+ *      max1 = largest element in the left partition of arr1
+ *      min1 = smallest element in the right partition of arr1
+ *      max2 = largest element in the left partition of arr2
+ *      min2 = smallest element in the right partition of arr2
+ * 
+ * Median calculation
+ *  - if the partition is valid
+ *         - For odd total elements : Median = Max(max1, max2);
+ *         - For even total elements : Median = (Max(max1, max2) + Min(min1, min2)) /2
+ *  
+ *  - If the partition is invalid :
+ *          - Adjust the binary search range in arr1
+ *              - if max1 > min2 , move the partition left (end1 = i1 - 1).
+ *              - if max2 > min1 , move hte partition right (begin1 = i1 + 1).
+ * 
+ * 
+ * 
+ */
 
 public class FindMedianOfTwoSortedArrayUsingBinarySearch {
 
