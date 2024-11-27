@@ -292,3 +292,6 @@ Generally : use merge sort, if the input becomes small during recursive calls or
 
 - IntroSort : Quick Sort, Heap Sort, Insertion
 https://www.geeksforgeeks.org/introsort-or-introspective-sort/
+
+
+QuickSort is not stable sort , in C++ we have stable_sort function that uses Merge sort instead of quick
