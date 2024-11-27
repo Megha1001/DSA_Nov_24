@@ -277,3 +277,14 @@ Advantages over normal/fixed sized arrays
 - Insert at end in Dynamic sized array : (Amortized time complexity) : O(N)
 Amortized time complexity refere to the average time complexity per operation over a sequence of operations
 
+------------------------------------------------------------------------------------------------------------------------
+SORTING
+------------------------------------------------------------------------------------------------------------------------
+
+General Purpose
+- Merge Sort
+- Heap Sort
+- Quick Sort
+
+Hybrid Sorting algorithm
+- Tim sort in python = insertion sort + merge sort
