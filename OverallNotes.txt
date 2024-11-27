@@ -289,3 +289,6 @@ General Purpose
 Hybrid Sorting algorithm
 - Tim sort in python = insertion sort + merge sort
 Generally : use merge sort, if the input becomes small during recursive calls or input is small then it switch to insertion sort
+
+- IntroSort : Quick Sort, Heap Sort, Insertion
+https://www.geeksforgeeks.org/introsort-or-introspective-sort/
