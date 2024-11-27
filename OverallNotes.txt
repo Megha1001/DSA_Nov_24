@@ -295,3 +295,96 @@ https://www.geeksforgeeks.org/introsort-or-introspective-sort/
 
 
 QuickSort is not stable sort , in C++ we have stable_sort function that uses Merge sort instead of quick
+A stable sorting algorithm maintains the relative order of items with equal keys in a sorted list
+
+-----
+### **Notes on Sorting Algorithms**
+
+Sorting algorithms are fundamental in computer science and are used to arrange data in a specific order (ascending or descending). Here are key concepts, classifications, and examples to help understand them better.
+
+---
+
+### **1. Characteristics of Sorting Algorithms**
+#### **a. Time Complexity**
+- **Best Case**: Minimum time the algorithm takes (e.g., already sorted data).
+- **Worst Case**: Maximum time the algorithm takes (e.g., reverse order).
+- **Average Case**: Expected time for random input data.
+  
+| Algorithm      | Best Case   | Average Case | Worst Case   |
+|----------------|-------------|--------------|--------------|
+| Bubble Sort    | O(n)        | O(n²)        | O(n²)        |
+| Quick Sort     | O(n log n)  | O(n log n)   | O(n²)        |
+| Merge Sort     | O(n log n)  | O(n log n)   | O(n log n)   |
+| Insertion Sort | O(n)        | O(n²)        | O(n²)        |
+| Selection Sort | O(n²)       | O(n²)        | O(n²)        |
+
+---
+
+#### **b. Space Complexity**
+- Measures the auxiliary space or temporary storage required.
+- **In-place Algorithms**: Use O(1) extra space (e.g., QuickSort, Bubble Sort).
+- **Not In-place Algorithms**: Use more than O(1) extra space (e.g., MergeSort).
+
+---
+
+#### **c. Stability**
+- A **stable algorithm** preserves the relative order of records with equal keys.
+  - Example: If two elements `A` and `B` with the same value appear in the input, `A` appears before `B` in the sorted output.
+- Examples of stable algorithms: MergeSort, BubbleSort.
+- Examples of unstable algorithms: QuickSort, HeapSort.
+
+---
+
+### **2. Common Sorting Algorithms**
+
+#### **a. Simple/Elementary Sorting Algorithms**
+- **Bubble Sort**: Repeatedly swaps adjacent elements if they are in the wrong order.
+- **Selection Sort**: Selects the smallest element in each iteration and places it in the correct position.
+- **Insertion Sort**: Builds the sorted array one item at a time by inserting elements into their correct position.
+
+#### **b. Divide and Conquer Algorithms**
+- **Quick Sort**: Divides the array using a pivot and sorts the partitions recursively.
+- **Merge Sort**: Divides the array into halves, sorts them, and merges the sorted halves.
+
+#### **c. Non-comparison-Based Algorithms**
+- **Radix Sort**: Sorts numbers digit by digit starting from the least significant to the most significant.
+- **Counting Sort**: Counts the occurrences of each element and uses this count to place elements in order.
+- **Bucket Sort**: Distributes elements into buckets and sorts each bucket individually.
+
+---
+
+### **3. Applications of Sorting**
+- **Searching**: Sorted data enables faster search (e.g., binary search).
+- **Data Analysis**: Sorting is crucial for organizing and analyzing datasets.
+- **Graph Algorithms**: Used in Kruskal’s and Prim’s algorithms for finding Minimum Spanning Trees.
+- **String Processing**: Sorting strings or suffix arrays is used in text matching algorithms.
+
+---
+
+### **4. Tips for Choosing a Sorting Algorithm**
+1. **Small Input Size**: Use simple algorithms like Insertion Sort or Bubble Sort.
+2. **Large Input Size**: Use efficient algorithms like Merge Sort or Quick Sort.
+3. **Stable Sorting Required**: Use Merge Sort or Bubble Sort.
+4. **Space Constraints**: Prefer in-place algorithms like QuickSort or HeapSort.
+5. **Known Value Range**: Use Counting Sort or Radix Sort.
+
+---
+
+### **5. Sorting Techniques Overview**
+| **Algorithm**     | **In-place?** | **Stable?** | **Use Case**                                    |
+|--------------------|---------------|-------------|------------------------------------------------|
+| Bubble Sort        | Yes           | Yes         | Small datasets, educational purposes.          |
+| Selection Sort     | Yes           | No          | Small datasets, when stability isn't required. |
+| Insertion Sort     | Yes           | Yes         | Nearly sorted datasets.                        |
+| Quick Sort         | Yes           | No          | General-purpose, when space is limited.        |
+| Merge Sort         | No            | Yes         | Large datasets, requires stability.            |
+| Heap Sort          | Yes           | No          | Large datasets, memory constraints.            |
+| Counting Sort      | No            | Yes         | Small range of integers.                       |
+| Radix Sort         | No            | Yes         | Sorting large integers or strings.             |
+
+---
+
+### **6. Key Takeaways**
+- Choose the algorithm based on the input size, memory constraints, and stability requirements.
+- Divide-and-conquer algorithms are powerful for larger datasets.
+- Non-comparison-based algorithms are efficient for specific scenarios like sorting integers.
