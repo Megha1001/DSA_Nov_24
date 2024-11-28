@@ -388,3 +388,11 @@ Sorting algorithms are fundamental in computer science and are used to arrange d
 - Choose the algorithm based on the input size, memory constraints, and stability requirements.
 - Divide-and-conquer algorithms are powerful for larger datasets.
 - Non-comparison-based algorithms are efficient for specific scenarios like sorting integers.
+
+
+------------------
+Sorting in java
+    - Arrays
+        -> Primitive
+        -> Non Primitive -> Integer, String, Object, Student
+    - Collection    -> that implements list interface on those we can apply Collection.sort function
