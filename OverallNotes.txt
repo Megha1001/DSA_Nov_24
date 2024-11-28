@@ -394,7 +394,13 @@ Sorting algorithms are fundamental in computer science and are used to arrange d
 Sorting in java
     - Arrays
         -> Primitive --> Stablility not needed -> Uses Dual Pivot Quick Sort
-        -> Non Primitive -> Integer, String, Object, Student
-    - Collection    -> that implements list interface on those we can apply Collection.sort function
+        -> Non Primitive -> Integer, String, Object, Student --> Stability needed -> Based on merge sort adaptation of TimSort
+    - Collection    -> that implements list interface on those we can apply Collection.sort function --> Needs stability -> Based on Merge Sort adaptation of TimSort
 
 - Java uses stable algorithm when non primitive is sorted and uses non stable algorithm when primitive needs to be sorted(unstable is slightly faster)
+
+
+----------
+Arrays.sort
+    -> for primitive types done sorting in natural order only (increasing or non decreasing) it doesn't allow comparator --> BUT THIS IS FOR PRIMITIVE TYPE ONLY
+    -> FOR NON PRIMITIVE it does allow to provide comparator
