@@ -393,7 +393,7 @@ Sorting algorithms are fundamental in computer science and are used to arrange d
 ------------------
 Sorting in java
     - Arrays
-        -> Primitive
+        -> Primitive --> Stablility not needed -> Uses Dual Pivot Quick Sort
         -> Non Primitive -> Integer, String, Object, Student
     - Collection    -> that implements list interface on those we can apply Collection.sort function
 
