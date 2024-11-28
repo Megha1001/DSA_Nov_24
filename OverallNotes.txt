@@ -396,3 +396,5 @@ Sorting in java
         -> Primitive
         -> Non Primitive -> Integer, String, Object, Student
     - Collection    -> that implements list interface on those we can apply Collection.sort function
+
+- Java uses stable algorithm when non primitive is sorted and uses non stable algorithm when primitive needs to be sorted(unstable is slightly faster)
