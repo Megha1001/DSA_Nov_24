@@ -16,7 +16,7 @@ public class ArraysSortFunctionExample {
 
 
         int arr3[] = {5, 30, 20, 10, 8};
-        Arrays.sort(arr3, 1, 4); //end index is not included
+        Arrays.sort(arr3, 1, 4); //[start, end) end index is not included
         System.out.println(Arrays.toString(arr3));
     }
     
