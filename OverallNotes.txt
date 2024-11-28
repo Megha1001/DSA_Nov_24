@@ -404,3 +404,7 @@ Sorting in java
 Arrays.sort
     -> for primitive types done sorting in natural order only (increasing or non decreasing) it doesn't allow comparator --> BUT THIS IS FOR PRIMITIVE TYPE ONLY
     -> FOR NON PRIMITIVE it does allow to provide comparator
+
+----
+Stable sorting algorithm : (IBM) : Insertion, Bubble and Merge Sort
+Unstable sorting algorithm : Selection Sort, Quick Sort , Heap Sort
