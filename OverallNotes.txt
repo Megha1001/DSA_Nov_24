@@ -432,3 +432,5 @@ SELECTION SORT - Theta(N^2)
 BASIC IDEA : 
 1. We find out the minimum element put at the first position
 2. we find out the second minimum element put at the second position.
+
+TIME COMPLEXITY : Theta(N^2)
