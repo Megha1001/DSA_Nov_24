@@ -7,6 +7,9 @@ package sorting.bubbleSort;
  * 
  * Max Number of Pass required = N-1
  * Max Number of comparision required = N(N-1)/2
+ * 
+ * TIME COMPLEXITY : Theta(N^2)
+ * AUXILIARY SPACE : Theta(1)
  */
 
 public class SortArrayUsingBubbleSortWithoutSwapFlag {
