@@ -31,7 +31,7 @@ public class SortArrayUsingBubbleSortWithSwapFlag {
         
         for(int i=0; i<n-1; i++){ //n-1 swaps
             for(int j=0; j < n-1-i; j++){ // -i , since after every pass 
-                if(arr[j] > arr[j+1]){
+                if(arr[j] > arr[j+1]){ // > sign to keep it stable sort
                     //swap
                     int temp = arr[j];
                     arr[j] = arr[j+1];
