@@ -417,3 +417,5 @@ SELECTION SORT - Theta(N^2)
     MEMORY WRITES CAN BE A COSTLY OPERATION in terms of EEPROM
         -> For EEPROM, the age of the memory reduces as we write on it.
         -> Not only EEPROM, suppose we are swapping data on harddisk
+- Its the basic idea of Heap Sort
+    -> Heap sort is based on selection sort just that it uses heap to 
