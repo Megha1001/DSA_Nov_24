@@ -410,6 +410,13 @@ Stable sorting algorithm : (IBM) : Insertion, Bubble and Merge Sort
 Unstable sorting algorithm : Selection Sort, Quick Sort , Heap Sort
 
 
+BUBBLE SORT
+---------------
+- One of the basic comparsion sorting technique.
+- Compare consecutive element and swap only when arr[j] > arr[j+1] //not equal to keep it stable.
+- In place, stable
+- TIME COMPLEXITY : O(N^2), but if we use swapped flag variable otherwise Theta(N^2)
+
 -----------
 SELECTION SORT - Theta(N^2)
 - One of the basic comparsion sorting technique
@@ -421,3 +428,7 @@ SELECTION SORT - Theta(N^2)
     -> Heap sort is based on selection sort just that it uses heap to optimize the selection sort
 -> Not stable
 -> In place
+
+BASIC IDEA : 
+1. We find out the minimum element put at the first position
+2. we find out the second minimum element put at the second position.
