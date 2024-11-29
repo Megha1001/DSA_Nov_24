@@ -9,7 +9,7 @@ package sorting.bubbleSort;
  * Max Number of comparision required = N(N-1)/2
  * 
  * TIME COMPLEXITY : Theta(N^2)
- * AUXILIARY SPACE : Theta(1)
+ * AUXILIARY SPACE : O(1) {O since constants also takes space although its constant}
  */
 
 public class SortArrayUsingBubbleSortWithoutSwapFlag {
@@ -28,13 +28,18 @@ public class SortArrayUsingBubbleSortWithoutSwapFlag {
     public static void sortUsingBubbleSort(int arr[], int n){
         
         for(int i=0; i<n-1; i++){ //n-1 swaps
+            boolean swapped = false;
             for(int j=0; j < n-1-i; j++){ // -i , since after every pass 
                 if(arr[j] > arr[j+1]){
                     //swap
                     int temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
+                    swapped = true;
                 }
+            }
+            if(!swapped){
+                break;
             }
 
         }
