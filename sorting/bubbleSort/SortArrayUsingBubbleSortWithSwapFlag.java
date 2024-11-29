@@ -9,7 +9,7 @@ package sorting.bubbleSort;
  * Max Number of comparision required = N(N-1)/2
  *
  * 
- * Note : Here we are using swap flag so just in case array is sorted we dont need to compare or run other passes
+ * Note : Here we are using swap flag so just in case array is sorted we dont need to compare or run other passes. (Basically when array is sorted or become sorted)
  * TIME COMPLEXITY : O(N^2)
  * AUXILIARY SPACE : O(1)
  */
