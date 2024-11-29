@@ -416,3 +416,4 @@ SELECTION SORT - Theta(N^2)
 - Does less memory writes as compared with quicksort, merge sort , insertion sort etc. But CYCLE SORT is optimal in terms of memory writes
     MEMORY WRITES CAN BE A COSTLY OPERATION in terms of EEPROM
         -> For EEPROM, the age of the memory reduces as we write on it.
+        -> Not only EEPROM, suppose we are swapping data on harddisk
