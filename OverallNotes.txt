@@ -438,3 +438,6 @@ TIME COMPLEXITY : Theta(N^2)
 ------------
 INSERTION SORT
 - O(N^2) worst case
+- In place and stable
+- used in practice for small arrays(TimSort, IntroSort)
+- O(N) best case
