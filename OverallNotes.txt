@@ -434,3 +434,7 @@ BASIC IDEA :
 2. we find out the second minimum element put at the second position.
 
 TIME COMPLEXITY : Theta(N^2)
+
+------------
+INSERTION SORT
+- O(N^2) worst case
