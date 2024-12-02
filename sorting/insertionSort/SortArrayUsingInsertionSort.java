@@ -14,5 +14,17 @@ package sorting.insertionSort;
  */
 
 public class SortArrayUsingInsertionSort {
+
+    public static void main(String args[]){
+        int arr[] = {2, 5, 8, 20, 10, 18};
+
+        System.out.println("Array after sorting using insertion sort is : ");
+        sortUsingInsertionSort(arr, arr.length);
+        
+        for(int i = 0; i < arr.length; i++){
+            System.out.println(arr[i] + " ");
+        }
+        
+    }
     
 }
