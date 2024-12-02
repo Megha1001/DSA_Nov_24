@@ -455,6 +455,7 @@ MERGE SORT
 - Stable algorithm
 - Theta(NlogN) time and O(N) AUX Space
     Best time that we can get on single processor with random input
+    There is a tweak algo of this -> Block sort that is inplace
 - Well suited for linked list and works in O(1) aux space
 - Used for external sorting
 - In general for arrays, quicksort outperforms
