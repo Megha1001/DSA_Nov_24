@@ -441,3 +441,5 @@ INSERTION SORT
 - In place and stable
 - used in practice for small arrays(TimSort, IntroSort)
 - O(N) best case
+
+Note : This algorithm has always preferred for small sized arrays
