@@ -444,4 +444,7 @@ INSERTION SORT
 
 Note : This algorithm has always preferred for small sized arrays
 
-LOGIC
+LOGIC : 
+- We maintain the part already sorted
+- We insert the current element in already sorted part
+- We make the sorted part increment by 1 after every iteration
