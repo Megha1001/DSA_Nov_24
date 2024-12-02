@@ -451,3 +451,9 @@ LOGIC :
 
 -------
 MERGE SORT
+-Divide and conquer algorithm (divide, conquer and merge)
+- Stable algorithm
+- Theta(NlogN) time and O(N) AUX Space
+- Well suited for linked list and works in O(1) aux space
+- Used for external sorting
+- In general for arrays, quicksort outperforms
