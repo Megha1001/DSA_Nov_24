@@ -443,3 +443,5 @@ INSERTION SORT
 - O(N) best case
 
 Note : This algorithm has always preferred for small sized arrays
+
+LOGIC
