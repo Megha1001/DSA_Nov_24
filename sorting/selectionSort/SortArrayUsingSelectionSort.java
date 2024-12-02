@@ -1,5 +1,15 @@
 package sorting.selectionSort;
 
+/*
+ * LOGIC : For every iteration i, find the min element from j to n-1 
+ * -> swap arr[i] with arr[minIdx]
+ * 
+ * In place algorithm
+ * Not Stable
+ * TIME COMPLEXITY : Theta(N^2)
+ * AUXILIARY SPACE : O(1)
+ */
+
 public class SortArrayUsingSelectionSort {
 
     public static void main(String args[]){
