@@ -440,7 +440,7 @@ INSERTION SORT
 - O(N^2) worst case
 - In place and stable
 - used in practice for small arrays(TimSort, IntroSort)
-- O(N) best case
+- O(N) best case -> In case of sorted array
 
 Note : This algorithm has always preferred for small sized arrays
 
