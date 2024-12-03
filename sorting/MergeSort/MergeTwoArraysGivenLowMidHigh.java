@@ -9,7 +9,7 @@ public class MergeTwoArraysGivenLowMidHigh {
         System.out.println("After merge function the arrays is : ");
         merge(arr, low, mid, high);
 
-        for(int i = 0; i < high; i++){
+        for(int i = 0; i <= high; i++){
             System.out.print(arr[i]+" ");
         }
     }
