@@ -1,5 +1,9 @@
 package sorting.MergeSortAndRelatedProblems.intersectionOfTwoSortedArrays;
 
+/*
+ * TIME COMPLEXITY : O(min(m,n))
+ */
+
 public class FindIntersectedElementsFromTwoSortedArray {
 
     public static void main(String args[]){
