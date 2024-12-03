@@ -1,5 +1,10 @@
 package sorting.MergeSort;
 
+
+/*
+ * TIME COMPLEXITY : O(N LOGN)
+ */
+
 public class SortArrayUsingMergeSortAlgo {
 
     public static void main(String args[]){
