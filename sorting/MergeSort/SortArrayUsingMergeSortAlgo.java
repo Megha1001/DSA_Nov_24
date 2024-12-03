@@ -2,7 +2,8 @@ package sorting.MergeSort;
 
 
 /*
- * TIME COMPLEXITY : O(N LOGN)
+ * TIME COMPLEXITY : Theta(N LOGN) = N work at every level * Number of levels
+ * Analysis : At every level we are doing Theta(N) for merging two sorted arrays and there are log N levels
  */
 
 public class SortArrayUsingMergeSortAlgo {
