@@ -1,4 +1,4 @@
-package sorting.MergeSort;
+package sorting.MergeSortAndRelatedProblems;
 
 /*
  * TIME COMPLEXITY : O(N)
