@@ -6,6 +6,9 @@ package sorting.MergeSort;
  * Analysis : At every level we are doing Theta(N) for merging two sorted arrays and there are log N levels
  * 
  * Number of Levels : Ceiling(log₂(N)) + 1 = Theta(logN)
+ * 
+ * AUXILIARY SPACE : Theta(N), merge function need 
+ *  -> This is not Theta(NlogN) because at any moment we need Theta(N) auxiliary space (other got deallocated)
  */
 
 public class SortArrayUsingMergeSortAlgo {
