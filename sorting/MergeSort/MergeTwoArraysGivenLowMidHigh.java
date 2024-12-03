@@ -1,5 +1,10 @@
 package sorting.MergeSort;
 
+/*
+ * TIME COMPLEXITY : O(N)
+ * AUXILIARY SPACE : O(N)
+ */
+
 public class MergeTwoArraysGivenLowMidHigh {
 
     public static void main(String args[]){
