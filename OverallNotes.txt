@@ -459,3 +459,6 @@ MERGE SORT
 - Well suited for linked list and works in O(1) aux space
 - Used for external sorting
 - In general for arrays, quicksort outperforms
+
+ * TIME COMPLEXITY : Theta(N LOGN) = N work at every level * Number of levels
+ * Analysis : At every level we are doing Theta(N) for merging two sorted arrays and there are log N levels
