@@ -21,7 +21,7 @@ public class SortArrayUsingMergeSortAlgo {
 
     public static void mergeSort(int arr[], int l, int r){
 
-        if(r > l){
+        if(r > l){ //for atleast two elements
             int m = l + (r - l)/2;
 
             mergeSort(arr, l, m);
