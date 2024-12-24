@@ -11,6 +11,8 @@ package sorting.quickSort;
  * 
  * TIME COMPLEXITY : Theta(N)
  * AUXILIARY SPACE : Theta(N)
+ * 
+ * Note : For any pivot it will work
  */
 
 public class NaivePartitionOfGivenArray {
