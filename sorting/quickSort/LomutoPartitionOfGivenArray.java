@@ -4,7 +4,8 @@ package sorting.quickSort;
  * TIME COMPLEXITY : O(N)
  * AUXILIARY SPACE : Theta(1)
  * 
- * NOTE : Here, we are considering last element always as pivot. but if some other element being provided as pivot simply swap it with the last element then apply algo
+ * NOTE : Here, we are considering last element always as pivot. but if some other element being provided as pivot simply 
+ * swap it with the last element then apply algo
  */
 
  
