@@ -2,7 +2,7 @@ package sorting.quickSort;
 
 public class HoaresPartitionOfGivenArray {
     public static void main(String args[]){
-        int arr[] = {3, 1, 2, 12, 10, 7};
+        int arr[] = {5, 3, 8, 4, 2, 7, 1, 10};
 
         partitionArrayAroundPivot(arr, 0 ,arr.length-1);
         System.out.println("Array after partitioning is : ");
