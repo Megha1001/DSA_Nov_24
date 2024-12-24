@@ -8,6 +8,9 @@ package sorting.quickSort;
  * Pivot : first element
  * 
  * Interesting fact : The element that we decide as pivot. it won't partition around that element instead it will return the index of where first partition ends
+ * 
+ * It only ensure that elements from l to j is < pivot and >=pivot on right side
+ * ALso there is no gurantee that pivot is at correct position
  */
 
 public class HoaresPartitionOfGivenArray {
