@@ -475,6 +475,7 @@ Partition Alogs
         -> Any element can be pivot
     - Lomuto Partition : 1 traversal, Time Complexity : O(N), Auxiliary space : O(1), not in place
         -> last element must be pivot. If not swap the last element with pivot then apply algo
+                    --> Not stable algo
     - Hoare's partition : Normally performance better than lomuto partition
         -> Normally the pivot used in algo is first(low) element but partition has not been done around it. it will return the index of where first partition ends
          * It only ensure that elements from l to j is =< pivot and >=pivot on right side
