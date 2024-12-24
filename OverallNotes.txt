@@ -472,5 +472,8 @@ QUICK SORT
 ----------------------------
 Partition Alogs
     - Naive Partition : 3 traversal, Time complexity : O(N), Auxiliary space : O(N), Inplace
+        -> Any element can be pivot
     - Lomuto Partition : 1 traversal, Time Complexity : O(N), Auxiliary space : O(1), not in place
+        -> last element must be pivot. If not swap the last element with pivot then apply algo
     - Hoare's partition : Normally performance better than lomuto partition
+        -> Normally the pivot used in algo is first(low) element but partition has not been done around it. it will return the index of pivot
