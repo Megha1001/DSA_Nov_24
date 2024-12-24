@@ -7,6 +7,10 @@ package sorting.quickSort;
  * 3. copy the arr[pivot]
  * 4. copy all the elements that are > arr[pivot] to temp array
  * 5. copy all the elements of temp array to original array
+ * 
+ * 
+ * TIME COMPLEXITY : Theta(N)
+ * AUXILIARY SPACE : Theta(N)
  */
 
 public class NaivePartitionOfGivenArray {
