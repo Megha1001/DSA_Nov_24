@@ -9,13 +9,13 @@ package sorting.quickSort;
  * 
  * Interesting fact : The element that we decide as pivot. it won't partition around that element instead it will return the index of where first partition ends
  * 
- * It only ensure that elements from l to j is < pivot and >=pivot on right side
+ * It only ensure that elements from l to j is =< pivot and >=pivot on right side
  * ALso there is no gurantee that pivot is at correct position
  */
 
 public class HoaresPartitionOfGivenArray {
     public static void main(String args[]){
-        int arr[] = {5, 3, 8, 4, 2, 7, 1, 10};
+        int arr[] = {5, 3, 5, 5, 2, 7, 5, 5};
 
         partitionArrayAroundPivot(arr, 0 ,arr.length-1);
         System.out.println("Array after partitioning is : ");
