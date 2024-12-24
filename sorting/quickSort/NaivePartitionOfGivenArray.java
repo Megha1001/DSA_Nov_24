@@ -1,5 +1,14 @@
 package sorting.quickSort;
 
+/*
+ * Naive approach : 
+ * 1. Declare a temp array with size h-l+1; and index;
+ * 2. copy all the elements that are <= arr[pivot] && not pivot to temp array
+ * 3. copy the arr[pivot]
+ * 4. copy all the elements that are > arr[pivot] to temp array
+ * 5. copy all the elements of temp array to original array
+ */
+
 public class NaivePartitionOfGivenArray {
 
     public static void main(String args[]){
