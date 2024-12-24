@@ -7,8 +7,7 @@ package sorting.quickSort;
  * 
  * Pivot : first element
  * 
- * Interesting fact : The element that we decide as pivot. it won't partition around that element instead it will return the index of element around which
- * partition has been done.
+ * Interesting fact : The element that we decide as pivot. it won't partition around that element instead it will return the index of where first partition ends
  */
 
 public class HoaresPartitionOfGivenArray {
