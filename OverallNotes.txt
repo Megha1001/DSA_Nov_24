@@ -466,3 +466,10 @@ MERGE SORT
  * AUXILIARY SPACE : Theta(N), merge function need 
  *  -> This is not Theta(NlogN) because at any moment we need Theta(N) auxiliary space (other got deallocated)
  
+
+----------------------------
+QUICK SORT
+----------------------------
+Partition Alogs
+    - Naive Partition : 3 traversal, Time complexity : O(N), Auxiliary space : O(N)
+    - Lomuto Partition : 1 traversal, Time Complexity : O(N), Auxiliary space : O(1)
