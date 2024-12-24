@@ -471,5 +471,6 @@ MERGE SORT
 QUICK SORT
 ----------------------------
 Partition Alogs
-    - Naive Partition : 3 traversal, Time complexity : O(N), Auxiliary space : O(N)
-    - Lomuto Partition : 1 traversal, Time Complexity : O(N), Auxiliary space : O(1)
+    - Naive Partition : 3 traversal, Time complexity : O(N), Auxiliary space : O(N), Inplace
+    - Lomuto Partition : 1 traversal, Time Complexity : O(N), Auxiliary space : O(1), not in place
+    - Hoare's partition : Normally performance better than lomuto partition
