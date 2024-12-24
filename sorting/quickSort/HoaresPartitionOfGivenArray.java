@@ -1,5 +1,16 @@
 package sorting.quickSort;
 
+
+/*
+ * TIME COMPLEXITY : O(N)
+ * AUXILIARY SPACE : O(1)
+ * 
+ * Pivot : first element
+ * 
+ * Interesting fact : The element that we decide as pivot. it won't partition around that element instead it will return the index of element around which
+ * partition has been done.
+ */
+
 public class HoaresPartitionOfGivenArray {
     public static void main(String args[]){
         int arr[] = {5, 3, 8, 4, 2, 7, 1, 10};
@@ -29,7 +40,7 @@ public class HoaresPartitionOfGivenArray {
             }while(arr[j] > pivot);
             
             if(i>=j){
-                return j;
+                return j; // this would be pivot
             }
             //swap
             int temp = arr[i];
