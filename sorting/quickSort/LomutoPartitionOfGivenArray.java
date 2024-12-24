@@ -3,8 +3,11 @@ package sorting.quickSort;
 /*
  * TIME COMPLEXITY : O(N)
  * AUXILIARY SPACE : Theta(1)
+ * 
+ * NOTE : Here, we are considering last element always as pivot. but if some other element being provided as pivot simply swap it with the last element then apply algo
  */
 
+ 
 public class LomutoPartitionOfGivenArray {
 
     public static void main(String args[]){
@@ -22,7 +25,7 @@ public class LomutoPartitionOfGivenArray {
 
         int i = low-1;
 
-        for(int j=low; j<=high; j++){
+        for(int j=low; j<=high-1; j++){
             if(arr[j] < arr[pivot]){
                 ++i;
                 //swap i and j
