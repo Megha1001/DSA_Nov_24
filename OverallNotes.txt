@@ -483,3 +483,12 @@ Partition Alogs
          * ALso there is no gurantee that pivot is at correct position
             --> Not stable algo
     Normally , hoare's perform better in terms of number of comparision
+
+Divide and conquer algorithm
+worst case complexity : O(N^2)
+Despite O(N^2) worst case, its considered faster because of the following reasons
+    - In place
+    - Cache friendly
+    - Average case is O(NLogN)
+    - Tail recursive
+- Partition key function
