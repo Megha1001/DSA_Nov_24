@@ -13,7 +13,7 @@ public class FindKthSmallestElementUsingLomutoPartitionFunction {
 
     public static void main(String args[]){
         int arr[] = {10, 5, 30, 12};
-        int k = 1;
+        int k = 2;
 
         System.out.println("The "+k+"th smallest number in given array is : "+findKthSmallestNumber(arr, 0, arr.length-1, k));
     }
@@ -21,7 +21,7 @@ public class FindKthSmallestElementUsingLomutoPartitionFunction {
 
     public static int findKthSmallestNumber(int arr[], int low, int high, int k){
 
-        while(low <= high){
+        while(low <= high){ // = should be there
             int p = partition(arr, low, high);
 
             if(p==k-1){
