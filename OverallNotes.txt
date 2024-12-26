@@ -492,3 +492,16 @@ Despite O(N^2) worst case, its considered faster because of the following reason
     - Average case is O(NLogN)
     - Tail recursive
 - Partition key function
+
+
+-------------------
+QuickSelect algorithm --> to find Kth largest and kth Smallest --> sorting/kthSmallestElement/FindKthSmallestElementUsingLomutoPartitionFunction.java
+
+ * Logic : 
+ * 1. Partition the array around the pivot.
+ * 
+ * 2. if p==k-1 return arr[p]
+ * else if p > k-1 then high = p-1;
+ * else low = p+1
+ * 
+ * This is QuickSelect Algorithm
