@@ -505,3 +505,13 @@ QuickSelect algorithm --> to find Kth largest and kth Smallest --> sorting/kthSm
  * else low = p+1
  * 
  * This is QuickSelect Algorithm
+
+
+QuickSelect is an algorithm used to find the  k-th smallest element in an unsorted array without fully sorting it.
+    It works by partitioning the array around a pivot, ensuring:
+        Elements smaller than the pivot are on the left.
+        Elements larger than the pivot are on the right.
+    The partition containing the k-th smallest element is partially sorted:
+        Elements on the left of the k-th smallest are smaller.
+        Elements on the right are larger.
+    Only the necessary part of the array is processed, making it faster than full sorting for this purpose.
