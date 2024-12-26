@@ -1,6 +1,12 @@
 package sorting.minimumDifferenceInAnArray;
 import java.util.Arrays;
 
+
+/*
+ * TIME COMPLEXITY : O(NLogN)
+ * AUXILIARY SPACE : O(1)
+ */
+
 public class FindMinimumDifferenceInAnArrayUsingSortFunction {
 
     public static void main(String args[]){
