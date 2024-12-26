@@ -8,6 +8,8 @@ package sorting.kthSmallestElement;
  * 2. if p==k-1 return arr[p]
  * else if p > k-1 then high = p-1;
  * else low = p+1
+ * 
+ * This is QuickSelect Algorithm
  */
 public class FindKthSmallestElementUsingLomutoPartitionFunction {
 
