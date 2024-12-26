@@ -10,7 +10,7 @@ public class FindKthSmallestElementNaiveApproach {
 
     public static void main(String args[]){
         int arr[] = {10, 5, 30, 12};
-        int k = 0;
+        int k = 3;
 
         System.out.println("The "+k+"th smallest number in given array is : "+findKthSmallestNumber(arr, k));
     }
@@ -18,7 +18,7 @@ public class FindKthSmallestElementNaiveApproach {
 
     public static int findKthSmallestNumber(int arr[], int k){
 
-        for(int i=0; i<k; i++){
+        for(int i=0; i<=k; i++){
             int minIdx = i;
             for(int j = i+1; j < arr.length; j++){
                 if(arr[minIdx] > arr[j]){
@@ -39,7 +39,7 @@ public class FindKthSmallestElementNaiveApproach {
         }
         
 
-        return arr[k];
+        return arr[k-1];
     }
     
 }
