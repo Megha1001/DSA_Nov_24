@@ -10,14 +10,32 @@ package sorting.kthSmallestElement;
  * else low = p+1
  * 
  * This is QuickSelect Algorithm
+ * 
+ * Quickselect algorithm is used to find the k-th smallest in an unsorted array without fully sorting it.
+ * 
+ * It works by partitioning the array around a pivot, ensuring :
+ *  - Elements smaller than the pivot are on the left
+ *  - Elements larger than the pivot are on the right.
+ * 
+ * The partition containing the k-th smallest elements is partially sorted :
+ *  - Elements on the left of the k-th smallest are smaller
+ *  - Elements on the right are larger
+ * 
+ * Only the necessary part of the array is processed, making it faster than full sorting for this purpose
+ * 
+ * key Note : The rest of the array(outside the partition) remains unsorted
  */
 public class FindKthSmallestElementUsingLomutoPartitionFunction {
 
     public static void main(String args[]){
-        int arr[] = {10, 5, 30, 12};
-        int k = 2;
+        int arr[] = {6, 7, 4, 2, 0, 19, 17, 18};
+        int k = 8;
 
         System.out.println("The "+k+"th smallest number in given array is : "+findKthSmallestNumber(arr, 0, arr.length-1, k));
+
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i]+" ");
+        }
     }
 
 
