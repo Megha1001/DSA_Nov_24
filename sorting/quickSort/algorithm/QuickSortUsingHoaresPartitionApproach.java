@@ -17,7 +17,7 @@ public class QuickSortUsingHoaresPartitionApproach {
     public static void sortArrayUsingQuickSort(int arr[], int l , int h){
         if(l < h){
             int p = findPartitionUsingHoaresPartitionAlgo(arr, l, h);
-            sortArrayUsingQuickSort(arr, l, p); // here passing P not p-1
+            sortArrayUsingQuickSort(arr, l, p); // here passing P not p-1 --> Why since in hoares pivot not go to its correct position after partitioning
             sortArrayUsingQuickSort(arr, p+1, h);
         }
     }
