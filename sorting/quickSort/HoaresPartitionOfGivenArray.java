@@ -42,7 +42,7 @@ public class HoaresPartitionOfGivenArray {
             }while(arr[j] > pivot);
             
             if(i>=j){
-                return j; // this would be pivot
+                return j; // this would not be pivot
             }
             //swap
             int temp = arr[i];
