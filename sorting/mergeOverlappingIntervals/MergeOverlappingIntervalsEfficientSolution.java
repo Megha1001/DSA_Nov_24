@@ -3,6 +3,11 @@ package sorting.mergeOverlappingIntervals;
 
 import java.util.Arrays;
 
+/*
+ * TIME COMPLEXITY : O(NlogN)
+ * AUXILIARY SPACE : O(1)
+ */
+
 class Interval implements Comparable<Interval>{
 
     int s, e;
