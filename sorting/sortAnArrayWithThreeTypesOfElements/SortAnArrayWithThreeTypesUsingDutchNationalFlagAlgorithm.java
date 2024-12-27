@@ -30,7 +30,7 @@ public class SortAnArrayWithThreeTypesUsingDutchNationalFlagAlgorithm {
                     int temp = arr[l0];
                     arr[l0] = arr[mid];
                     arr[mid] = temp;
-                    ++l0; ++mid; //NOTE : Here, we are incrementing both, since the only value possible that low can have is 0 hence we need to increase the boundaries of both
+                    ++l0; ++mid; //NOTE : Here, we are incrementing both, since the only value possible that low can have is 0/1 hence we need to increase the boundaries of both. 
                     break;
                 
                 case 1:
