@@ -52,7 +52,7 @@ public class MergeOverlappingIntervalsEfficientSolution {
 
         }
 
-        for(int i=0; i<=res; i++){
+        for(int i=0; i<=res; i++){  // Why until res , since res is 0 indexed.
             System.out.println("["+i1[i].s+", "+i1[i].e+"]");
         }
 
