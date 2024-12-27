@@ -7,6 +7,9 @@ package sorting.sortAnArrayWithTwoTypesOfElements;
  * 3. Sort a binary array(containing 0's and 1's)
  * 
  * Logic : Use Naive approach of quick Sort partition.
+ * 
+ * TIME COMPLEXITY : Theta(N), 3 traversal
+ * AUXILIARY SPACE : Theta(N)
  */
 
 
