@@ -13,7 +13,7 @@ public class SortAnArrayWithThreeTypesUsingDutchNationalFlagAlgorithm {
         segregateElements(arr, 0, len);
 
         for(int i : arr){
-            System.out.print(arr[i]+ " ");
+            System.out.print(i+ " ");
         }
     }
 
