@@ -37,5 +37,7 @@ Median of two sorted array
 https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Searching/video/MTQyMA%3D%3D
 
 
+HeapSort
+https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Sorting/video/MTQyNg%3D%3D
 -----
 Comparator or Comparable
