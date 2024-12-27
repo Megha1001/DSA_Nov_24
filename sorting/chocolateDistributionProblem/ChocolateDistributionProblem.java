@@ -20,6 +20,10 @@ public class ChocolateDistributionProblem {
     }
 
     public static int findMinDifference(int arr[], int n, int m){
+        if(m>n){
+            return -1;
+        }
+        
         Arrays.sort(arr);
 
         int res = arr[m-1] - arr[0];
