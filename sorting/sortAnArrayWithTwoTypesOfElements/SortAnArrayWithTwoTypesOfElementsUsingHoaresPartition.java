@@ -20,6 +20,24 @@ public class SortAnArrayWithTwoTypesOfElementsUsingHoaresPartition {
 
     public static void segregatePosAndNeg(int arr[], int low, int high){
         int i = low-1;
+        int j = high+1;
+
+        while(true){
+            do{
+                ++i;
+            }while(arr[i] < 0);
+
+            do{
+                --j;
+            }while(arr[j] >=0);
+
+            if(i>=j) return;
+
+            //swap arr[i] and arr[j]
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j]= temp;
+        }
 
     }
 }
