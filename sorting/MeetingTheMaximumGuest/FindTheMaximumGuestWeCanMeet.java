@@ -2,6 +2,10 @@ package sorting.MeetingTheMaximumGuest;
 
 import java.util.Arrays;
 
+/*
+ * TIME COMPLEXITY : O(nLogN)
+ */
+
 public class FindTheMaximumGuestWeCanMeet {
 
     public static void main(String args[]){
@@ -38,7 +42,7 @@ public class FindTheMaximumGuestWeCanMeet {
         int i = 1; // maitain the count of arrival
         int j = 0 ; //maintain the count of departure
 
-        while(i < n && j < n){
+        while(i < n && j < n){ // O(M+N), here M==N
 
             // check if we have arrival
             if(arrival[i] <= departure[j]){
