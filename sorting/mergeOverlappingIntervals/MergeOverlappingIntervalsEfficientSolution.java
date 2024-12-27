@@ -34,7 +34,7 @@ public class MergeOverlappingIntervalsEfficientSolution {
     public static void mergeOverlappingIntervalAndPrintThem(Interval i1[], int n){
 
         Arrays.sort(i1);
-        int res = 0;
+        int res = 0; // take the count of NON overlapped intervals
 
         for(int i=1; i<n; i++){
 
@@ -46,9 +46,14 @@ public class MergeOverlappingIntervalsEfficientSolution {
 
             }else{
                 //not overlapping
-                
+                ++res;
+                i1[res] = i1[i];
             }
 
+        }
+
+        for(int i=0; i<n; i++){
+            System.out.println("["+i1[i].s+", "+i1[i].e+"]");
         }
 
 
