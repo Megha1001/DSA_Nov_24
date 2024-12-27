@@ -1,5 +1,10 @@
 package sorting.sortAnArrayWithThreeTypesOfElements;
 
+/*
+ * TIME COMPLEXITY : O(N), one traversal
+ * AUXILIARY SPACE : O(1)
+ */
+
 public class SortAnArrayWithThreeTypesOfElementsUsingLomutoPartition {
     public static void main(String args[]){
         int arr[] = {0, 1, 1, 2, 0, 1};
