@@ -1,5 +1,10 @@
 package sorting.sortAnArrayWithTwoTypesOfElements;
 
+/*
+ * TIME COMPLEXITY : O(N)
+ * AUXILIARY SPACE : Theta(1)
+ */
+
 public class SortAnArrayWithTwoTypesOfElementsUsingLomutoPartition {
     
     public static void main(String args[]){
