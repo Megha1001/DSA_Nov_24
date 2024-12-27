@@ -4,7 +4,7 @@ package sorting.sortAnArrayWithTwoTypesOfElements;
  * TIME COMPLEXITY : O(N)
  * AUXILIARY SPACE : Theta(1)
  * 
- * LOGIC : This is the variation of partitioning algo of quick Sort. This can be solved by using Naive, Lomuto & Hoare's partition. Here, we're using Lomuto Partition.
+ * LOGIC : This is the variation of partitioning algo of quick Sort. This can be solved by using Naive, Lomuto & Hoare's partition. Here, we're using Hoare's Partition.
  */
 
 public class SortAnArrayWithTwoTypesOfElementsUsingHoaresPartition {
