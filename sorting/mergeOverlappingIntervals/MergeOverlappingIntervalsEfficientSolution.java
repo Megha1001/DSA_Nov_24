@@ -34,6 +34,24 @@ public class MergeOverlappingIntervalsEfficientSolution {
     public static void mergeOverlappingIntervalAndPrintThem(Interval i1[], int n){
 
         Arrays.sort(i1);
+        int res = 0;
+
+        for(int i=1; i<n; i++){
+
+            //check overlapping
+            if(i1[res].e >= i1[i].s){
+
+                i1[res].s = Math.min(i1[res].s, i1[i].s);
+                i1[res].e = Math.max(i1[res].e, i1[i].e);
+
+            }else{
+                //not overlapping
+                
+            }
+
+        }
+
+
 
     }
 
