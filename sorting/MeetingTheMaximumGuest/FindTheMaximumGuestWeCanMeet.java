@@ -1,5 +1,7 @@
 package sorting.MeetingTheMaximumGuest;
 
+import java.util.Arrays;
+
 public class FindTheMaximumGuestWeCanMeet {
 
     public static void main(String args[]){
@@ -19,6 +21,41 @@ public class FindTheMaximumGuestWeCanMeet {
          *  900 | A | 1
          *  1000| D | 0
          */
+
+         System.out.println("Maximum guest we can meet is : "+findMaximumGuestWeCanMeet(arrival, departure));
+    }
+
+
+    public static int findMaximumGuestWeCanMeet(int arrival[], int departure[]){
+
+        int n = arrival.length;
+        //sort the arrays
+        Arrays.sort(arrival);
+        Arrays.sort(departure);
+
+        int res = 1; // atleast we can meet one guest
+        int currRes = 1;
+        int i = 1; // maitain the count of arrival
+        int j = 0 ; //maintain the count of departure
+
+        while(i < n && j < n){
+
+            // check if we have arrival
+            if(arrival[i] <= departure[j]){
+                ++currRes;
+                ++i;
+            }else{
+                --currRes;
+                ++j;
+            }
+
+            res = Math.max(res, currRes);
+        }
+
+
+
+        return res;
+
     }
     
 }
