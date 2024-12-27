@@ -11,3 +11,12 @@ Heap : 5 Days : 14th Feb
 Graphs : 14 days : 28th Feb
 
 Buffer : 10th March
+
+----
+Advance topic
+Greedy
+Backtracking
+Dynamic Programming
+Trie
+Segment and Binary Indexed Tree
+Disjoint set
