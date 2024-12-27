@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /*
  * TIME COMPLEXITY : O(nLogN)
+ * AUXILIARY SPACE : O(1)
  */
 
 public class FindTheMaximumGuestWeCanMeet {
