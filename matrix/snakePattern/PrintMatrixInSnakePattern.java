@@ -1,5 +1,9 @@
 package matrix.snakePattern;
 
+/*
+ * TIME COMPLEXITY : O(M*N)
+ * AUXILIARY SPACE : O(1)
+ */
 public class PrintMatrixInSnakePattern {
 
     public static void main(String args[]){
