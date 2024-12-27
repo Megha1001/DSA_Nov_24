@@ -12,7 +12,7 @@ import java.util.Arrays;
  * 2. then pick minimum out of them
  * 
  * TIME COMPLEXITY : O(nLogN)
- * AUXILIARY SPACE : Theta(1)
+ * AUXILIARY SPACE : O(1)
  */
 
 public class ChocolateDistributionProblem {
