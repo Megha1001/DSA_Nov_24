@@ -1,6 +1,13 @@
 package sorting.sortAnArrayWithThreeTypesOfElements;
 
-/* */
+/*
+ * TIME COMPLEXITY : O(N), 4 traversal
+ * AUXILIARY SPACE : Theta(N)
+ * 
+ * 
+ * Logic : Use Naive Partition algo of quick Sort.
+ * 
+ */
 
 public class SortAnArrayWithThreeTypesOfElementsUsingNaivePartitioningAlgo {
 
