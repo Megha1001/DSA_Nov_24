@@ -2,6 +2,9 @@ package sorting.sortAnArrayWithThreeTypesOfElements;
 
 /*
  * Logic : Use dutch National Flag Algorithm : Variation of Hoares, partition
+ * 
+ * TIME COMPLEXITY : THeta(N), and only one traversal;
+ * AUXILIARY SPACE : Theta(1)
  */
 
 public class SortAnArrayWithThreeTypesUsingDutchNationalFlagAlgorithm {
