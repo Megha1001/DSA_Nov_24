@@ -13,6 +13,8 @@ public class TraversingOfMultidimensionalArray {
                 System.out.print(arr[i][j]+ " ");
             }
 
+            System.out.println(); // to print in tabular form
+
         }
     }
     
