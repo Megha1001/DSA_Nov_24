@@ -6,6 +6,10 @@ import java.util.Arrays;
  * There are m students. The task is to distribute chocolate packets among m students such that-
  *  1. Each student gets exactly one packet
  *  2. the difference between maximum number of chocolates given to a student and minimum number of chocolates given to a student is minimum
+ * 
+ * LOGIC : Sort the array
+ * 1. after sorting consider each element as begining of minimum difference subset and find all such subset difference 
+ * 2. then pick minimum out of them
  */
 
 public class ChocolateDistributionProblem {
@@ -23,7 +27,7 @@ public class ChocolateDistributionProblem {
         if(m>n){
             return -1;
         }
-        
+
         Arrays.sort(arr);
 
         int res = arr[m-1] - arr[0];
