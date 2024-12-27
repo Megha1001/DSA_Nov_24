@@ -533,3 +533,16 @@ Traverse over the array till mid <= hi, according to the value of arr[mid] we ca
 arr[mid] = 0, then swap arr[lo] and arr[mid] and increment lo by 1 because all the zeros are till index lo – 1 and move to the next element so increment mid by 1.
 arr[mid] = 1, then move to the next element so increment mid by 1.
 arr[mid] = 2, then swap arr[mid] and arr[hi] and decrement hi by 1 because all the twos are from index hi + 1 to n – 1. Now, we don’t move to the next element because the element which is now at index mid can be a 0 and therefore needs to be checked again.
+
+
+------
+MATRIX
+
+- In java , memory allocation for multi-dimensional array is different. They not need to be stored at contigous location (unlike C++ when 2D array/multi-dimensional arrays is contigous)
+- We do not specify dimensions in java
+    int arr[2][3] --> this is invalid
+    int arr[][3] --> this is invalid
+
+    Valid : 
+        1. int arr[][] = {{1,3,4},{4,5, 6, 7}}; //assign and java will figure out
+        2. int arr[][] = new int[3][4]; //first dimension is row and second is column
