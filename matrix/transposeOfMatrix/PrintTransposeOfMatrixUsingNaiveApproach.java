@@ -1,5 +1,10 @@
 package matrix.transposeOfMatrix;
 
+/*
+ * TIME COMPLEXITY : O(M*N)
+ * AUXILIARY SPACE : O(M*N)
+ */
+
 public class PrintTransposeOfMatrixUsingNaiveApproach {
 
     public static void main(String args[]){
