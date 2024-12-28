@@ -589,3 +589,5 @@ Many more
 ----------
 Direct Address Table
 - It can't handle large value(Like phone numbers)
+- Floating point number (We can't use these numbers as index of array)
+- key are strings -> we can't use them as index in array for DAT
