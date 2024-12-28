@@ -1,6 +1,11 @@
 package matrix.transposeOfMatrix;
 
-
+/*
+ * TIME COMPLEXITY : O(R*C)
+ * AUXILIARY SPACE : O(1)
+ * 
+ * In place approach.
+ */
 
 public class PrintTransposeOfMatrixUsingEfficientApproach {
     
