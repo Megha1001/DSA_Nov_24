@@ -22,26 +22,27 @@ public class PrintMatrixInSpiralPattern {
 
             //print top
             for(int i=left; i<=right; i++){
-                System.out.print(arr[top][i]+" ");
-                ++top;
+                System.out.print(arr[top][i]+ " ");
             }
+            ++top;
 
             //print right
             for(int i=top; i<=bottom; i++){
-                System.out.print(arr[i][right]+" ");
-                --right;
+                System.out.print(arr[i][right]+ " ");
             }
+            --right;
 
             //print bottom
             for(int i=right; i>=left; i--){
-                System.out.print(arr[bottom][i]+" ");
-                --bottom;
+                System.out.print(arr[bottom][i]+ " ");
             }
+            --bottom;
 
             //print left
             for(int i=bottom; i>=top; i--){
-                System.out.print(arr[i][left]+" ");
+                System.out.print(arr[i][left]+ " ");
             }
+            ++left;
 
         }
 
