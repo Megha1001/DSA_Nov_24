@@ -609,5 +609,5 @@ Universe of keys example
 How Hash Functions Work ?
     -> Should always map a large key to same small value
     -> Should generate values from 0 to m-1
-    -> Should be fast, O(1) for integer and O(Len) for string of length 'len'
+    -> Should be fast, O(1) for integer and O(Len) for string of length 'len' (For string : we have to uniformly process all the character in hash function)
     -> Should uniformly distribute large keys into hash table slots
