@@ -571,3 +571,15 @@ Hashing is not useful for
     - Fiding closest value -> use AVL/RedBlack
     - sorted data -> use AVL/RedBlack
     - Prefix searching. --> Hashing does exact key search --> Use Trie
+
+APPLICATIONS of hashing
+------------------------
+- It is widely used data structure(after array)
+
+Dictionaries
+Database indexing
+Cryptography
+Caches
+Symbol tables in compilers/interpreters
+Routers
+Getting data from databases
