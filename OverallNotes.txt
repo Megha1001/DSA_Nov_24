@@ -558,3 +558,6 @@ HASHING
 -------
 
 - Insert, search , delete --> O(1) on average
+
+Array takes atleast one operation with O(N)
+BST --> AVL, red black tree -> O(logN)
