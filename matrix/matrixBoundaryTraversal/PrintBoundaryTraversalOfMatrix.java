@@ -1,6 +1,6 @@
 package matrix.matrixBoundaryTraversal;
 /*
- * TIME COMPLEXITY : O(Max(M,N))  | 4 traversal
+ * TIME COMPLEXITY : O(Max(2M+2N)) == O(R+C) | 4 traversal
  * AUXILIARY SPACE : O(1)
  */
 
