@@ -28,13 +28,13 @@ public class PrintBoundaryTraversalOfMatrix {
          */
 
 
-        //first row 
+        //first row -> L to R
         for(int i = 0; i < arr[0].length; i++){
             System.out.print(arr[0][i]+ " ");
         }
 
 
-        //last column
+        //last column -> top to bottom
         for(int i = 1; i < row; i++){
             System.out.print(arr[i][row-1]+ " ");
         }
@@ -44,7 +44,10 @@ public class PrintBoundaryTraversalOfMatrix {
             System.out.print(arr[row-1][i]+ " ");
         }
 
-        
+        //first column -> bottom to top
+        for(int i = row-2; i>=1; i--){
+            System.out.print(arr[i][0]+" ");
+        }
 
     }
 
