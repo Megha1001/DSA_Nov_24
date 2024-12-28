@@ -16,6 +16,9 @@ package matrix.rotateMatrixAnticlockwiseBy90Degree;
  * 20->00
  * 21->10
  * 22->20
+ * 
+ * TIME COMPLEXITY : O(N*N)
+ * AUXILIARY COMPLEXITY : O(N*N)
  */
 
 public class RotateMatrixAnticlockwiseBy90DegreeNaiveApproach {
