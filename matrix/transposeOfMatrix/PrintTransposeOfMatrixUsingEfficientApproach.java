@@ -1,7 +1,7 @@
 package matrix.transposeOfMatrix;
 
 /*
- * TIME COMPLEXITY : O(R*C)
+ * TIME COMPLEXITY : O(R*C), one traversal
  * AUXILIARY SPACE : O(1)
  * 
  * In place approach.
