@@ -18,7 +18,7 @@ package matrix.rotateMatrixAnticlockwiseBy90Degree;
  * 22->20
  */
 
-public class RotateMatrixAnticlockwiseBy90Degree {
+public class RotateMatrixAnticlockwiseBy90DegreeNaiveApproach {
 
     public static void main(String args[]){
         int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
