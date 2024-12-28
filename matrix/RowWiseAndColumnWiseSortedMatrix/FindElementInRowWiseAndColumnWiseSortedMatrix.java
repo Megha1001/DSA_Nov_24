@@ -19,7 +19,7 @@ public class FindElementInRowWiseAndColumnWiseSortedMatrix {
 
     public static void main(String args[]){
         int mat[][] = {{10,20,30,40},{15,25,35,45},{27,29,37,48},{32,33,39,50}};
-        int x = 29;
+        int x = 20;
 
         System.out.println("is the element "+x+" present in given matrix ?"+checkIfElementPresent(mat, x));
     }
@@ -44,10 +44,10 @@ public class FindElementInRowWiseAndColumnWiseSortedMatrix {
                 //go to left
                 --j;
             }else{
-                //go
+                //go down
+                ++i;
             }
         }
-
 
         return false;
 
