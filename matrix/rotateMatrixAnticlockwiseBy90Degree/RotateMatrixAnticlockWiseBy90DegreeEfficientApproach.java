@@ -6,6 +6,10 @@ package matrix.rotateMatrixAnticlockwiseBy90Degree;
  * 1. Find transpose of matrix
  * 2. reverse individual columns
  * 
+ * TIME COMPLEXITY : O(N*N), 
+ * AUXILIARY SPACE : O(1)
+ * IN place
+ * 
 */
 
 public class RotateMatrixAnticlockWiseBy90DegreeEfficientApproach {
