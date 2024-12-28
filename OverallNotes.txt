@@ -570,4 +570,4 @@ Hashing we can consider an expect data structure insert, delete, search not for 
 Hashing is not useful for
     - Fiding closest value -> use AVL/RedBlack
     - sorted data -> use AVL/RedBlack
-    - Prefix searching.
+    - Prefix searching. --> Hashing does exact key search --> Use Trie
