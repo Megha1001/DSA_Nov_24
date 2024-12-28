@@ -605,3 +605,7 @@ Universe of keys example
     - Names
     - Employee Id [E1232]
 
+-------
+How Hash Functions Work ?
+    -> Should always map a large key to same small value
+    ->
