@@ -23,7 +23,7 @@ public class PrintMatrixInSnakePattern {
         int r = arr.length;
         for(int i=0; i < r; i++){
             for(int j=0; j<arr[i].length; j++){
-                if(i%2!=0){ //even , print R to L
+                if(i%2!=0){ //odd , print R to L
                     System.out.print(arr[i][arr[i].length-1 - j]+" ");
                 }else{
                     System.out.print(arr[i][j]+" ");
