@@ -551,3 +551,10 @@ MATRIX
 ------
 Jagged Array
 Jagged arrays in java are arrays of arrays with varying sizes, allowing for dynamic memory allocation and efficient space utilization.
+
+-------
+
+HASHING
+-------
+
+- Insert, search , delete --> O(1) on average
