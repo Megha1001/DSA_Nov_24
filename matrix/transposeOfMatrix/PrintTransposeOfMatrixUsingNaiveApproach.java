@@ -1,7 +1,7 @@
 package matrix.transposeOfMatrix;
 
 /*
- * TIME COMPLEXITY : O(M*N)
+ * TIME COMPLEXITY : O(M*N), 2 traversal
  * AUXILIARY SPACE : O(M*N)
  * Not in place
  */
