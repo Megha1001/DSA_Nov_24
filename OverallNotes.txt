@@ -585,3 +585,7 @@ Routers
 Getting data from databases
 
 Many more
+
+----------
+Direct Address Table
+- It can't handle large value(Like phone numbers)
