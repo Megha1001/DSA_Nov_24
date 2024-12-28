@@ -1,4 +1,8 @@
 package matrix.matrixBoundaryTraversal;
+/*
+ * TIME COMPLEXITY : O(Max(M,N))  | 4 traversal
+ * AUXILIARY SPACE : O(1)
+ */
 
 public class PrintBoundaryTraversalOfMatrix {
 
