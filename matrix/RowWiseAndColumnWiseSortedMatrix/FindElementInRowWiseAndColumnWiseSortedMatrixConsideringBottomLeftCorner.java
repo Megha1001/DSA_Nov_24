@@ -35,17 +35,16 @@ public class FindElementInRowWiseAndColumnWiseSortedMatrixConsideringBottomLeftC
         }
 
     
-        int i = 0, j= column-1;
-
-        while(i < row && j>=0 ){
+        int i = row-1, j = 0;
+        while(i >=0 && j < column){
             if(arr[i][j]==x){
                 return true;
-            }else if(arr[i][j] > x){
-                //go to left
-                --j;
-            }else{
-                //go down
-                ++i;
+            }else if (arr[i][j] > x){
+                //go up
+                --i;
+            }else {
+                //go right
+                ++j;
             }
         }
 
