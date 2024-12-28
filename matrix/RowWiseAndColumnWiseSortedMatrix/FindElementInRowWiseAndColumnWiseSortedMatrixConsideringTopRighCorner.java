@@ -29,8 +29,12 @@ public class FindElementInRowWiseAndColumnWiseSortedMatrixConsideringTopRighCorn
         int row = arr.length;
         int column = arr[0].length;
 
-        //corner case
+        //corner case -> check with largest
         if(arr[row-1][column-1] < x){
+            return false;
+        }
+        //corner case -> check with smallest
+        if(arr[0][0] < x){
             return false;
         }
 
