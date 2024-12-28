@@ -583,3 +583,5 @@ Caches
 Symbol tables in compilers/interpreters
 Routers
 Getting data from databases
+
+Many more
