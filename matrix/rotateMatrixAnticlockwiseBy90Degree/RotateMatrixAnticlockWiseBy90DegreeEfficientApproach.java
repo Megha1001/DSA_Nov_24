@@ -8,7 +8,7 @@ package matrix.rotateMatrixAnticlockwiseBy90Degree;
  * 
  * TIME COMPLEXITY : O(N*N), 
  * AUXILIARY SPACE : O(1)
- * IN place
+ * IN place algorithm
  * 
 */
 
