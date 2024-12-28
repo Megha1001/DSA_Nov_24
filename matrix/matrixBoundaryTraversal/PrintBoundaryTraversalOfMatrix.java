@@ -10,7 +10,26 @@ public class PrintBoundaryTraversalOfMatrix {
                     {9,10,11,12},
                     {13,14,15,16}
                 };
+        
+        System.out.println("The boundary traversal of given matrix is :");
+        printBoundaryTraversal(arr);
 
     }
     
+
+    public static void printBoundaryTraversal(int arr[][]){
+        int row = arr.length;
+        
+        /*
+         * 1st row (L to R)
+         * last column ( top to bottom )
+         * last row ( R to L)
+         * first column (bottom to Top )
+         */
+
+
+
+
+    }
+
 }
