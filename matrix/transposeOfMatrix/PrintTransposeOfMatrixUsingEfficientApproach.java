@@ -1,6 +1,7 @@
 package matrix.transposeOfMatrix;
 
 /*
+ * LOGIC : Consider upper diagonal and swap with lower diagonal
  * TIME COMPLEXITY : O(R*C), one traversal
  * AUXILIARY SPACE : O(1)
  * 
