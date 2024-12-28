@@ -561,3 +561,5 @@ HASHING
 
 Array takes atleast one operation with O(N)
 BST --> AVL, red black tree -> O(logN)
+
+Hashing can't found like key which is just smaller/bigger than provided key --> in tree we can do
