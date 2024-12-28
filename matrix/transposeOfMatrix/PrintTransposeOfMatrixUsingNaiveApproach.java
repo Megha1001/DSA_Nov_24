@@ -3,6 +3,7 @@ package matrix.transposeOfMatrix;
 /*
  * TIME COMPLEXITY : O(M*N)
  * AUXILIARY SPACE : O(M*N)
+ * Not in place
  */
 
 public class PrintTransposeOfMatrixUsingNaiveApproach {
