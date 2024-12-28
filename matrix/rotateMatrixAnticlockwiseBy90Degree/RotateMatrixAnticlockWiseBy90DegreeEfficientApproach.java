@@ -31,14 +31,14 @@ public class RotateMatrixAnticlockWiseBy90DegreeEfficientApproach {
 
         //reverse individual columns
         for(int i=0; i<n; i++){
-            for(int j=0; j<n; j++){
-                //swap
-                System.out.println(arr[j][i] + "<->"+arr[n-1-i][i]);
-                System.out.println(arr[j][i] + "<->"+arr[n-1-i][i]);
-                int temp = arr[j][i];
-                arr[j][i] = arr[n-1-i][i];
-                arr[n-1-i][i] = temp;
-            }
+           int low = 0, high = n-1;
+           while(low < high){
+                int temp = arr[low][i];
+                arr[low][i] = arr[high][i];
+                arr[high][i] = temp;
+                ++low;
+                --high;
+           }
         }
 
     }
