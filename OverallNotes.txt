@@ -600,3 +600,8 @@ Hashing Introduction
 
 [Universe of keys] --> Hash Function --> convert to value that can be used as index in array
 
+Universe of keys example
+    - Phone Numbers
+    - Names
+    - Employee Id [E1232]
+
