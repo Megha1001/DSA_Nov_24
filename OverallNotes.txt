@@ -562,4 +562,12 @@ HASHING
 Array takes atleast one operation with O(N)
 BST --> AVL, red black tree -> O(logN)
 
-Hashing can't found like key which is just smaller/bigger than provided key --> in tree we can do
+Hashing can't found like key which is just smaller/bigger than provided key --> in tree we can do. with hashing its strict search. otherwise it will take O(N)/ costly operation.
+we can't print sorted data
+
+Hashing we can consider an expect data structure insert, delete, search not for sorted/closet find, prefix searching
+
+Hashing is not useful for
+    - Fiding closest value
+    - sorted data
+    - Prefix searching.
