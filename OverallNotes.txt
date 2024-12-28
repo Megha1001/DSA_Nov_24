@@ -598,3 +598,5 @@ TO overcome all these limitations , the Data structure comes to picture is hashi
 Hashing Introduction
 ----------------------
 
+[Universe of keys] --> Hash Function --> convert to value that can be used as index in array
+
