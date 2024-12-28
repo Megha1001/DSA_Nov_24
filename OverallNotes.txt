@@ -568,6 +568,6 @@ we can't print sorted data
 Hashing we can consider an expect data structure insert, delete, search not for sorted/closet find, prefix searching
 
 Hashing is not useful for
-    - Fiding closest value
-    - sorted data
+    - Fiding closest value -> use AVL/RedBlack
+    - sorted data -> use AVL/RedBlack
     - Prefix searching.
