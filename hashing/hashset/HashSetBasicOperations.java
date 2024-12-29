@@ -25,6 +25,9 @@ public class HashSetBasicOperations {
         
         s.add("123");
         System.out.println("contains 123? "+s.contains("123"));
+        s.add("12a");
+
+        System.out.println("hashset : "+s);
 
     }
 
