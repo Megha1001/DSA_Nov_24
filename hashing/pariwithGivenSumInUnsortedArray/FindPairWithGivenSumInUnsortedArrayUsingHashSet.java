@@ -1,5 +1,7 @@
 package hashing.pariwithGivenSumInUnsortedArray;
 
+import java.util.HashSet;
+
 public class FindPairWithGivenSumInUnsortedArrayUsingHashSet {
 
     public static void main(String args[]){
@@ -10,4 +12,11 @@ public class FindPairWithGivenSumInUnsortedArrayUsingHashSet {
         System.out.println("Pair with given sum exists in given array ? "+checkIfSumExists(arr, arr.length, x));
     }
     
+
+    public static boolean checkIfSumExists(int arr, int n, int x){
+
+
+    }
+
+
 }
