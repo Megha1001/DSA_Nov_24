@@ -620,6 +620,17 @@ If we don't know keys, then we use of the following
     -> Chaning
         We chain the colliding items
             We use array of Linked List. So when the collision happens, insert the item at the end of Linked list. Normally we should use prime number while designing hash function that is doing mode(%) etc  this will reduce the chances of collision.
+        Performance of Chaning 
+            n = Number of keys to be inserted
+            m = Number of slots in Hash Table
+
+            Load Factor (α) = n/m --> n/m keys can we there in one slot. The more the load factor is the more the possibility of collision.
+
+            Expected Chain length = we dont know since the hash function it depends on that, We need to make an assumption - That keys are uniformly distributed. Hence,
+            Expected Chain Length = n/m.
+
+            Why hashing is O(1) ? --> If we make Hash table of size n then load factor = 1 hence, expected chain length size is 1.
+
         Instead of Linked List we can also use
 
     -> Open Addressing
