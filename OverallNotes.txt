@@ -619,7 +619,8 @@ If we know keys in advance, then we can use Perfect Hashing that gurantees no co
 If we don't know keys, then we use of the following
     -> Chaning
         We chain the colliding items
-            We use array of Linked List. So when the collision happens, insert the item at the end of Linked list.
+            We use array of Linked List. So when the collision happens, insert the item at the end of Linked list. Normally we should use prime number while designing hash function that is doing mode(%) etc  this will reduce the chances of collision.
+        Instead of Linked List we can also use
 
     -> Open Addressing
     We use the same array
