@@ -618,7 +618,12 @@ Collision Handling
 If we know keys in advance, then we can use Perfect Hashing that gurantees no collision.
 If we don't know keys, then we use of the following
     -> Chaning
+        We chain the colliding items
+            We use array of Linked List. So when the collision happens, insert the item at the end of Linked list.
+
     -> Open Addressing
+    We use the same array
         -> Linear Probing
         -> Quadratic Probing
         -> Double Hashing
+    
