@@ -737,3 +737,9 @@ O(1) :
 ---------------------------------------
 HASHMAP : use to store key-value pairs
 ---------------------------------------
+put
+size
+remove
+containsKey
+containsValue
+Iterator : Map.Entry<String, Integer> entry : map.entrySet()
