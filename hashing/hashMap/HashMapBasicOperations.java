@@ -12,6 +12,7 @@ public class HashMapBasicOperations {
         map.put("dfds",332);
 
         System.out.println("size : "+map.size());
+        System.out.println("map : "+map);
 
         for(Map.Entry<String, Integer> entry : map.entrySet()){
             System.out.println(entry.getKey()+"-"+entry.getValue());
