@@ -734,6 +734,95 @@ O(1) :
     size
     isEmpty
 
+### How HashSet Works Internally in Java
+
+A HashSet is a collection in Java that ensures uniqueness of its elements and is backed by a HashMap. Here’s a detailed explanation of how it works:
+
+---
+
+### 1. HashSet and HashMap Relationship
+- Internally, a HashSet uses a HashMap to store its elements.
+- When you add an element to a HashSet, it is actually stored as a key in the underlying HashMap, with a constant dummy value (`PRESENT`).
+
+---
+
+### 2. Key Operations in HashSet
+
+#### Adding an Element
+1. Hashing:
+   - When an element is added, its `hashCode()` is calculated.
+   - This `hashCode()` determines the bucket index in the underlying HashMap.
+
+2. Collision Handling:
+   - If two elements have the same hash code, they will be stored in the same bucket.
+   - HashSet uses the `equals()` method to ensure that duplicate elements are not added.
+
+3. Internal Storage:
+   - The element is stored as a key in the underlying HashMap with a constant dummy value.
+   - Example (pseudo code):
+     
+     map.put(element, PRESENT);
+     
+
+#### Checking for Uniqueness
+- Before adding an element, the `hashCode()` and `equals()` methods are used to check if the element already exists in the HashSet.
+
+---
+
+#### Removing an Element
+- When you remove an element, the `HashSet` calls the `remove()` method of the underlying HashMap to delete the corresponding key.
+
+#### Contains Operation
+- To check if an element exists, HashSet internally calls the `containsKey()` method of the HashMap.
+
+---
+
+### 3. Handling Collisions
+- Like in a HashMap, collisions are resolved using:
+  - Separate Chaining: Elements in the same bucket are stored as a linked list.
+  - Tree Structure (Java 8+): If the number of elements in a bucket exceeds a threshold (usually 8), the linked list is converted to a balanced binary tree for faster lookups.
+
+---
+
+### 4. Load Factor and Rehashing
+- Load Factor: HashSet uses the same default load factor (0.75) as HashMap.
+- Rehashing: When the load factor exceeds 0.75, the underlying HashMap increases its bucket array size (typically doubles) and rehashes all elements.
+
+---
+
+### 5. Key Components of HashSet
+1. Backed by HashMap: HashSet is essentially a wrapper around a HashMap.
+2. Hashing: Elements are hashed to determine their index in the underlying array.
+3. Collision Management: Uses the same mechanisms as HashMap.
+4. No Duplicates: Enforced using `hashCode()` and `equals()`.
+
+---
+
+### Advantages of HashSet
+1. Unique Elements: Ensures no duplicate elements.
+2. Fast Operations: Average O(1) for add, remove, and contains operations.
+3. Null Support: Allows one `null` value as an element.
+
+---
+
+### Key Points to Remember
+1. The uniqueness of elements is determined by the combination of `hashCode()` and `equals()`.
+2. HashSet is not thread-safe. Use `Collections.synchronizedSet()` or `ConcurrentHashMap` for thread safety.
+3. The order of elements is not guaranteed as it is based on the hashing mechanism.
+
+---
+
+### Example
+
+HashSet<String> set = new HashSet<>();
+set.add("Apple");   // Stored in HashMap as ("Apple", PRESENT)
+set.add("Banana");  // Stored in HashMap as ("Banana", PRESENT)
+set.add("Apple");   // Ignored as "Apple" already exists
+System.out.println(set.contains("Apple")); // True
+
+
+This is how HashSet leverages the internal mechanics of HashMap to provide a fast and efficient way to manage unique elements.   
+
 ---------------------------------------
 HASHMAP : use to store key-value pairs
 ---------------------------------------
