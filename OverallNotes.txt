@@ -742,4 +742,5 @@ size
 remove --> returns corresponding value of key, if key not present then return null
 containsKey
 containsValue
+get
 Iterator : Map.Entry<String, Integer> entry : map.entrySet()
