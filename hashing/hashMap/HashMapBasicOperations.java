@@ -13,6 +13,7 @@ public class HashMapBasicOperations {
 
         System.out.println("size : "+map.size());
         System.out.println("map : "+map);
+        System.out.println("get abc value : "+map.get("abc"));
 
         for(Map.Entry<String, Integer> entry : map.entrySet()){
             System.out.println(entry.getKey()+"-"+entry.getValue());
