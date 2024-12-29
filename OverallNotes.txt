@@ -636,6 +636,9 @@ If we don't know keys, then we use of the following
 
         Data Structure for storing chains
             - Linked List
+                -> Search : O(l), where l is the length
+                -> Insert : O(l), since we dont allow duplicate hence we need to search it
+                -> delete : O(l), since to delete we need to search it.
             - Dynamic Sized Arrays (Arraylist in java)
             - Self balancing BST ( AVL Tree, RedBlack Tree)
 
