@@ -700,9 +700,11 @@ Chaining :
 -Less sensitive to hash function
 -Low cache performance
 -Extra space for links
+-Performance For unsuccesful search : 1+load factor
 
 Open Addressing
 -Table may become full and resizing becomes mandatory
 -Extra care required for clustering
 -Cache friendly
 -Extra space might be needed to achieve same performance as chaining.
+-Performance For unsuccesful search : 1/(1-load factor)
