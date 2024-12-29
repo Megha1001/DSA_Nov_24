@@ -1,6 +1,7 @@
 package hashing.countDistinctElements;
 
 import java.util.HashSet;
+import java.util.Arrays;
 
 /*
  * TIME COMPLEXIY : Theta(N)
@@ -10,19 +11,9 @@ import java.util.HashSet;
 public class CountDistinctElementsUsingHashSetImprovedInTermsOfWritingNotComplexity {
     
     public static void main(String args[]){
-        int arr[] = {15,12,13,12,13,13,18};
-
-        System.out.println("Number of distinct elements in given array is : "+countDistinct(arr));
+        Integer arr[] = {15,12,13,12,13,13,18}; // note type of data its Integer not int
+        HashSet<Integer> set = new HashSet<>(Arrays.asList(arr));
     }
 
-    public static int countDistinct(int arr[]){
-        HashSet<Integer> set = new HashSet<>();
-
-        for(int i : arr){
-            set.add(i);
-        }
-
-        return set.size();
-    }
     
 }
