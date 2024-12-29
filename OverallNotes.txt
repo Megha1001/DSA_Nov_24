@@ -712,3 +712,4 @@ Open Addressing
 -Performance For unsuccesful search : 1/(1-load factor)
     For ex : if load factor = 0.9% (90% of the slots are occupied)
     For unsuccessful search it will require 10 comparision
+    hence, to overcome this we need to reduce the load factor i.e increase table size
