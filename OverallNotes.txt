@@ -631,7 +631,7 @@ If we don't know keys, then we use of the following
 
             Why hashing is O(1) ? --> If we make Hash table of size n then load factor = 1 hence, expected chain length size is 1.
 
-            Expected time to search : O(1 + load Factor)
+            Expected time to search : O(1 + load Factor) , load factor addition is to search in the chain
 
         Instead of Linked List we can also use
 
