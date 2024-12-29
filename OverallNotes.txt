@@ -696,13 +696,13 @@ If we don't know keys, then we use of the following
 Chaining vs Open Addressing
 -----------------------------
 Chaining :
-Hash table never fills
-Less sensitive to hash function
-Low cache performance
-Extra space for links
+-Hash table never fills
+-Less sensitive to hash function
+-Low cache performance
+-Extra space for links
 
 Open Addressing
-Table may become full and resizing becomes mandatory
-Extra care required for clustering
-Cache friendly
-Extra space might be needed to achieve same performance as chaining.
+-Table may become full and resizing becomes mandatory
+-Extra care required for clustering
+-Cache friendly
+-Extra space might be needed to achieve same performance as chaining.
