@@ -48,6 +48,16 @@ class MyHash{
 
 public class ChainingImplementation {
 
+   public static void main(String args[]){
+        MyHash myHash = new MyHash(7);
+
+        myHash.insert(10);
+        myHash.insert(2);
+        System.out.println(myHash.search(2));
+        myHash.delete(2);
+        System.out.println(myHash.search(2));
+   }
+
 
     
 }
