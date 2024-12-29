@@ -715,9 +715,9 @@ Open Addressing
     For unsuccessful search it will require 10 comparision
     hence, to overcome this we need to reduce the load factor i.e increase table size
 
------------
-HASHSET
------------
+---------------------------------
+HASHSET : use to store only keys
+---------------------------------
 Syntax : HashSet<Type> h = new HashSet<>([Optional Initial Capacity]);
 
 Type : can be user defined function , just that it should have implementation of hashcode
@@ -731,3 +731,7 @@ On an average : O(1)
 O(1) :
     size
     isEmpty
+
+---------------------------------------
+HASHMAP : use to store key-value pairs
+---------------------------------------
