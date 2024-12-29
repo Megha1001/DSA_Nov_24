@@ -721,3 +721,4 @@ HASHSET
 Syntax : HashSet<Type> h = new HashSet<>();
 
 Type : can be user defined function , just that it should have implementation of hashcode
+Operations : add(<T> key), remove(<T> key), contains(<T> key), clear(), size(), isEmpty()
