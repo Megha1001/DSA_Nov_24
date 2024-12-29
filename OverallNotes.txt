@@ -653,6 +653,8 @@ If we don't know keys, then we use of the following
                 -> delete : O(logl)
                 Disadvantage : Not cache friendly
 
+            Note : From java8, we use Self balancing BST for chaning.
+
     -> Open Addressing
     We use the same array
         -> Linear Probing
