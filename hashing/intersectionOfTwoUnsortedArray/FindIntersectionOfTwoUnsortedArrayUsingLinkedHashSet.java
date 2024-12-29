@@ -6,6 +6,8 @@ import java.util.Iterator;
 
 /*
  * Question : Print the intersection of two unsorted array and order should be the same in which its appearing in orginal array (1st one)
+ * TIME COMPLEXITY : O(N),  3 traversal
+ * AUXILIARY SPACE : O(N)
  */
 
 public class FindIntersectionOfTwoUnsortedArrayUsingLinkedHashSet {
