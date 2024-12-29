@@ -744,3 +744,15 @@ containsKey
 containsValue
 get
 Iterator : Map.Entry<String, Integer> entry : map.entrySet()
+
+Time Complexities
+- O(1) on an average
+    - put
+    - get
+    - remove
+    - containsKey
+    - containsValue
+
+- O(1) always
+    - size
+    - isEmpty
