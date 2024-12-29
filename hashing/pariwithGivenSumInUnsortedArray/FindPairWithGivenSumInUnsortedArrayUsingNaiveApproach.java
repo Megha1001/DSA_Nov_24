@@ -1,5 +1,9 @@
 package hashing.pariwithGivenSumInUnsortedArray;
 
+/*
+ * TIME COMPLEXITY : O(N*N)
+ */
+
 public class FindPairWithGivenSumInUnsortedArrayUsingNaiveApproach {
 
     public static void main(String args[]){
