@@ -686,3 +686,8 @@ If we don't know keys, then we use of the following
             - If h2(key) is relatively prime to m, then it always find a free slot if there is one (Advantage over quadratic probing over the need of double size array)
             - h1(key) distributes  keys more uniformaly than linear and quadractic probing
             - No clustering
+        
+    
+    How to handle the cases when -1(empty) and -2(deleted) are input keys
+        - In library implementation, -1 is not there instead if the reference is null then it can be treated as empty
+                -> for delete --> there is interesting logic. what library implementation does , it creates a dummy node which is a part of the class and if delete something it will point the reference to dummy node.
