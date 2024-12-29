@@ -14,9 +14,17 @@ public class HashSetBasicOperations {
         Iterator<String> iterator = s.iterator();
 
         while(iterator.hasNext()){
-           System.out.print(iterator.next()+" "); 
+           System.out.println(iterator.next()+" "); 
         }
 
+        s.remove("abc");
+
+        while(iterator.hasNext()){
+            System.out.println(iterator.next()+" "); 
+        }
+        
+        s.add("123");
+        System.out.println("contains 123? "+s.contains("123"));
 
     }
 
