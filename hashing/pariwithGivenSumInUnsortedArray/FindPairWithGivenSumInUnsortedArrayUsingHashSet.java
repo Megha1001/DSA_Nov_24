@@ -13,10 +13,18 @@ public class FindPairWithGivenSumInUnsortedArrayUsingHashSet {
     }
     
 
-    public static boolean checkIfSumExists(int arr, int x){
+    public static boolean checkIfSumExists(int arr[], int x){
         HashSet<Integer> complements = new HashSet<>();
 
         for(int num : arr){
+            int complement = x-num;
+
+
+            if(complements.contains(num)){
+                return true;
+            }
+
+            complements.add(complement);
 
         }
 
