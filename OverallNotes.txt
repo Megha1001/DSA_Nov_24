@@ -739,7 +739,7 @@ HASHMAP : use to store key-value pairs
 ---------------------------------------
 put
 size
-remove
+remove --> returns corresponding value of key, if key not present then return null
 containsKey
 containsValue
 Iterator : Map.Entry<String, Integer> entry : map.entrySet()
