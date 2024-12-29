@@ -39,6 +39,11 @@ class MyHash{
         list.get(i).remove((Integer)key);
     }
 
+    boolean search(int key){
+        int i = hashFunction(key);
+        return list.get(i).contains(key);
+    }
+
 }
 
 public class ChainingImplementation {
