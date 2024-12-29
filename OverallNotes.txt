@@ -634,7 +634,10 @@ If we don't know keys, then we use of the following
             Expected time to search : O(1 + load Factor) , load factor addition is to search in the chain.
             Expected time to insert/delete : O(1 + load factor)
 
-        Instead of Linked List we can also use
+        Data Structure for storing chains
+            - Linked List
+            - Dynamic Sized Arrays (Arraylist in java)
+            - Self balancing BST ( AVL Tree, RedBlack Tree)
 
     -> Open Addressing
     We use the same array
