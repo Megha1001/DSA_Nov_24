@@ -29,6 +29,10 @@ public class FindPairWithGivenSumInUnsortedArrayUsingHashMap {
 
         for(Map.Entry<Integer,Integer> e : map.entrySet()){
 
+            if(map.containsKey(e.getValue())){
+                return true;
+            }
+
         }
 
         return false;
