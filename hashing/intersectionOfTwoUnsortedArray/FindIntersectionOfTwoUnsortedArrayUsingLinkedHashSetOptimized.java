@@ -12,7 +12,6 @@ import java.util.HashSet;
  *
  * We can also use Hashset
  * 
- * 
  */
 
 public class FindIntersectionOfTwoUnsortedArrayUsingLinkedHashSetOptimized {
