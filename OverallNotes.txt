@@ -669,5 +669,10 @@ If we don't know keys, then we use of the following
                     1. We found the key -> return true
                     2. We found an empty slot -> return false
                     3. We traverse through the whole list -> return false.
+            Problem : Clustering
+            How to handle this problem ? 
+                Linear Probing : hash(key,i) = (h(key)+i)%m, where m is number of slots
+                -> Quadratic Probing : hash(key,i) = (h(key)+i*i)%m
+                -> Double Hashing : hash(key,i) = (h1(key) + i*h2(key))%m
         -> Quadratic Probing
         -> Double Hashing
