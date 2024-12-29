@@ -15,12 +15,14 @@ public class PrintFrequencyOfArray {
     public static void printFreq(int arr[], int n){
         HashMap<Integer, Integer> map = new HashMap<>();
 
+        // TIME COMPLEXITY : 
         for(int i=0; i<n; i++){
             map.put(arr[i], map.getOrDefault(arr[i], 0)+1);
         }
 
         // System.out.println("map : "+map);
 
+        // Time Complexity : O(N) : Can we one element but in worst case all elements appears only once.
         for(Map.Entry<Integer, Integer> e : map.entrySet()){
             System.out.println(e.getKey()+":"+e.getValue());
         }
