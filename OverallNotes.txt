@@ -663,5 +663,11 @@ If we don't know keys, then we use of the following
 
     We use the same array
         -> Linear Probing : linearly search for next empty slot when there is a collision
+            Search Function : We compute hash function . We go to that position
+                if found -> return true
+                else search linearly, we stop in three cases
+                    1. We found the key -> return true
+                    2. We found an empty slot -> return false
+                    3. We traverse through the whole list -> return false.
         -> Quadratic Probing
         -> Double Hashing
