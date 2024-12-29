@@ -2,6 +2,11 @@ package hashing.pariwithGivenSumInUnsortedArray;
 
 import java.util.HashSet;
 
+/*
+ * TIME COMPLEXITY : O(N)
+ * AUXILIARY SPACE : O(N)
+ */
+
 public class FindPairWithGivenSumInUnsortedArrayUsingHashSet {
 
     public static void main(String args[]){
