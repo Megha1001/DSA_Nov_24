@@ -701,6 +701,8 @@ Chaining :
 -Low cache performance
 -Extra space for links
 -Performance For unsuccesful search : 1+load factor
+    For ex : if load factor = 0.9% (90% of the slots are occupied)
+    For unsuccessful search it will require 1.9 comparision
 
 Open Addressing
 -Table may become full and resizing becomes mandatory
@@ -708,3 +710,5 @@ Open Addressing
 -Cache friendly
 -Extra space might be needed to achieve same performance as chaining.
 -Performance For unsuccesful search : 1/(1-load factor)
+    For ex : if load factor = 0.9% (90% of the slots are occupied)
+    For unsuccessful search it will require 10 comparision
