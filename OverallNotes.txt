@@ -639,8 +639,19 @@ If we don't know keys, then we use of the following
                 -> Search : O(l), where l is the length
                 -> Insert : O(l), since we dont allow duplicate hence we need to search it
                 -> delete : O(l), since to delete we need to search it.
+                Disadvantages
+                    -> not cache friendly
+                    -> store add to next key
             - Dynamic Sized Arrays (Arraylist in java)
+                -> Search : O(l), where l is the length
+                -> Insert : O(l), since we dont allow duplicate hence we need to search it
+                -> delete : O(l), since to delete we need to search it.
+                Advantages : Cache friendly
             - Self balancing BST ( AVL Tree, RedBlack Tree)
+                -> Search : O(logl)
+                -> Insert : O(logl)
+                -> delete : O(logl)
+                Disadvantage : Not cache friendly
 
     -> Open Addressing
     We use the same array
