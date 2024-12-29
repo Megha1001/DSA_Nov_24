@@ -1,8 +1,10 @@
 package hashing.pariwithGivenSumInUnsortedArray;
 
+import java.util.HashMap;
+
 /*
- * TIME COMPLEXITY : O(N*N)
- * AUXILIARY SPACE : O(1)
+ * TIME COMPLEXITY : O(N)
+ * AUXILIARY SPACE : O(N)
  */
 
 public class FindPairWithGivenSumInUnsortedArrayUsingHashMap {
@@ -17,13 +19,6 @@ public class FindPairWithGivenSumInUnsortedArrayUsingHashMap {
 
     public static boolean checkIfSumExists(int arr[], int n, int x){
 
-        for(int i=0; i<n; i++){
-            for(int j=i+1; j<n; j++){
-                if(arr[i]+arr[j]==x){
-                    return true;
-                }
-            }
-        }
 
         return false;
     }
