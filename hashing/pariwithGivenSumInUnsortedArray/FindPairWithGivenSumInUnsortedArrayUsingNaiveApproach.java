@@ -14,7 +14,6 @@ public class FindPairWithGivenSumInUnsortedArrayUsingNaiveApproach {
         System.out.println("Pair with given sum exists in given array ? "+checkIfSumExists(arr, arr.length, x));
     }
 
-
     public static boolean checkIfSumExists(int arr[], int n, int x){
 
         for(int i=0; i<n; i++){
@@ -27,5 +26,4 @@ public class FindPairWithGivenSumInUnsortedArrayUsingNaiveApproach {
 
         return false;
     }
-    
 }
