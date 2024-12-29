@@ -5,12 +5,12 @@ import java.util.HashSet;
 
 /*
  * Question : Print the intersection of two unsorted array and order should be the same in which its appearing in orginal array (1st one)
- * TIME COMPLEXITY : O(N),  2 traversal
+ * TIME COMPLEXITY : O(N+M),  2 traversal
  * AUXILIARY SPACE : O(N)
  * 
  * LOGIC : Convert the second array to HashSet and then traverse the first array to check whether its present in hashset or not
  *
- * We can also use Hashset
+ * We can also use Hashset/LinkedHashSet
  * 
  */
 
@@ -29,11 +29,11 @@ public class FindIntersectionOfTwoUnsortedArrayUsingLinkedHashSetOptimized {
 
         //convert second array to LinkedHashSet
         HashSet<Integer> l2 = new HashSet<>();
-        for(int i=0; i<arr2.length; i++){
+        for(int i=0; i<arr2.length; i++){ //O(N)
             l2.add(arr2[i]);
         }
 
-        for(int i=0; i<arr1.length; i++){
+        for(int i=0; i<arr1.length; i++){ //O(M)
             if(l2.contains(arr1[i])){
                 System.out.print(arr1[i]+" ");
             }
