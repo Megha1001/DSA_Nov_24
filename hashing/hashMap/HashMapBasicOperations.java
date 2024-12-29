@@ -17,6 +17,13 @@ public class HashMapBasicOperations {
             System.out.println(entry.getKey()+"-"+entry.getValue());
         }
 
+        System.out.println("contains key=abc ? : "+map.containsKey("abc"));
+        System.out.println("contains value=123 ? : "+map.containsValue(123));
+
+        map.remove("abc");
+        System.out.println("After removing, contains key=abc ? : "+map.containsKey("abc"));
+        System.out.println("After removing, contains value=123 ? : "+map.containsValue(123));
+
     }
     
 }
