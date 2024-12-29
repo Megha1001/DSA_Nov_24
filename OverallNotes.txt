@@ -611,3 +611,14 @@ How Hash Functions Work ?
     -> Should generate values from 0 to m-1
     -> Should be fast, O(1) for integer and O(Len) for string of length 'len' (For string : we have to uniformly process all the character in hash function)
     -> Should uniformly distribute large keys into hash table slots
+
+--------
+Collision Handling
+
+If we know keys in advance, then we can use Perfect Hashing that gurantees no collision.
+If we don't know keys, then we use of the following
+    -> Chaning
+    -> Open Addressing
+        -> Linear Probing
+        -> Quadratic Probing
+        -> Double Hashing
