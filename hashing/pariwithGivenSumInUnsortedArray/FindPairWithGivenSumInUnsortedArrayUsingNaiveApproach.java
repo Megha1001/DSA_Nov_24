@@ -2,6 +2,7 @@ package hashing.pariwithGivenSumInUnsortedArray;
 
 /*
  * TIME COMPLEXITY : O(N*N)
+ * AUXILIARY SPACE : O(1)
  */
 
 public class FindPairWithGivenSumInUnsortedArrayUsingNaiveApproach {
