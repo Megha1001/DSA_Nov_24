@@ -756,3 +756,79 @@ Time Complexities
 - O(1) always
     - size
     - isEmpty
+
+### How HashMap Works Internally in Java
+
+A **HashMap** in Java stores key-value pairs using a combination of hashing and bucket storage. Here's a detailed breakdown of how it works:
+
+---
+
+### **1. Hashing and Buckets**
+- **Hash Function:** 
+  - When you insert a key-value pair, the key is hashed using the key's `hashCode()` method.
+  - The hash code is then used to calculate an **index** for the key in an underlying array (bucket array).
+  - The formula for index calculation is generally:
+    ```java
+    index = hashCode % capacity
+    ```
+    where `capacity` is the size of the array.
+
+- **Buckets:** 
+  - Each index corresponds to a "bucket" that can store multiple entries. This is to handle hash collisions (when two keys produce the same hash code).
+
+---
+
+### **2. Inserting a Key-Value Pair**
+- The key’s `hashCode()` is computed, and an index is determined.
+- If the bucket at that index is empty, the key-value pair is added as a new entry.
+- If there’s already data in the bucket (due to a collision), the new entry is added using one of the following mechanisms:
+  - **Separate Chaining:** Entries in the same bucket are stored as a linked list.
+  - **Tree Structure:** In Java 8 and later, if the number of entries in a bucket exceeds a threshold (usually 8), the bucket’s data structure changes from a linked list to a balanced binary tree (for faster lookups).
+
+---
+
+### **3. Retrieving a Value**
+- To retrieve a value, the `hashCode()` of the key is computed and the index is calculated.
+- The bucket at that index is searched for an entry with a matching key. This involves:
+  - Comparing the `hashCode()` values of the keys.
+  - Using the `equals()` method to confirm that the keys are identical.
+
+---
+
+### **4. Handling Collisions**
+Collisions occur when two keys produce the same hash code or index. HashMap resolves collisions in two main ways:
+- **Linked List:** Earlier versions of HashMap store entries in a linked list at the same index.
+- **Balanced Tree (Java 8+):** When the number of entries in a bucket exceeds 8, the linked list is converted to a balanced binary tree to improve lookup efficiency from O(n) to O(log n).
+
+---
+
+### **5. Rehashing**
+- **Rehashing** happens when the load factor exceeds a predefined threshold (default is 0.75).
+- The load factor is calculated as:
+  ```java
+  load factor = number of entries / array capacity
+  ```
+- When the load factor is exceeded, the bucket array size is doubled, and all existing entries are rehashed to fit into the new bucket array.
+
+---
+
+### **6. Advantages**
+- **Fast Retrieval:** O(1) time complexity for most operations in ideal conditions (with minimal collisions).
+- **Flexible Keys:** Any object that implements `hashCode()` and `equals()` can be used as a key.
+
+---
+
+### **Key Components of HashMap**
+1. **Array (Buckets):** Stores key-value pairs.
+2. **Hash Function:** Converts the key into an array index.
+3. **Collision Handling:** Manages multiple entries at the same index.
+4. **Rehashing:** Dynamically resizes the HashMap when needed.
+
+---
+
+### **Key Points to Remember**
+- Keys in a HashMap must implement `hashCode()` and `equals()` correctly to ensure proper functioning.
+- HashMap does not guarantee any ordering of keys or values.
+- Thread safety: HashMap is not synchronized; use `ConcurrentHashMap` for multi-threaded environments.
+
+By combining hashing, buckets, and collision management, HashMap provides a highly efficient way to store and retrieve data.
