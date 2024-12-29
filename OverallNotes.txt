@@ -722,3 +722,12 @@ Syntax : HashSet<Type> h = new HashSet<>([Optional Initial Capacity]);
 
 Type : can be user defined function , just that it should have implementation of hashcode
 Operations : add(<T> key), remove(<T> key), contains(<T> key), clear(), size(), isEmpty()
+
+Time Complexity :
+On an average : O(1)
+    add
+    remove
+    contains
+O(1) :
+    size
+    isEmpty
