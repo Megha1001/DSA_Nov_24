@@ -1,6 +1,7 @@
 package hashing.pariwithGivenSumInUnsortedArray;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /*
  * Assumption : All elements are distinct
@@ -19,10 +20,15 @@ public class FindPairWithGivenSumInUnsortedArrayUsingHashMap {
 
 
     public static boolean checkIfSumExists(int arr[], int n, int x){
-        HashMap<>
+        HashMap<Integer, Integer> map = new HashMap<>();
 
         for(int i=0; i<n; i++){
-            
+            map.put(arr[i], x-arr[i]);
+        }
+
+
+        for(Map.Entry<Integer,Integer> e : map.entrySet()){
+
         }
 
         return false;
