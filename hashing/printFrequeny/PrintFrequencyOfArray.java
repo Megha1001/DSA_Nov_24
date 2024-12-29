@@ -1,6 +1,7 @@
 package hashing.printFrequeny;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class PrintFrequencyOfArray {
     
@@ -18,7 +19,11 @@ public class PrintFrequencyOfArray {
             map.put(arr[i], map.getOrDefault(arr[i], 0)+1);
         }
 
-        System.out.println("map : "+map);
+        // System.out.println("map : "+map);
+
+        for(Map.Entry<Integer, Integer> e : map.entrySet()){
+            System.out.println(e.getKey()+":"+e.getValue());
+        }
 
     }
 
