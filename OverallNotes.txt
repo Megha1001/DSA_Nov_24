@@ -681,3 +681,8 @@ If we don't know keys, then we use of the following
             Its a proven method that
                 --> Quadratic probing is gurantee to work when load factor = 0.5 (number of slots double then keys) and m is prime.
         -> Double Hashing
+            hash(key,i) = (h1(key) + i*h2(key))%m
+
+            - If h2(key) is relatively prime to m, then it always find a free slot if there is one
+            - h1(key) distributes  keys more uniformaly than linear and quadractic probing
+            - No clustering
