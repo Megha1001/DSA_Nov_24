@@ -703,6 +703,7 @@ Chaining :
 -Performance For unsuccesful search : 1+load factor
     For ex : if load factor = 0.9% (90% of the slots are occupied)
     For unsuccessful search it will require 1.9 comparision
+-> Better performance then open addressing
 
 Open Addressing
 -Table may become full and resizing becomes mandatory
