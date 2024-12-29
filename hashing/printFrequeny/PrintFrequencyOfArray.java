@@ -3,6 +3,13 @@ package hashing.printFrequeny;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+ * LOGIC : To print in the order that they appear in given array : Use LinkedHashMap
+ * 
+ * Time COMPLEXITY : Theta(N), under assumption that HashMap operations takes O(1)
+ * AUXILIARY SPACE : O(N)
+ */
+
 public class PrintFrequencyOfArray {
     
     public static void main(String args[]){
