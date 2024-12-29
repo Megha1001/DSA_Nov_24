@@ -679,5 +679,5 @@ If we don't know keys, then we use of the following
             Disadvantage
                 It might happen that its not able to find empty slot even if we have space --> disadvantage over linear probing
             Its a proven method that
-                --> Quadratic probing is gurantee to work when load factor = prime and m is prime.
+                --> Quadratic probing is gurantee to work when load factor = 0.5 (number of slots double then keys) and m is prime.
         -> Double Hashing
