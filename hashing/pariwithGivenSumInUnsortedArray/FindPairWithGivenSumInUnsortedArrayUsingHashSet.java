@@ -28,7 +28,6 @@ public class FindPairWithGivenSumInUnsortedArrayUsingHashSet {
 
         }
 
-
         return false;
     }
 
