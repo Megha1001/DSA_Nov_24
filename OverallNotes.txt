@@ -655,8 +655,13 @@ If we don't know keys, then we use of the following
 
             Note : From java8, we use Self balancing BST for chaning.
 
-    -> Open Addressing
+    -> Open Addressing -> Another way of handling collision. Use single array
+    Requirement :
+        No of sltos in Hash Table >=Number of keys to be inserted
+        Advantage over chaining : Cache friendly
+
+
     We use the same array
-        -> Linear Probing
+        -> Linear Probing : linearly search for next empty slot when there is a collision
         -> Quadratic Probing
         -> Double Hashing
