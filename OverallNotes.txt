@@ -678,4 +678,6 @@ If we don't know keys, then we use of the following
             --> Clustering is still there, although in linear probing we have primary cluster here we have secondary clusters. But its better than linear probing
             Disadvantage
                 It might happen that its not able to find empty slot even if we have space --> disadvantage over linear probing
+            Its a proven method that
+                --> Quadratic probing is gurantee to work when load factor = prime and m is prime.
         -> Double Hashing
