@@ -921,3 +921,10 @@ Collisions occur when two keys produce the same hash code or index. HashMap reso
 - Thread safety: HashMap is not synchronized; use `ConcurrentHashMap` for multi-threaded environments.
 
 By combining hashing, buckets, and collision management, HashMap provides a highly efficient way to store and retrieve data.
+
+
+----------------------------------------------------------------------------------------
+HashSet<Integer> set = new HashSet<>(Arrays.asList(arr));
+
+here Arrays.asList --> convert the integer into List (note but with HashSet we need wrapper Integer not int) inplace and its efficient
+--> but the TC : Theta(N), Auxiliary space : O(N)
