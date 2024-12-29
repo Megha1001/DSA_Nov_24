@@ -2,6 +2,11 @@ package hashing.unionOfTwoUnsortedArrays;
 
 import java.util.HashSet;
 
+/*
+ * TIME COMPLEXITY : Theta(N1+N2)
+ * AUXILIARY SPACE : O(N+M)
+ */
+
 public class CountDistinctInTwoUnsortedArraysCombined {
 
 
