@@ -10,13 +10,13 @@ import java.util.HashMap;
 public class FindLongestSubArrayWithGivenSumUsingHashing {
 
     public static void main(String args[]){
-        // int arr[] = {5,8,-4,-4,9,-2,2};
-        // int x = 0;
+        int arr[] = {5,8,-4,-4,9,-2,2};
+        int x = 0;
         // int arr[] = {3,1,0,1,8,2,3,6}; //prefix sum
         // int x = 5;
 
-        int arr[] = {8, 3, 7};
-        int x = 15;
+        // int arr[] = {8, 3, 7};
+        // int x = 15;
 
         System.out.println("The longest subarray with given sum is : "+findLongestSubArrayLengthWithGivenSum(arr, arr.length,x));
     }
@@ -43,7 +43,6 @@ public class FindLongestSubArrayWithGivenSumUsingHashing {
                 res = Math.max(res, i-lastIdx);
             }
 
-            map.put(sum, i);
 
         }
 
