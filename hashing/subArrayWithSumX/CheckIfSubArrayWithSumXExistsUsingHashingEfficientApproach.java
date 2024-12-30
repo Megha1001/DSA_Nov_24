@@ -35,7 +35,7 @@ public class CheckIfSubArrayWithSumXExistsUsingHashingEfficientApproach {
 
         for(int i=0; i<n; i++){
             sum+= arr[i];
-            if(sum==x){
+            if(sum==x){ //Note : Need for the cases where sum itself becomes x . For ex : {2,3,4,6}, x=9
                 return true;
             } else if (set.contains(sum-x)){
                 return true;
