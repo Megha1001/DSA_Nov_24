@@ -1,5 +1,7 @@
 package hashing.subArrayWithSumZero;
 
+import java.util.HashSet;
+
 /*
  * LOGIC : Use Prefix Sum and hashing
  * 
@@ -30,7 +32,19 @@ public class CheckSubArrayWithSumZeroExistsUsingHashingEfficientApproach {
     
 
     public static boolean isSubArrayWithSumZeroExists(int arr[], int n){
+        HashSet<Integer> set = new HashSet<>();
+        int sum = 0;
 
+        for(int i=0; i<n; i++){
+            sum += arr[i];
+            
+            if(set.contains(sum)){
+                return true;
+            }
+
+            set.add(sum);
+
+        }
         
         return false;
 
