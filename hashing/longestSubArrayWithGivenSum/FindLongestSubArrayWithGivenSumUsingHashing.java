@@ -3,7 +3,7 @@ package hashing.longestSubArrayWithGivenSum;
 import java.util.HashMap;
 
 /*
- * TIME COMPLEXITY : O(N)
+ * TIME COMPLEXITY : Theta(N)
  * AUXILIARY SPACE : O(N)
  */
 
@@ -33,7 +33,7 @@ public class FindLongestSubArrayWithGivenSumUsingHashing {
 
             if(sum==x){
                 res = Math.max(res, i+1); //it will always be a prefix sum
-            } else if( map.getOrDefault( sum-x, -1) != -1){
+            } else if( map.getOrDefault( sum-x, -1) != -1){ //map.contains(sum-x)
                 int lastIdx = map.get(sum-x);
                 res = Math.max(res, i-lastIdx);
             }
