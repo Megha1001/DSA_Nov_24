@@ -12,5 +12,16 @@ public class FindLongestCommonSpanWithSameSumInBinaryArraysUsingNaiveApproach {
 
         System.out.println("The length of Longest common span with same sum in binary arrays is : "+findLength(arr1, arr2, arr1.length, arr2.length));
     }
+
+    public static int findLength(int arr1[], int arr2[], int n1, int n2){
+
+        int res=0;
+        
+        for(int i=0; i<n1; i++){
+            int sum1=0, sum2=0;
+        }
+
+        return res;
+    }
     
 }
