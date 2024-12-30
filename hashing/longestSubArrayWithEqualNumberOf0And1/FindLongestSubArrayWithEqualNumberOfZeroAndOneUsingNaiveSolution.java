@@ -25,7 +25,7 @@ public class FindLongestSubArrayWithEqualNumberOfZeroAndOneUsingNaiveSolution {
                 }
 
                 if(countZero == countOne){
-                    res = Math.max(res, j-i+1);
+                    res = Math.max(res, j-i+1); // res = Math.max(res, countZero+CountOne)
                 }
 
             }
