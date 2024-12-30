@@ -9,4 +9,21 @@ public class CheckSubArrayWithSumZeroExistsUsingNaiveApproach {
 
     }
     
+
+    public static boolean isSubArrayWithSumZeroExists(int arr[], int n){
+
+        for(int i=0; i<n; i++){
+            int currSum=0;
+            for(int j=i; j<n; j++){
+                currSum += arr[j];
+                if(currSum==0){
+                    return true;
+                }
+            }
+        }
+
+        return false;
+
+    }
+
 }
