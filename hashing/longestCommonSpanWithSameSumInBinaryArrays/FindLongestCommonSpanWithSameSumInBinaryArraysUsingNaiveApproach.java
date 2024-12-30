@@ -2,6 +2,9 @@ package hashing.longestCommonSpanWithSameSumInBinaryArrays;
 
 /*
  * Question: Find out the length of longest common span with equal sum and same starting and ending index and same length.
+ * 
+ * TIME COMPLEXITY : Theta(N*N)
+ * AuXILIARY SPACE : O(1)
  */
 
 public class FindLongestCommonSpanWithSameSumInBinaryArraysUsingNaiveApproach {
