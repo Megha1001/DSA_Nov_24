@@ -29,7 +29,15 @@ public class CheckIfSubArrayWithSumXExistsUsingHashingEfficientApproach {
 
 
     public static boolean checkIfSubArrayExists(int arr[], int n, int x){
-    
+        
+        HashSet<Integer> set = new HashSet<>();
+        int sum = 0;
+
+        for(int i=0; i<n; i++){
+            if(sum==x){
+                return true;
+            }
+        }
 
         return false;
     }
