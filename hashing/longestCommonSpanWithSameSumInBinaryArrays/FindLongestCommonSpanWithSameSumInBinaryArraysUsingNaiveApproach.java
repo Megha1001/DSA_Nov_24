@@ -16,9 +16,17 @@ public class FindLongestCommonSpanWithSameSumInBinaryArraysUsingNaiveApproach {
     public static int findLength(int arr1[], int arr2[], int n1, int n2){
 
         int res=0;
-        
+
         for(int i=0; i<n1; i++){
             int sum1=0, sum2=0;
+            for(int j=i; j<n2; j++){
+                sum1+=arr1[j];
+                sum2+=arr2[j];
+
+                if(sum1==sum2){
+                    res = Math.max(res, j-i+1);
+                }
+            }
         }
 
         return res;
