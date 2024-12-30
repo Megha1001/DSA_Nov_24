@@ -1,5 +1,10 @@
 package hashing.subArrayWithSumZero;
 
+/*
+ * TIME COMPLEXITY : O(N*N)
+ * AUXILIARY SPACE : O(1)
+ */
+
 public class CheckSubArrayWithSumZeroExistsUsingNaiveApproach {
 
     public static void main(String args[]){
