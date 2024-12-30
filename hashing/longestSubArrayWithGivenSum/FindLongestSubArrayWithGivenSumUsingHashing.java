@@ -37,9 +37,7 @@ public class FindLongestSubArrayWithGivenSumUsingHashing {
                 res = i+1;
             } else if(map.containsKey(sum)){
 
-            }
-            
-            else if( map.getOrDefault( sum-x, -1) != -1){ //map.containsKey(sum-x)
+            }else if( map.getOrDefault( sum-x, -1) != -1){ //map.containsKey(sum-x)
                 int lastIdx = map.get(sum-x);
                 res = Math.max(res, i-lastIdx);
             }
