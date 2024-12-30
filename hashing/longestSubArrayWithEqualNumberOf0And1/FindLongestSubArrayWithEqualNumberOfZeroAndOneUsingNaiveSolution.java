@@ -1,5 +1,10 @@
 package hashing.longestSubArrayWithEqualNumberOf0And1;
 
+/*
+ * TIME COMPLEXITY : Theta(N*N)
+ * AUXILIARY SPACE : O(1)
+ */
+
 public class FindLongestSubArrayWithEqualNumberOfZeroAndOneUsingNaiveSolution {
 
     public static void main(String [] args){
