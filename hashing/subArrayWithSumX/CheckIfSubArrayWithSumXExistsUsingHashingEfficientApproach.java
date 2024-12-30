@@ -34,15 +34,13 @@ public class CheckIfSubArrayWithSumXExistsUsingHashingEfficientApproach {
         int sum = 0;
 
         for(int i=0; i<n; i++){
+            sum+= arr[i];
             if(sum==x){
                 return true;
             } else if (set.contains(sum-x)){
                 return true;
-            }else{
-                sum+= arr[i];
-                set.add(sum);
-            }
-            
+            }  
+            set.add(sum);
         }
 
         return false;
