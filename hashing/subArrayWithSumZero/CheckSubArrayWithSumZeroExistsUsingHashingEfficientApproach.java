@@ -40,6 +40,8 @@ public class CheckSubArrayWithSumZeroExistsUsingHashingEfficientApproach {
             
             if(set.contains(sum)){
                 return true;
+            } else if(sum==0){
+                return true; // Note : THis is neeed when the whole prefix sum is zero and it doesn't repeat. For ex : [-3,2,1,4,1]
             }
 
             set.add(sum);
