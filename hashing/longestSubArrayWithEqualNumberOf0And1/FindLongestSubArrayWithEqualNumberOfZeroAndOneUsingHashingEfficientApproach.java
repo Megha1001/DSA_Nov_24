@@ -23,6 +23,14 @@ public class FindLongestSubArrayWithEqualNumberOfZeroAndOneUsingHashingEfficient
     public static int findLongestSubArray(int arr[], int n){
         
         //convert 0->-1
+        for(int i=0; i<n; i++){
+            if(arr[i]==0){
+                arr[i]=-1;
+            }
+        }
+
+        //call findLongestSubArrayWithSumZero
+        return findLongestSubArrayWithSumZero(arr, n);
 
     }
     
