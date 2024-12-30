@@ -22,7 +22,7 @@ public class CheckIfSubArrayWithSumXExistsUsingHashingEfficientApproach {
 
     public static void main(String args[]){
         int arr[] = {5, 8, 6, 13, 3, -1};
-        int x = 21;
+        int x = 22;
 
         System.out.println("Does subarray with sum "+x+" exists ?"+checkIfSubArrayExists(arr, arr.length, x));
     }
@@ -38,8 +38,11 @@ public class CheckIfSubArrayWithSumXExistsUsingHashingEfficientApproach {
                 return true;
             } else if (set.contains(sum-x)){
                 return true;
+            }else{
+                sum+= arr[i];
+                set.add(sum);
             }
-            set.add(sum);
+            
         }
 
         return false;
