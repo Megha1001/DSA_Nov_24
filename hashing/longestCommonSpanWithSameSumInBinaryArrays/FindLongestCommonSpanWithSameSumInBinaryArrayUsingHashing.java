@@ -1,5 +1,7 @@
 package hashing.longestCommonSpanWithSameSumInBinaryArrays;
 
+import java.util.HashMap;
+
 /*
  * LOGIC : Use Hashing and findLongestSubArrayWithSumZero solution
  * 
@@ -41,7 +43,24 @@ public class FindLongestCommonSpanWithSameSumInBinaryArrayUsingHashing {
 
 
     public static int findLongestSubArrayWithSumZero(int arr[], int n){
-        
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int sum=0, res=0, x=0;
+
+        for(int i=0; i<n; i++){
+            sum+=arr[i];
+
+            //prefix sum is target
+            if(sum==x){
+                res = i+1;
+            }else if(!map.containsKey(sum)){
+                map.put(sum, i);
+            }else if(map.containsKey(sum-x)){
+                int lastIdx = map.get(sum);
+                res = Math.max(res, i-lastIdx);
+            }
+        }
+
+        return res;
     }
     
 }
