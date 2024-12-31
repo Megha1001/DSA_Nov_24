@@ -948,4 +948,5 @@ STRING
 char : 
     ASCII --> 8 bits --> C/C++. Also supports wcart_t
     UTF-16 --> 16 bit--> in Java. Also supports byte
+        -> in UTF-16 still the first 128 characters are ASCII
 
