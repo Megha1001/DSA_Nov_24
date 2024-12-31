@@ -27,4 +27,21 @@ public class FindLongestCommonSpanWithSameSumInBinaryArrayUsingHashing {
 
     }
     
+    public static int findLength(int a1[], int a2[], int n){
+        int temp[] = new int[n];
+
+        //Step1. Compute a difference array
+        for(int i=0; i<n; i++){
+            temp[i] = a1[i] - a2[i];
+        }
+
+        return findLongestSubArrayWithSumZero(temp, n);
+
+    }
+
+
+    public static int findLongestSubArrayWithSumZero(int arr[], int n){
+        
+    }
+    
 }
