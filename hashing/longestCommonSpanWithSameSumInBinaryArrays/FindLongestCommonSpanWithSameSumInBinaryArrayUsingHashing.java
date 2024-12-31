@@ -2,8 +2,8 @@ package hashing.longestCommonSpanWithSameSumInBinaryArrays;
 
 public class FindLongestCommonSpanWithSameSumInBinaryArrayUsingHashing {
 
-    pulbic static void main(String args[]){
-        
+    public static void main(String args[]){
+
     }
     
 }
