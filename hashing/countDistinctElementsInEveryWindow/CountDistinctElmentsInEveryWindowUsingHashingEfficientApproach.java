@@ -23,7 +23,7 @@ import java.util.HashMap;
 public class CountDistinctElmentsInEveryWindowUsingHashingEfficientApproach {
 
     public static void main(String args[]){
-        int arr[] = {10,20,20,10,30,40,10};
+        int arr[] = {10,20,10,10,30,40};
         int k = 4;
 
         // int arr[] = {10,10,10};
@@ -38,11 +38,12 @@ public class CountDistinctElmentsInEveryWindowUsingHashingEfficientApproach {
 
         //create frequency map of first k elements
         for(int i=0; i<k ; i++){
-            freq.put(arr[i], freq.getOrDefault(arr[i], 1));
+            freq.put(arr[i], freq.getOrDefault(arr[i], 0) + 1);
         }
 
         //print size of first k elements freq map
         System.out.print(freq.size()+ " ");
+        System.out.println("map : "+freq);
 
         for(int i=k; i<n; i++){
             //decrease the freq of arr[i-k]
@@ -54,10 +55,11 @@ public class CountDistinctElmentsInEveryWindowUsingHashingEfficientApproach {
             }
 
             //add arr[i] if not present else increase the frequency
-            freq.put(arr[i], freq.getOrDefault(arr[i], 1)+1);
+            freq.put(arr[i], freq.getOrDefault(arr[i], 0)+1);
 
             //print size of map
             System.out.print(freq.size()+ " ");
+            System.out.println("map : "+freq);
 
         }
 
