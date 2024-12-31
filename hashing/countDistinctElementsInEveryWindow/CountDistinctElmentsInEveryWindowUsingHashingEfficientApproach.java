@@ -16,6 +16,7 @@ import java.util.HashMap;
  *      print the size of map.
  * 
  * TIME COMPLEXITY : O(N)
+ * AUXILIARY SPACE : O(K)
  * 
  */
 
