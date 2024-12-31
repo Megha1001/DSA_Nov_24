@@ -33,7 +33,7 @@ public class FindLongestCommonSpanWithSameSumInBinaryArrayUsingHashing {
         int temp[] = new int[n];
 
         //Step1. Compute a difference array
-        for(int i=0; i<n; i++){
+        for(int i=0; i<n; i++){ // Time Complexity : Theta(N), AUXILIARY SPACE : Theta(N)
             temp[i] = a1[i] - a2[i];
         }
 
@@ -41,7 +41,7 @@ public class FindLongestCommonSpanWithSameSumInBinaryArrayUsingHashing {
 
     }
 
-
+    // Time Complexity : O(N), AUXILIARY SPACE : O(N)
     public static int findLongestSubArrayWithSumZero(int arr[], int n){
         HashMap<Integer, Integer> map = new HashMap<>();
         int sum=0, res=0, x=0;
