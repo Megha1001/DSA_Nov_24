@@ -5,7 +5,7 @@ import java.util.Arrays;
 /*
  * Question : We need to find the longest subsequence in the form of x, x+1, x+2, ...., x+i with these element appearing in ANY order
  * 
- * TIME COMPLEXITY : Theta(NlogN)
+ * TIME COMPLEXITY : O(NlogN)
  * AUXILIARY SPACE : O(1)
  */
 
