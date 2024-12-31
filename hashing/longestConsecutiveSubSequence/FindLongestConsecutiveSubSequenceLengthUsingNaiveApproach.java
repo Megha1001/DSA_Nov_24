@@ -9,7 +9,8 @@ import java.util.Arrays;
 public class FindLongestConsecutiveSubSequenceLengthUsingNaiveApproach {
 
     public static void main(String args[]){
-        int arr[] = {1,9,3,4,2,20};
+        // int arr[] = {1,9,3,4,2,20};
+        int arr[] = {8,20,7,30};
         
         System.out.println("The longest consecutive subsequence length in given array is : "+findLongestSubSequenceLengthWithConsecutiveElements(arr, arr.length));
     }
