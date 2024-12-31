@@ -46,3 +46,7 @@ Comparator or Comparable
 Median of a row wise sorted matrix java
 https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Matrix/video/MjI2Mw%3D%3D
 
+----
+
+More than n/k occurrences (O(nk Solution )) --> extended Moore's algo
+https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Hashing/video/MTgyNA%3D%3D
