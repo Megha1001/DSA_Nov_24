@@ -34,6 +34,34 @@ public class CountDistinctElmentsInEveryWindowUsingHashingEfficientApproach {
     }
     
     public static void printCountOfDistinctElementsInKWindow(int arr[], int n, int k){
+        HashMap<Integer, Integer> freq = new HashMap<>();
+
+        //create frequency map of first k elements
+        for(int i=0; i<k ; i++){
+            freq.put(arr[i], freq.getOrDefault(arr[i], 1));
+        }
+
+        //print size of first k elements freq map
+        System.out.print(freq.size()+ " ");
+
+        for(int i=k; i<n; i++){
+            //decrease the freq of arr[i-k]
+            freq.put(arr[i-k], freq.getOrDefault(arr[i-k], 1) - 1);
+
+            //remove the arr[i-k], if freq becomes zero
+            if(freq.get(arr[i-k])==0){
+                freq.remove(arr[i-k]);
+            }
+
+            //add arr[i] if not present else increase the frequency
+            freq.put(arr[i], freq.getOrDefault(arr[i], 1)+1);
+
+            //print size of map
+            System.out.print(freq.size()+ " ");
+
+        }
+
+
     }
     
 }
