@@ -13,7 +13,7 @@ package hashing.longestCommonSpanWithSameSumInBinaryArrays;
  *      - We get 0 when values are same in both
  *      - We get 1 when a1[i]=1 and a2[i]=0
  *      - We get -1 when a1[i]=0 and a2[i]=1
- * 
+ * Assumption : Both arrays are of same length
  */
 
 public class FindLongestCommonSpanWithSameSumInBinaryArrayUsingHashing {
@@ -23,7 +23,7 @@ public class FindLongestCommonSpanWithSameSumInBinaryArrayUsingHashing {
         int a1[] = {0,1,0,0,0,0};
         int a2[] = {1,0,1,0,0,1};
 
-
+        System.out.println("The longest common span with same sum in binary array of same length and same starting and ending index is : "+findLength(a1, a2, a1.length));
 
     }
     
