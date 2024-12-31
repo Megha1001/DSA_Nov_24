@@ -2,6 +2,11 @@ package hashing.countDistinctElementsInEveryWindow;
 
 import java.util.HashSet;
 
+/*
+ * TIME COMPLEXITY : Theta((n-k)*k)
+ * AUXILIARY SPACE : O(k)
+ */
+
 
 public class CountDistinctElmentsInEveryWindowUsingHashingNaiveSolution {
 
@@ -14,21 +19,17 @@ public class CountDistinctElmentsInEveryWindowUsingHashingNaiveSolution {
     }
     
     public static void printCountOfDistinctElementsInKWindow(int arr[], int n, int k){
-       
-        int res = 1;
 
         for(int i=0; i<n-k+1; i++){
             HashSet<Integer> s = new HashSet<>();
 
-            for(int j=i; j<=i+k; j++){
-                s.add(arr[i]);
+            for(int j=i; j<i+k; j++){
+                s.add(arr[j]);
             }
 
-            res = Math.max(res, s.size());
+            System.out.print(s.size()+" ");
 
         }
-
-        return res;
 
     }
     
