@@ -1,5 +1,7 @@
 package hashing.longestConsecutiveSubSequence;
 
+import java.util.Arrays;
+
 /*
  * Question : We need to find the longest subsequence in the form of x, x+1, x+2, ...., x+i with these element appearing in ANY order
  */
@@ -16,7 +18,7 @@ public class FindLongestConsecutiveSubSequenceLengthUsingNaiveApproach {
 
         int res = 1;
 
-
+        Arrays.sort(arr);
 
         for(int i=0; i<n; i++){
             int count=1;
