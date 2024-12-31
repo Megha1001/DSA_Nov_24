@@ -1,5 +1,8 @@
 package hashing.moreThanNByKOccurrences;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class PrintElementsWithMoreThanNByKOccurrences {
 
 
@@ -11,4 +14,21 @@ public class PrintElementsWithMoreThanNByKOccurrences {
         printElementsWithMoreThanNByKOccurrence(arr, arr.length, k);
     }
     
+    public static void printElementsWithMoreThanNByKOccurrence(int arr[], int n, int k){
+        HashMap<Integer, Integer> freq = new HashMap<>();
+
+        //create map with freq
+        for(int i=0; i<n; i++){
+            freq.put(arr[i], freq.getOrDefault(arr[i], 0)+1);
+        }
+
+        for(Map.Entry<Integer, Integer> entry : freq.entrySet()){
+            if(entry.getValue() > n/k){
+                System.out.print(entry.getKey()+" ");
+            }
+        }
+        
+
+    }
+
 }
