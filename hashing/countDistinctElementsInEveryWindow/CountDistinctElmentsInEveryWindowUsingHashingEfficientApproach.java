@@ -15,6 +15,8 @@ import java.util.HashMap;
  *      If arr[i] doesn't exists in the map , insert it. Else increase its frequency by 1
  *      print the size of map.
  * 
+ * TIME COMPLEXITY : O(N)
+ * 
  */
 
 
