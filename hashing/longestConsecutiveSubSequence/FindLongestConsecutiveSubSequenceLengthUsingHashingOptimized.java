@@ -32,8 +32,16 @@ public class FindLongestConsecutiveSubSequenceLengthUsingHashingOptimized {
             set.add(i);
         }
         
+        for(Integer element : set){
+            if(!set.contains(element-1)){
+                int curr = 1;
+                while(set.contains(element+curr)){
+                    ++curr;
+                }
+                res = Math.max(res, curr);
 
-
+            }
+        }
 
         return res;
 
