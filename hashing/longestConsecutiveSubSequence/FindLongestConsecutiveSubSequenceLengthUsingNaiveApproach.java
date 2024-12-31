@@ -25,6 +25,7 @@ public class FindLongestConsecutiveSubSequenceLengthUsingNaiveApproach {
 
         Arrays.sort(arr);
 
+        //Checking in two traversal -> Theta(N*N)
         // for(int i=0; i<n; i++){
         //     int count=1;
         //     for(int j=i+1; j<n; j++){
@@ -36,6 +37,9 @@ public class FindLongestConsecutiveSubSequenceLengthUsingNaiveApproach {
         //         res = Math.max(res, count);
         //     }
         // }
+        
+
+        //Checking in one traversal -> Theta(N)
         int count = 1;
         for(int i = 0; i < n - 1; i++){
             if(arr[i+1]-arr[i]==1){
