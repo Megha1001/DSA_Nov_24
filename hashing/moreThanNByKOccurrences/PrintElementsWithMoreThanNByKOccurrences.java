@@ -3,6 +3,11 @@ package hashing.moreThanNByKOccurrences;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+ * TIME COMPLEXITY : O(N)
+ * AUXILIARY SPACE : O(N)
+ */
+
 public class PrintElementsWithMoreThanNByKOccurrences {
 
 
