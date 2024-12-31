@@ -16,6 +16,8 @@ import java.util.HashMap;
  *      - We get 1 when a1[i]=1 and a2[i]=0
  *      - We get -1 when a1[i]=0 and a2[i]=1
  * Assumption : Both arrays are of same length
+ * 
+ *  Time Complexity : Theta(N), AUXILIARY SPACE : Theta(N)
  */
 
 public class FindLongestCommonSpanWithSameSumInBinaryArrayUsingHashing {
