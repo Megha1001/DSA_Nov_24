@@ -44,7 +44,7 @@ public class CountDistinctElmentsInEveryWindowUsingHashingEfficientApproach {
 
         //print size of first k elements freq map
         System.out.print(freq.size()+ " ");
-        System.out.println("map : "+freq);
+        // System.out.println("map : "+freq);
 
         for(int i=k; i<n; i++){
             //decrease the freq of arr[i-k]
@@ -60,7 +60,7 @@ public class CountDistinctElmentsInEveryWindowUsingHashingEfficientApproach {
 
             //print size of map
             System.out.print(freq.size()+ " ");
-            System.out.println("map : "+freq);
+            // System.out.println("map : "+freq);
 
         }
 
