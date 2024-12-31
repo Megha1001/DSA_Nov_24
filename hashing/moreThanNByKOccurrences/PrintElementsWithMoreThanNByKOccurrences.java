@@ -6,6 +6,8 @@ import java.util.Map;
 /*
  * TIME COMPLEXITY : O(N)
  * AUXILIARY SPACE : O(N)
+ * 
+ * Here k is not <<<<<< N , but if that is the case then this solution is not the good idea :(
  */
 
 public class PrintElementsWithMoreThanNByKOccurrences {
