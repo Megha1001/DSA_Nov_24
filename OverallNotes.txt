@@ -936,3 +936,16 @@ why Auxiliary space : O(N) ?
 ------
 In HashMap , while printing , it can print in any order like it dont keep the any order
 But if we want to keep the order like print in the same order as they appear then we have to use LinkedHashMap
+
+---------------------
+STRING
+---------------------
+- Sequence of characters
+- Small Set
+- Contiguous integer values for 'a' to 'z' and 'A' to 'Z' in both ASCII and UTF-16
+
+
+char : 
+    ASCII --> 8 bits --> C/C++. Also supports wcart_t
+    UTF-16 --> 16 bit--> in Java. Also supports byte
+
