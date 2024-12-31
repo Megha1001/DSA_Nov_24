@@ -11,10 +11,13 @@ import java.util.HashSet;
 public class CountDistinctElmentsInEveryWindowUsingHashingNaiveSolution {
 
     public static void main(String args[]){
-        int arr[] = {10,20,20,10,30,40,10};
-        int k = 4;
+        // int arr[] = {10,20,20,10,30,40,10};
+        // int k = 4;
 
-        System.out.println("The distinct elements in window of "+k+" is : ");
+        int arr[] = {10,10,10};
+        int k = 3;
+
+        System.out.print("The distinct elements in window of "+k+" is : ");
         printCountOfDistinctElementsInKWindow(arr, arr.length, k);
     }
     
