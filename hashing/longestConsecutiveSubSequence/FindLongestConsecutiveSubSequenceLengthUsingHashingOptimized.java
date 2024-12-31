@@ -6,8 +6,9 @@ import java.util.Iterator;
 /*
  * Question : We need to find the longest subsequence in the form of x, x+1, x+2, ...., x+i with these element appearing in ANY order
  * 
- * TIME COMPLEXITY : O(N*K)
+ * TIME COMPLEXITY : Theta(N) //******NOTE THAT******
  * AUXILIARY SPACE : O(N)
+ * THERE ARE ALWAYS 2N LOOKupS AT moST
  * 
  * LOGICE : 1. We first insert all the elements in hash table(HashSet).
  * 2. We do lookup to find the result
