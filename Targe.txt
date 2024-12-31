@@ -1,5 +1,5 @@
 Matrix : 28 Dec  -> COMPLETED
-Hashing : 5 days : 2 Jan
+Hashing : 5 days : 2 Jan --> COMPLETED on 31st Dec, 2024
 Strings : 6 days : 8th Jan
 Linked List : 7 days : 15th Jan
 Stack : 7 days : 22nd Jan
