@@ -1,5 +1,10 @@
 package string.checkPalindrome;
 
+/*
+ * TIME COMPLEXITY : Theta(N) -> for reverse fun
+ * AUXILIARY SPACE : Theta(N) --> for StringBuilder
+ */
+
 public class CheckPalindromeUsingReverseFunction {
 
     public static void main(String args[]){
