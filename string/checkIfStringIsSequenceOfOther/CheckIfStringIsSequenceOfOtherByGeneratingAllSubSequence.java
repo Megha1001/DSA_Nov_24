@@ -19,13 +19,22 @@ public class CheckIfStringIsSequenceOfOtherByGeneratingAllSubSequence {
 
     public static boolean checkIfSubsequence(String s1, String s2){
 
-        return generateAllSubSequenceAndCheck(s1, "", 0, s2);
+        if(generateAllSubSequenceAndCheck(s1, "", 0, s2)){
+            return true;
+        }
+        return false;
     }
 
     public static boolean generateAllSubSequenceAndCheck(String input, String curr, int k, String s2){
-        
 
-        return false;
+        if(input.length()==k){
+            return curr.equals(s2);
+        }
+        boolean included = generateAllSubSequenceAndCheck(input, curr+input.charAt(k), k+1, s2);
+        boolean excluded = generateAllSubSequenceAndCheck(input, curr, k+1, s2);
+
+        return included || excluded;
+
     }
     
 }
