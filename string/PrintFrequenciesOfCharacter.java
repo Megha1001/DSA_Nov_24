@@ -1,5 +1,11 @@
 package string;
 
+
+/*
+ * TIME COMPLEXITY : Theta(length Of string)
+ * A
+ */
+
 public class PrintFrequenciesOfCharacter {
 
     public static void main(String args[]){
