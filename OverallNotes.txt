@@ -974,3 +974,13 @@ Creation String in Java
 | Performance     | Fast for basic ops | Slow for modifications | Faster (no sync) | Slower (sync overhead) |
 | API Support     | Minimal (manual ops) | Rich API    | Moderate API      | Moderate API      |
 | Use Case        | Low-level char ops | Read-only strings | Single-threaded mods | Multi-threaded mods |
+
+
+if(s1==s3){ // reference comparision
+            System.out.println("s1 literal is equal to s3 ");
+        }else{
+            System.out.println("s1 literal is not equal to s3 ");
+        }
+
+        if(s1.equals(s3)){ //content comparision
+         
