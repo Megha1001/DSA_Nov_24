@@ -985,3 +985,7 @@ if(s1==s3){ // reference comparision
         if(s1.equals(s3)){ //content comparision
          
 compareTo ==> Function compares string lexicographically
+    s1.compare(s2)
+        -> If s1 and s2 are same then return 0
+        -> If s1 is lexicographically greater than return +ve
+        -> If s1 is lexicographically smaller than return -ve
