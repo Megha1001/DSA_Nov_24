@@ -969,8 +969,8 @@ Creation String in Java
 
 | Feature         | Character Array    | String        | StringBuilder     | StringBuffer      |
 |-----------------|--------------------|---------------|-------------------|-------------------|
-| Mutability      | Mutable            | Immutable     | Mutable           | Mutable           |
-| Thread-Safety   | N/A                | N/A           | Not thread-safe   | Thread-safe       |
+| Mutability      | Immutable          | Immutable     | Mutable           | Mutable           |
+| Thread-Safety   | N/A                | N/A (by default thread safe)          | Not thread-safe   | Thread-safe       |
 | Performance     | Fast for basic ops | Slow for modifications | Faster (no sync) | Slower (sync overhead) |
 | API Support     | Minimal (manual ops) | Rich API    | Moderate API      | Moderate API      |
 | Use Case        | Low-level char ops | Read-only strings | Single-threaded mods | Multi-threaded mods |
