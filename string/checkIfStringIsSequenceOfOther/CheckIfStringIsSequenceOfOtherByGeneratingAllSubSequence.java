@@ -5,6 +5,8 @@ package string.checkIfStringIsSequenceOfOther;
  * 
  * LOGIC : Generate all the subsequence and check if other contains first
  * 
+ * TIME COMPLEXITY : 2^N
+ * AUXILIARY SPACE : O(N)
  */
 
 public class CheckIfStringIsSequenceOfOtherByGeneratingAllSubSequence {
