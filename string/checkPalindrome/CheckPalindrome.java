@@ -1,5 +1,10 @@
 package string.checkPalindrome;
 
+/*
+ * TIME COMPLEXITY : O(str.length)
+ * AUXILIARY SPACE : O(1)
+ */
+
 public class CheckPalindrome {
     
     public static void main(String args[]){
