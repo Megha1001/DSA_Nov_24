@@ -950,3 +950,19 @@ char :
     UTF-16 --> 16 bit--> in Java. Also supports byte
         -> in UTF-16 still the first 128 characters are ASCII
 
+
+Creation String in Java 
+
+1. Character Array/ArrayList
+    char [] c = {'m','e','g','h','a'};
+
+2. String class
+    String str = "megha"
+            Or
+    String str = new String("megha");
+
+3. StringBuilder
+    StringBuilder str = new StringBuilder("megha");
+
+4. StringBuffer
+    StringBuffer str = new StringBuffer("megha");
