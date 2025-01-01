@@ -23,7 +23,10 @@ public class PrintFrequenciesOfCharacter {
         }
 
         for(int i=0; i<26; i++){
-            System.out.println((char)('a'+i)+":"+count[i]);
+            if(count[i]>0){
+                System.out.println((char)('a'+i)+":"+count[i]);
+            }
+            
         }
 
     }
