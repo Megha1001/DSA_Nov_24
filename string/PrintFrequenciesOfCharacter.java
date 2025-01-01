@@ -3,7 +3,7 @@ package string;
 
 /*
  * TIME COMPLEXITY : Theta(length Of string)
- * A
+ * AUXILIARY SPACE : O(1)
  */
 
 public class PrintFrequenciesOfCharacter {
