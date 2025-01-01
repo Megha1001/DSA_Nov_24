@@ -984,3 +984,4 @@ if(s1==s3){ // reference comparision
 
         if(s1.equals(s3)){ //content comparision
          
+compareTo ==> Function compares string lexicographically
