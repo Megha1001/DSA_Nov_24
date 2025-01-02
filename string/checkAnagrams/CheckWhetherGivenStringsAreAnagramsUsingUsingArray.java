@@ -1,5 +1,10 @@
 package string.checkAnagrams;
 
+/*
+ * TIME COMPLEXITY : Theta(N1+N2)
+ * AUXILIARY SPACE : O(1)
+ */
+
 public class CheckWhetherGivenStringsAreAnagramsUsingUsingArray {
 
 
