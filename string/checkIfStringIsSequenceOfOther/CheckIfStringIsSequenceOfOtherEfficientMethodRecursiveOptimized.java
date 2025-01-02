@@ -9,8 +9,8 @@ package string.checkIfStringIsSequenceOfOther;
  * 
  * return j==n2// j should reach at last
  * 
- * TIME COMPLEXITY : (Length(S1)) OR O(N) where N is length of s1
- * AUXILIARY SPACE : O(1)
+ * TIME COMPLEXITY : O(M+N)
+ * AUXILIARY SPACE : O(M+N)
  */
 
 
