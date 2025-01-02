@@ -25,8 +25,7 @@ public class CheckIfStringIsSequenceOfOtherEfficientMethod {
 
     public static boolean checkIfSubsequence(String s1, String s2){
 
-        int i=0;
-        int j=0;
+        int i=0; int j=0;
 
         int n1 = s1.length(); int n2 = s2.length();
 
