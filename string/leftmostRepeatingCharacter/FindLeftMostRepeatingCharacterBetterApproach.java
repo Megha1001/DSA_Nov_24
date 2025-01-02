@@ -1,5 +1,10 @@
 package string.leftmostRepeatingCharacter;
 
+/*
+ * TIME COMPLEXITY : O(N)
+ * AUXILIARY SPACE : O(1) or O(CHAR)
+ */
+
 public class FindLeftMostRepeatingCharacterBetterApproach {
 
     private static int CHAR = 256;
