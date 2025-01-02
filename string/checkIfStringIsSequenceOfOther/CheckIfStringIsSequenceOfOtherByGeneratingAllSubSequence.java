@@ -3,7 +3,7 @@ package string.checkIfStringIsSequenceOfOther;
 /*
  * ABC : "", A, B, C, AB, AC, BC, ABC -> 2^n
  * 
- * LOGIC : Generate all the subsequence and check if other contains first
+ * LOGIC : Generate all the subsequence and check if other contains first (Not to have contigous unlike in substring)
  * 
  * TIME COMPLEXITY : 2^N
  * AUXILIARY SPACE : O(N)
