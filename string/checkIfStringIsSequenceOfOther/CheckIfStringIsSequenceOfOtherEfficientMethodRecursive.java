@@ -14,13 +14,13 @@ package string.checkIfStringIsSequenceOfOther;
  */
 
 
-public class CheckIfStringIsSequenceOfOtherEfficientMethodIterative {
+public class CheckIfStringIsSequenceOfOtherEfficientMethodRecursive {
 
     public static void main(String args[]){
-        String s1 = "ABCD";
-        String s2 = "AD"; //true
-        // String s1 = "ABCDE";
-        // String s2 = "AED"; //false
+        // String s1 = "ABCD";
+        // String s2 = "AD"; //true
+        String s1 = "ABCDE";
+        String s2 = "AED"; //false
 
         System.out.println("does s2 is subsequence of s1 ? "+checkIfSubsequence(s1, s2, 0, 0));
     }
@@ -29,6 +29,17 @@ public class CheckIfStringIsSequenceOfOtherEfficientMethodIterative {
     public static boolean checkIfSubsequence(String s1, String s2, int n1, int n2){
 
         //base condition
+        if(s2.length()==n2){
+            return true;
+        }else if(n1==s1.length()){
+            return false;
+        }
+
+        if(s1.charAt(n1)==s2.charAt(n2)){
+            return checkIfSubsequence(s1, s2, n1+1, n2+1);
+        }
+        
+        return checkIfSubsequence(s1, s2, n1+1, n2);
 
     }
     
