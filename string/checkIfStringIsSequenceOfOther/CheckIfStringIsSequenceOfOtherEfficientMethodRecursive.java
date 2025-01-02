@@ -10,7 +10,7 @@ package string.checkIfStringIsSequenceOfOther;
  * return j==n2// j should reach at last
  * 
  * TIME COMPLEXITY : O(M+N)
- * AUXILIARY SPACE : O(M+N) // That's why iterative solution is better
+ * AUXILIARY SPACE : O(M+N) // for function call stack, That's why iterative solution is better
  */
 
 
