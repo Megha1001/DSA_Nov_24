@@ -32,6 +32,11 @@ public class CheckIfStringIsSequenceOfOtherEfficientMethodIterative {
 
         int n1 = s1.length(); int n2 = s2.length();
 
+        //corner case
+        if(n2 > n1){
+            return false;
+        }
+
         while(i<n1 && j<n2){
             if(s1.charAt(i)==s2.charAt(j)){
                 ++i; ++j;
