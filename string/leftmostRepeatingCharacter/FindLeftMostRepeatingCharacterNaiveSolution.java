@@ -2,6 +2,9 @@ package string.leftmostRepeatingCharacter;
 
 /*
  * LOGIC : Consider every character as the left most repeating and check in left string
+ * 
+ * TIME COMPLEXITY : O(N*N)
+ * AUXILIARY SPACE : O(1)
  */
 
 public class FindLeftMostRepeatingCharacterNaiveSolution {
