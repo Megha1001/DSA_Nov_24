@@ -14,7 +14,7 @@ package string.checkIfStringIsSequenceOfOther;
  */
 
 
-public class CheckIfStringIsSequenceOfOtherEfficientMethod {
+public class CheckIfStringIsSequenceOfOtherEfficientMethodIterative {
 
     public static void main(String args[]){
         String s1 = "ABCD";
