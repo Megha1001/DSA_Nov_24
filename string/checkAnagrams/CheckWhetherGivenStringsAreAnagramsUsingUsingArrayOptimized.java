@@ -1,8 +1,8 @@
 package string.checkAnagrams;
 
 /*
- * TIME COMPLEXITY : O(N)
- * AUXILIARY SPACE : O(1)
+ * TIME COMPLEXITY : O(N) or more specific O(N+CHAR)
+ * AUXILIARY SPACE : O(1) or more specific O(CHAR)
  */
 
 public class CheckWhetherGivenStringsAreAnagramsUsingUsingArrayOptimized {
