@@ -29,6 +29,15 @@ public class CheckIfStringIsSequenceOfOtherEfficientMethod {
 
         int n1 = s1.length(); int n2 = s2.length();
 
+        while(i<n1 && j<n2){
+            if(s1.charAt(i)==s2.charAt(j)){
+                ++i; ++j;
+            }else{
+                ++i;
+            }
+        }
+
+        return j==n2;
     }
     
 }
