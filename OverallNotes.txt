@@ -1010,3 +1010,5 @@ compareTo ==> Function compares string lexicographically
 
         System.out.println("compare : "+compare); // 0 as content is same.
     }
+-----
+- In String question with recursion try to start from last index so we can use the length itself instead of declaring extra variable when we start from first.
