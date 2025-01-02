@@ -7,6 +7,7 @@ package string.checkAnagrams;
 
 public class CheckWhetherGivenStringsAreAnagramsUsingUsingArray {
 
+    private static int CHAR = 256;
 
     public static void main(String args[]){
         String s1 = "listen";
@@ -23,7 +24,7 @@ public class CheckWhetherGivenStringsAreAnagramsUsingUsingArray {
             return false;
         }
 
-        int arr[] = new int[26];
+        int arr[] = new int[CHAR];
 
         //populate array for first string
         for(int i=0; i<n1; i++){
@@ -36,7 +37,7 @@ public class CheckWhetherGivenStringsAreAnagramsUsingUsingArray {
         }
 
         //validate 
-        for(int i=0; i<26; i++){
+        for(int i=0; i<CHAR; i++){
             if(arr[i]!=0){
                 return false;
             }
