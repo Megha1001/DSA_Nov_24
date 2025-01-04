@@ -21,8 +21,10 @@ public class FindLeftMostRepeatingCharacterWithOneTraversal {
             int curr = count[s.charAt(i)];
             if(curr==1){
                 res= s.charAt(i); // we should assign this to variable otherwise it will return c.
+            } else{
+                count[s.charAt(i)] = 1;
             }
-            count[s.charAt(i)] = 1;
+            
         }
 
         return res;
