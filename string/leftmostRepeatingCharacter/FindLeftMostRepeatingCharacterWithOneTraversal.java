@@ -1,5 +1,10 @@
 package string.leftmostRepeatingCharacter;
 
+/*
+ * TIME COMPLEXITY : O(N), one traversal
+ * AUXILIARY SPACE : O(1)
+ */
+
 public class FindLeftMostRepeatingCharacterWithOneTraversal {
 
     public static void main(String args[]){
