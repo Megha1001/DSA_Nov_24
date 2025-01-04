@@ -34,7 +34,7 @@ public class FindLeftMostNonRepeatingCharacterEfficientApproachOneTraversal{
             }
         }
 
-        return res;
+        return res==Integer.MAX_VALUE ? -1: s.charAt(res);
 
     }
 
