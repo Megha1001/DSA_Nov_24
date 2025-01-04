@@ -2,6 +2,11 @@ package string.leftMostNonRepeatingCharacter;
 
 import java.util.Arrays;
 
+/*
+ * TIME COMPLEXITY : O(N), One traversal
+ * AUXILIARY SPACE : O(1)
+ */
+
 public class FindLeftMostNonRepeatingCharacterEfficientApproachOneTraversal{
 
     public static void main(String args[]){
