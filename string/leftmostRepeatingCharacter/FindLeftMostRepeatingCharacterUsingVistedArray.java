@@ -6,5 +6,18 @@ public class FindLeftMostRepeatingCharacterUsingVistedArray {
         String s = "abccd";
         System.out.println("The leftmost repeating character is : "+(char)findLeftMostRepeatingChar(s));
     }
+
+    public static int findLeftMostRepeatingChar(String s){
+        int res = -1;
+        boolean visited[] = new boolean[256];
+
+        for(int i=0; i<s.length(); i++){
+            if(visited[s.charAt(i)]){
+                res = i;
+            }
+        }
+
+        return res ;
+    }
     
 }
