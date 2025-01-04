@@ -15,16 +15,17 @@ public class FindLeftMostRepeatingCharacterWithOneTraversal {
     public static int findLeftMostRepeatingChar(String s){
 
         int count[] = new int[256];
+        int res = -1;
 
         for(int i=0; i<s.length(); i++){
             int curr = count[s.charAt(i)];
             if(curr==1){
-                return s.charAt(i);
+                res= s.charAt(i); // we should assign this to variable otherwise it will return c.
             }
             count[s.charAt(i)] = 1;
         }
 
-        return -1;
+        return res;
     }
     
 }
