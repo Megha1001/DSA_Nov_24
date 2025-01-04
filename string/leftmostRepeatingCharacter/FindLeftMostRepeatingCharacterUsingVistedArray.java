@@ -14,6 +14,8 @@ public class FindLeftMostRepeatingCharacterUsingVistedArray {
         for(int i=0; i<s.length(); i++){
             if(visited[s.charAt(i)]){
                 res = i; // have to assign otherwise it will return c.
+            } else{
+                
             }
         }
 
