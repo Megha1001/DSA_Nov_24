@@ -1,7 +1,7 @@
 package string.leftmostRepeatingCharacter;
 
 /*
- * TIME COMPLEXITY : O(N), one traversal
+ * TIME COMPLEXITY : Theta(N), one traversal
  * AUXILIARY SPACE : O(1)
  */
 
