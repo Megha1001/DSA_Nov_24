@@ -1,5 +1,10 @@
 package string.leftMostNonRepeatingCharacter;
 
+/*
+ * TIME COMPLEXITY : O(N), two traversal
+ * AUXILIARY SPACE : O(1)
+ */
+
 public class FindLeftMostNonRepeatingCharacterNaiveApproach {
 
     public static void main(String args[]){
