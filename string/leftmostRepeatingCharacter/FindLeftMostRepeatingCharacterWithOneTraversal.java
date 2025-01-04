@@ -8,7 +8,7 @@ package string.leftmostRepeatingCharacter;
 public class FindLeftMostRepeatingCharacterWithOneTraversal {
 
     public static void main(String args[]){
-        String s = "abccd";
+        String s = "abccdb";
         System.out.println("The leftmost repeating character is : "+(char)findLeftMostRepeatingChar(s));
     }
 
