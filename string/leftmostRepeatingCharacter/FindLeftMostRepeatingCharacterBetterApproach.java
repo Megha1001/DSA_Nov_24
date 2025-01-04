@@ -10,7 +10,7 @@ public class FindLeftMostRepeatingCharacterBetterApproach {
     private static int CHAR = 256;
 
     public static void main(String args[]){
-        String s = "abccbd";
+        String s = "acbbcd";
         System.out.println("The leftmost repeating character in given string is : "+(char)findLeftMostRepeating(s, s.length()));
     }
 
