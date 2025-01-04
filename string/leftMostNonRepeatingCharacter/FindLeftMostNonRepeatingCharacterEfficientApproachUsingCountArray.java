@@ -5,7 +5,7 @@ package string.leftMostNonRepeatingCharacter;
  * AUXILIARY SPACE : O(1)
  */
 
-public class FindLeftMostNonRepeatingCharacterNaiveApproach {
+public class FindLeftMostNonRepeatingCharacterEfficientApproachUsingCountArray {
 
     public static void main(String args[]){
         String s = "abbcc";
