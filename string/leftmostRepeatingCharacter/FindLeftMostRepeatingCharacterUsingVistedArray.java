@@ -1,5 +1,10 @@
 package string.leftmostRepeatingCharacter;
 
+/*
+ * TIME COMPLEXITY : Theta(N)
+ * AUXILIARY SPACE : O(1)
+ */
+
 public class FindLeftMostRepeatingCharacterUsingVistedArray {
 
     public static void main(String args[]){
@@ -15,7 +20,7 @@ public class FindLeftMostRepeatingCharacterUsingVistedArray {
             if(visited[s.charAt(i)]){
                 res = i; // have to assign otherwise it will return c.
             } else{
-                
+                visited[s.charAt(i)] = true;
             }
         }
 
