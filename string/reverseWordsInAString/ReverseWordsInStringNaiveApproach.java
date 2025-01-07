@@ -9,6 +9,7 @@ public class ReverseWordsInStringNaiveApproach {
 
         StringBuilder res = new StringBuilder();
         for(int i=0; i<characters.length; i++){
+
             res.append(new StringBuilder(characters[i]).reverse().append(" "));
         }
 
